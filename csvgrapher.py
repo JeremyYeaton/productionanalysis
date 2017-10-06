@@ -44,6 +44,22 @@ for file in files:
 				lines.append(nline)
 				linenum += 1
 		f.close()
+	elif file.endswith(".means"):
+		f = open(os.path.realpath(os.getcwd()+"/"+file))
+		c = csv.reader(f, delimiter = "\t")
+		firstline = True
+		linenum = 5
+		aimecheck = True
+		for line in c:
+			if firstline:
+				firstline = False
+			if not (line[0] == '_' or line[0] == 'rowLabel'):
+				if aimecheck and line[0] == 'nEm':
+					linenum += 10
+					aimecheck = False
+				mlines.append([file[0:3],file[4:6],linenum, line])
+				linenum += 10
+		f.close()
 
 def subavf0(subject):
 	count = 0

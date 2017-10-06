@@ -24,6 +24,8 @@ for file in files:
 
 global lines
 lines = []
+global mlines
+mlines = []
 
 for file in files:
 	if file.endswith(".csv"):
@@ -57,7 +59,7 @@ for file in files:
 				if aimecheck and line[0] == 'nEm':
 					linenum += 10
 					aimecheck = False
-				mlines.append([file[0:3],file[4:6],linenum, line])
+				mlines.append([file[0:3],int(file[4:6]),linenum,line[1],line[2]])
 				linenum += 10
 		f.close()
 
@@ -84,6 +86,7 @@ def substdev(subject):
 
 def graph(subject):
 	subset = []
+	msubset = []
 	plt.clf()
 	plt.title(subject)
 	for line in lines:
@@ -92,8 +95,7 @@ def graph(subject):
 	st = substdev(subject)
 	sa = subavf0(subject)
 	for key in condict:
-		condset = []
-		gcondset = []
+		condset,gcondset,mcondset,maxgcondset, mingcondset = [],[],[],[],[]
 		for line in subset:
 			if line[1] > condict[key][0] and line[1]<condict[key][1]:
 				condset.append(line)
@@ -102,15 +104,32 @@ def graph(subject):
 			icount = []
 			for line in condset:
 				if line[2][1] == i:
-					if not(float(line[2][2]) - sa)> 3*(st) or (float(line[2][2]) -sa) < -3*(st):
-						n += (float(line[2][2])-subavf0(subject))
+					if not(float(line[2][2]) - sa)> 3*(st) or (float(line[2][2]) - sa) < -3*(st):
+						n += (float(line[2][2])-sa)
 						if line[1] not in icount:
-							icount.append(line)
+							icount.append(line[1])
 			gcondset.append([i,(n/len(icount))])
-			print(gcondset)
 		plt.plot([i for i in range(0,60)],[i[1] for i in gcondset],condict[key][2])
+		for line in mlines:
+			if line[0] == subject:
+				msubset.append(line)
+		for line in msubset:
+			if line[1] > condict[key][0] and line[1]<condict[key][1]:
+				mcondset.append(line)
+		for i in [(i*10)+5 for i in range(0,6)]:
+			n = 0
+			maxavg, minavg= 0,0
+			for line in mcondset:
+				if line[2] == i:
+					if not(float(line[2]) - sa)> 3*(st) or (float(line[2]) -sa) < -3*(st):
+						maxavg += float(line[3])-sa
+						minavg += float(line[4])-sa
+			maxgcondset.append([i,(maxavg/len(icount))])
+			mingcondset.append([i,(minavg/len(icount))])
+		plt.plot([(i*10)+5 for i in range(0,6)],[i[1] for i in maxgcondset],condict[key][2]+'o')
+		plt.plot([(i*10)+5 for i in range(0,6)],[i[1] for i in mingcondset],condict[key][2]+'o')
 
-s = '109'
+s = '117'
 # for s in subjects:
 # 	graph(s)
 # 	plt.savefig("graphs/%s.png" %s)

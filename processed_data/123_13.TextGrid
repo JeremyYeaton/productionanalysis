@@ -1,0 +1,132 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.2776 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.2776 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.085 
+            text = "pER" 
+        intervals [2]:
+            xmin = 0.085 
+            xmax = 0.21500000000000002 
+            text = "pER" 
+        intervals [3]:
+            xmin = 0.21500000000000002 
+            xmax = 0.585 
+            text = "sOn" 
+        intervals [4]:
+            xmin = 0.585 
+            xmax = 0.665 
+            text = "_" 
+        intervals [5]:
+            xmin = 0.665 
+            xmax = 0.795 
+            text = "n@" 
+        intervals [6]:
+            xmin = 0.795 
+            xmax = 0.965 
+            text = "li" 
+        intervals [7]:
+            xmin = 0.965 
+            xmax = 1.255 
+            text = "Rje~" 
+        intervals [8]:
+            xmin = 1.255 
+            xmax = 1.4749999999999999 
+            text = "puR" 
+        intervals [9]:
+            xmin = 1.4749999999999999 
+            xmax = 1.565 
+            text = "l9R" 
+        intervals [10]:
+            xmin = 1.565 
+            xmax = 2.035 
+            text = "klas" 
+        intervals [11]:
+            xmin = 2.035 
+            xmax = 2.2776 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.2776 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.085 
+            text = "personne" 
+        intervals [2]:
+            xmin = 0.085 
+            xmax = 0.585 
+            text = "personne" 
+        intervals [3]:
+            xmin = 0.585 
+            xmax = 0.665 
+            text = "_" 
+        intervals [4]:
+            xmin = 0.665 
+            xmax = 0.795 
+            text = "ne" 
+        intervals [5]:
+            xmin = 0.795 
+            xmax = 0.965 
+            text = "lit" 
+        intervals [6]:
+            xmin = 0.965 
+            xmax = 1.255 
+            text = "rien" 
+        intervals [7]:
+            xmin = 1.255 
+            xmax = 1.4749999999999999 
+            text = "pour" 
+        intervals [8]:
+            xmin = 1.4749999999999999 
+            xmax = 1.565 
+            text = "leurs" 
+        intervals [9]:
+            xmin = 1.565 
+            xmax = 2.035 
+            text = "classes" 
+        intervals [10]:
+            xmin = 2.035 
+            xmax = 2.2776 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.2776 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.085 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.085 
+            xmax = 2.2776 
+            text = "pERsOn n@ li Rje~ puR l9R klas" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.2776 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.085 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.085 
+            xmax = 2.2776 
+            text = "personne ne lit rien pour leurs classes" 

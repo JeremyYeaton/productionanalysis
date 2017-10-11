@@ -22,37 +22,30 @@ for file in files:
 	fset = [file]
 	data[snum].append(fset)
 
-global lines
-lines = []
+global mlines
+mlines = []
 
 for file in files:
 	if file.endswith(".means"):
 		f = open(os.path.realpath(os.getcwd()+"/"+file))
 		c = csv.reader(f, delimiter = "\t")
 		firstline = True
-		linenum = 0
+		linenum = 5
 		aimecheck = True
 		for line in c:
 			if firstline:
 				firstline = False
 			if not (line[0] == '_' or line[0] == 'rowLabel'):
-				lines.append(line)
-			# elif not line[0] == "_" and int(line[1])>10:
-			# 	line[1] = linenum
-			# 	nline = [file[:3],int(file[4:6]),line]
-			# 	lines.append(nline)
-			# 	linenum += 1
+				if aimecheck and line[0] == 'nEm':
+					linenum += 10
+					aimecheck = False
+				mlines.append([file[0:3],file[4:6],linenum, line])
+				linenum += 10
 		f.close()
 
-		# if line[2][0] == 'nEm':
-		# 			linenum +=10
-		# 			aimecheck = False
-		# 		line[1] = linenum
-		# 		nline = [file[:3],int(file[4:6]),line]
-		# 		lines.append(nline)
-		# 		linenum += 1
-		# f.close()
-print(lines)
+# for line in lines:
+# 	if line[2] < 60:
+# 		print(line[2],float(line[3][1]))
 # def subavf0(subject):
 # 	count = 0
 # 	f0total = 0

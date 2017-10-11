@@ -2,7 +2,8 @@ import numpy, os, csv
 
 items = []
 data = {}
-filetypes = []
+
+condict = {'nc':[0,9,'r'],'dn':[8,17,'g'],'negob':[16,25,'m'],'negsub':[24,33,'y']}
 
 p = os.path.realpath(os.getcwd()+"/processed_data")
 
@@ -17,9 +18,9 @@ for file in files:
 subjects = [key for key in data]
 
 for file in files:
-	snum = file[:3]
-	fset = [file]
-	data[snum].append(fset)
+	subnum = file[:3]
+	fileset = [file]
+	data[subnum].append(fileset)
 
 global lines
 lines = []
@@ -30,6 +31,9 @@ for file in files:
 		firstline = True
 		aimecheck = True
 		linenum = 0
+		for key in condict:
+			if int(file[4:6]) > condict[key][0] and int(file[4:6]) < condict[key][1]:
+				condition = key
 		for line in c:
 			if firstline:
 				firstline = False
@@ -38,13 +42,13 @@ for file in files:
 					aimecheck = False
 					linenum += 10
 				line[1] = linenum
-				nline = [str(file[:3]),file[4:6],str(line[0]),str(line[1]),"".join([str(line[2]),"\n"])]
+				nline = [file[:6],str(file[:3]),file[4:6],str(line[0]),str(line[1]),str(line[2]),"%s\n" %condition]
 				lines.append(nline)
 				linenum += 1
 		f.close()
 
 f = open("master.csv",'w')
-f.write(",".join(["subj","trial","syll","series","raw_f0\n"]))
+f.write(",".join(["obj_id","subj","trial","syll","series","raw_f0","condition\n"]))
 for line in lines:
 	f.write(",".join(line))
 f.close()

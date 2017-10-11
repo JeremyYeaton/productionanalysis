@@ -12,3 +12,9 @@ f0_over_time_clean = f0_over_time %>%
   filter(series < 60)
 
 xtabs(~obj_id,f0_over_time_clean)
+
+aggregate(f0_over_time_clean[,-c(1,3:5,7)], by = list(f0_over_time_clean$subj),
+          sd, na.rm = TRUE)
+
+aggregate(f0_over_time_clean[,-c(1,3:5,7)], by = list(f0_over_time_clean$subj),
+          mean, na.rm = TRUE)

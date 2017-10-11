@@ -4,10 +4,11 @@ source("scripts/data_cleaner.R")
 ## LOAD PACKAGES ####
 library(ggplot2)
 
-
-
-
 ## ORGANIZE DATA ####
+time_figs_data = f0_over_time_clean 
+
+
+
 data_figs = data_clean %>%
   mutate(civil_war = factor(civil_war,
                             levels = c("union", "confederacy"),

@@ -18,6 +18,8 @@ aggregate(f0_over_time[,-c(1,3:5,7)], by = list(f0_over_time$subj),
 aggregate(f0_over_time[,-c(1,3:5,7)], by = list(f0_over_time$subj),
           mean, na.rm = TRUE)
 
+meta_clean = subj_meta_data %>%
+  arrange(subj)
 
 f0_over_time_clean = f0_over_time %>% 
   filter(series < 60)

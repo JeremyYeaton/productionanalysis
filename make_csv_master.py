@@ -1,6 +1,5 @@
 import numpy, os, csv
 
-items = []
 data = {}
 
 condict = {'nc':[0,9,'r'],'dn':[8,17,'g'],'negob':[16,25,'m'],'negsub':[24,33,'y']}
@@ -73,8 +72,8 @@ for s in subjects:
 #append to data dictionary
 	data[s].append([subj_mean,subj_var,subj_stdev])
 	for line in sublines:
-		demeaned_keyval = keyval-subj_mean
-		line.append(",".join([str(demeaned_keyval),str(subj_mean),str(subj_var),"%s"%str(demeaned_keyval/subj_stdev),"%s\n"%str(subj_stdev)]))
+		demeaned_keyval = float(line[5])-subj_mean
+		line.append(",".join(["%s\n"%demeaned_keyval]))
 		csvlines.append(line)
 	metalines.append([s,str(subj_mean),str(subj_var),"%s\n"%str(subj_stdev)])
 
@@ -85,7 +84,7 @@ for line in metalines:
 m.close()
 
 f = open("rproj/data/master.csv",'w')
-f.write(",".join(["obj_id","subj","trial","syll","series","raw_f0","condition","demeaned_f0","mean","var","weight_dist","stdev\n"]))
+f.write(",".join(["obj_id","subj","trial","syll","series","raw_f0","condition","demeaned_f0\n"]))
 for line in csvlines:
 	f.write(",".join(line))
 f.close()

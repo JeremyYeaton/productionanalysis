@@ -3,26 +3,30 @@ library(dplyr)
 library(purrr)
 
 ## READ IN DATA ####
-# Full data on election results
 f0_over_time = read.table("data/master.csv", header=T, sep=",")
 
 line_max_min = read.table("data/max_min_syll.csv",header=T,sep=",")
 
 subj_meta_data = read.table("data/subj_meta.csv",header = T, sep = ",")
 
-xtabs(~condition,f0_over_time)
-
-aggregate(f0_over_time[,-c(1,3:5,7)], by = list(f0_over_time$subj),
-          sd, na.rm = TRUE)
-
-aggregate(f0_over_time[,-c(1,3:5,7)], by = list(f0_over_time$subj),
-          mean, na.rm = TRUE)
-
+## CLEAN UP TABLES TO ONLY INCLUDE 1ST 6 SYLLS #
 meta_clean = subj_meta_data %>%
   arrange(subj)
 
+maxmin_clean = line_max_min[, c(1,6:9)] %>% 
+  arrange(unique) %>%
+  filter(series < 60) %>%
+  ungroup()
+
 f0_over_time_clean = f0_over_time %>% 
   filter(series < 60)
+
+meta_clean
+maxmin_clean
+f0_over_time_clean
+
+
+xtabs(~subj,meta_clean)
 
 xtabs(~obj_id,f0_over_time_clean)
 
@@ -31,3 +35,17 @@ aggregate(f0_over_time_clean[,-c(1,3:5,7)], by = list(f0_over_time_clean$subj),
 
 aggregate(f0_over_time_clean[,-c(1,3:5,7)], by = list(f0_over_time_clean$subj),
           mean, na.rm = TRUE)
+
+# Combine three data frames
+data_clean = f0_over_time_clean %>%
+  inner_join(meta_clean) %>%
+  mutate(subj = factor(subj))
+
+data_clean_x = data_clean %>%
+  inner_join(maxmin_clean) %>%
+  mutate(unique = factor(unique))
+
+data_clean
+data_clean_x
+meta_clean
+maxmin_clean

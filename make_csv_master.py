@@ -73,7 +73,7 @@ for s in subjects:
 	data[s].append([subj_mean,subj_var,subj_stdev])
 	for line in sublines:
 		demeaned_keyval = float(line[5])-subj_mean
-		line.append(",".join(["%s\n"%demeaned_keyval]))
+		line.append(",".join(["_".join([file[:6],str(int(int(line[4])/10)+1)]),"%s\n"%demeaned_keyval]))
 		csvlines.append(line)
 	metalines.append([s,str(subj_mean),str(subj_var),"%s\n"%str(subj_stdev)])
 
@@ -84,7 +84,7 @@ for line in metalines:
 m.close()
 
 f = open("rproj/data/master.csv",'w')
-f.write(",".join(["obj_id","subj","trial","syll","series","raw_f0","condition","demeaned_f0\n"]))
+f.write(",".join(["obj_id","subj","trial","syll","series","raw_f0","condition","unique","demeaned_f0\n"]))
 for line in csvlines:
 	f.write(",".join(line))
 f.close()
@@ -108,13 +108,13 @@ for file in files:
 					aimecheck = False
 					linenum += 10
 				line.append(linenum)
-				nline = [file[:6],str(file[:3]),file[4:6],str(line[0]),str(line[10]),str(line[1]),str(line[2]),str(line[7]),"%s\n"%condition]
+				nline = ["_".join([file[:6],str(int(line[10]/10)+1)]),file[:6],str(file[:3]),file[4:6],str(line[0]),str(line[10]),str(line[1]),str(line[2]),str(line[7]),"%s\n"%condition]
 				xlines.append(nline) 
 				linenum += 10
 		f.close()
 
 x = open("rproj/data/max_min_syll.csv","w")
-x.write(",".join(["obj_id","subj","trial","syll","series","max_f0","min_f0","duration","condition\n"]))
+x.write(",".join(["unique","obj_id","subj","trial","syll","series","max_f0","min_f0","duration","condition\n"]))
 for line in xlines:
 	x.write(",".join(line))
 x.close()

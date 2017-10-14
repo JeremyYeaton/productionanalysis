@@ -5,7 +5,12 @@ source("scripts/data_cleaner.R")
 library(ggplot2)
 
 ## ORGANIZE DATA ####
-time_figs_data = f0_over_time_clean 
+demeaned_f0.plot = ggplot(data_clean, aes(x=series, color = condition)) +
+  geom_smooth(aes(y = demeaned_f0/subj_stdev)) +
+  labs(title="f0 during first 6 syllables of utterance", x = "per sonne ne verb rien", y= "Fundamental Frequency (Hz)")
+  #geom_point(aes(y = max_f0-subj_mean)) +
+  #geom_point(aes(y = min_f0-subj_mean))
+demeaned_f0.plot
 
 
 

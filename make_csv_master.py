@@ -40,7 +40,9 @@ for file in files:
 				if aimecheck and line[0] == "nEm":
 					aimecheck = False
 					linenum += 10
-				line[1] = linenum
+				line[1] = str(linenum)
+				if len(line[1])<2:
+					line[1] = "0" + line[1]
 				nline = [file[:6],str(file[:3]),file[4:6],str(line[0]),str(line[1]),str(line[2]),condition]
 				lines.append(nline) 
 				linenum += 1
@@ -73,7 +75,8 @@ for s in subjects:
 	data[s].append([subj_mean,subj_var,subj_stdev])
 	for line in sublines:
 		demeaned_keyval = float(line[5])-subj_mean
-		line.append(",".join(["_".join([file[:6],str(int(int(line[4])/10)+1)]),"%s\n"%demeaned_keyval]))
+		# line.append(",".join(["_".join([line[0],str(int(int(line[4])/10)+1)]),"%s\n"%demeaned_keyval]))
+		line.append(",".join(["_".join([line[0],line[4]]),"%s\n"%demeaned_keyval]))
 		csvlines.append(line)
 	metalines.append([s,str(subj_mean),str(subj_var),"%s\n"%str(subj_stdev)])
 
@@ -96,7 +99,7 @@ for file in files:
 		c = csv.reader(f, delimiter = "\t")
 		firstline = 2
 		aimecheck = True
-		linenum = 5
+		linenum = 4
 		for key in condict:
 			if int(file[4:6]) > condict[key][0] and int(file[4:6]) < condict[key][1]:
 				condition = key
@@ -107,8 +110,13 @@ for file in files:
 				if aimecheck and line[0] == "nEm":
 					aimecheck = False
 					linenum += 10
-				line.append(linenum)
-				nline = ["_".join([file[:6],str(int(line[10]/10)+1)]),file[:6],str(file[:3]),file[4:6],str(line[0]),str(line[10]),str(line[1]),str(line[2]),str(line[7]),"%s\n"%condition]
+				if len(str(linenum))<2:
+					linenum_str = '0' + str(linenum)
+				else:
+					linenum_str = linenum
+				line.append(linenum_str)
+				# nline = ["_".join([file[:6],str(int(line[10]/10)+1)]),file[:6],str(file[:3]),file[4:6],str(line[0]),str(line[10]),str(line[1]),str(line[2]),str(line[7]),"%s\n"%condition]
+				nline = ["_".join([file[:6],str(line[10])]),file[:6],str(file[:3]),file[4:6],str(line[0]),str(line[10]),str(line[1]),str(line[2]),str(line[7]),"%s\n"%condition]
 				xlines.append(nline) 
 				linenum += 10
 		f.close()

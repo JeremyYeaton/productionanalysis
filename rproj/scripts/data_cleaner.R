@@ -21,10 +21,13 @@ maxmin_clean = line_max_min[, c(1,6:9)] %>%
 f0_over_time_clean = f0_over_time %>% 
   filter(series < 60)
 
-meta_clean
-maxmin_clean
-f0_over_time_clean
+# Combine three data frames
+data_clean = meta_clean %>%
+  inner_join(merge(x = f0_over_time_clean, y = maxmin_clean[, c(1,3:5)], by = "unique", all.x = T)) %>%
+  mutate(subj = factor(subj)) %>%
+  arrange(unique)
 
+data_clean
 
 xtabs(~subj,meta_clean)
 
@@ -35,17 +38,3 @@ aggregate(f0_over_time_clean[,-c(1,3:5,7)], by = list(f0_over_time_clean$subj),
 
 aggregate(f0_over_time_clean[,-c(1,3:5,7)], by = list(f0_over_time_clean$subj),
           mean, na.rm = TRUE)
-
-# Combine three data frames
-data_clean = f0_over_time_clean %>%
-  inner_join(meta_clean) %>%
-  mutate(subj = factor(subj))
-
-data_clean_x = data_clean %>%
-  inner_join(maxmin_clean) %>%
-  mutate(unique = factor(unique))
-
-data_clean
-data_clean_x
-meta_clean
-maxmin_clean

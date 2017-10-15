@@ -1,0 +1,136 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.0214 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.0214 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.026015801495318923 
+            text = "pER" 
+        intervals [2]:
+            xmin = 0.026015801495318923 
+            xmax = 0.12422577404959156 
+            text = "pER" 
+        intervals [3]:
+            xmin = 0.12422577404959156 
+            xmax = 0.465 
+            text = "sOn" 
+        intervals [4]:
+            xmin = 0.465 
+            xmax = 0.545 
+            text = "n@" 
+        intervals [5]:
+            xmin = 0.545 
+            xmax = 0.805 
+            text = "ma~Z" 
+        intervals [6]:
+            xmin = 0.805 
+            xmax = 1.105 
+            text = "Rje~" 
+        intervals [7]:
+            xmin = 1.105 
+            xmax = 1.315 
+            text = "pa~" 
+        intervals [8]:
+            xmin = 1.315 
+            xmax = 1.4549999999999998 
+            text = "da~" 
+        intervals [9]:
+            xmin = 1.4549999999999998 
+            xmax = 1.555 
+            text = "_" 
+        intervals [10]:
+            xmin = 1.555 
+            xmax = 1.6749999999999998 
+            text = "9~" 
+        intervals [11]:
+            xmin = 1.6749999999999998 
+            xmax = 1.855 
+            text = "mwa" 
+        intervals [12]:
+            xmin = 1.855 
+            xmax = 2.0214 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.0214 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.026015801495318923 
+            text = "personne" 
+        intervals [2]:
+            xmin = 0.026015801495318923 
+            xmax = 0.465 
+            text = "personne" 
+        intervals [3]:
+            xmin = 0.465 
+            xmax = 0.545 
+            text = "ne" 
+        intervals [4]:
+            xmin = 0.545 
+            xmax = 0.805 
+            text = "mange" 
+        intervals [5]:
+            xmin = 0.805 
+            xmax = 1.105 
+            text = "rien" 
+        intervals [6]:
+            xmin = 1.105 
+            xmax = 1.4549999999999998 
+            text = "pendant" 
+        intervals [7]:
+            xmin = 1.4549999999999998 
+            xmax = 1.555 
+            text = "_" 
+        intervals [8]:
+            xmin = 1.555 
+            xmax = 1.6749999999999998 
+            text = "un" 
+        intervals [9]:
+            xmin = 1.6749999999999998 
+            xmax = 1.855 
+            text = "mois" 
+        intervals [10]:
+            xmin = 1.855 
+            xmax = 2.0214 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.0214 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.026015801495318923 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.026015801495318923 
+            xmax = 2.0214 
+            text = "pERsOn n@ ma~Z Rje~ pa~da~ 9~ mwa" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.0214 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.026015801495318923 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.026015801495318923 
+            xmax = 2.0214 
+            text = "personne ne mange rien pendant un mois" 

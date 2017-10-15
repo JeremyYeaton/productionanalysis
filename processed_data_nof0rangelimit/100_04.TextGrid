@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8005 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.8005 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10002512059575187 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.10002512059575187 
+            xmax = 0.21500000000000002 
+            text = "pER" 
+        intervals [3]:
+            xmin = 0.21500000000000002 
+            xmax = 0.47500000000000003 
+            text = "sOn" 
+        intervals [4]:
+            xmin = 0.47500000000000003 
+            xmax = 0.555 
+            text = "n@" 
+        intervals [5]:
+            xmin = 0.555 
+            xmax = 0.755 
+            text = "fE" 
+        intervals [6]:
+            xmin = 0.755 
+            xmax = 1.025 
+            text = "Rje~" 
+        intervals [7]:
+            xmin = 1.025 
+            xmax = 1.1449999999999998 
+            text = "d@" 
+        intervals [8]:
+            xmin = 1.1449999999999998 
+            xmax = 1.4449999999999998 
+            text = "OR" 
+        intervals [9]:
+            xmin = 1.4449999999999998 
+            xmax = 1.8005 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.8005 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10002512059575187 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.10002512059575187 
+            xmax = 0.47500000000000003 
+            text = "personne" 
+        intervals [3]:
+            xmin = 0.47500000000000003 
+            xmax = 0.555 
+            text = "ne" 
+        intervals [4]:
+            xmin = 0.555 
+            xmax = 0.755 
+            text = "fait" 
+        intervals [5]:
+            xmin = 0.755 
+            xmax = 1.025 
+            text = "rien" 
+        intervals [6]:
+            xmin = 1.025 
+            xmax = 1.4449999999999998 
+            text = "dehors" 
+        intervals [7]:
+            xmin = 1.4449999999999998 
+            xmax = 1.8005 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.8005 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10002512059575187 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.10002512059575187 
+            xmax = 1.8005 
+            text = "pERsOn n@ fE Rje~ d@OR" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.8005 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10002512059575187 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.10002512059575187 
+            xmax = 1.8005 
+            text = "personne ne fait rien dehors" 

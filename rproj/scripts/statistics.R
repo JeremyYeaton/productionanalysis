@@ -5,9 +5,89 @@ source("scripts/data_cleaner.R")
 library(tidyr)
 library(ez)
 
+#Name some things
+conditions <- c('nc','dn','negsub','negob')
+#lists which will store t-test values
+ncvdn <- vector("list",60)
+ncvnegob <- vector("list",60)
+ncvnegsub <- vector("list",60)
+dnvnegob <- vector("list",60)
+dnvnegsub <- vector("list",60)
+negobvnegsub <- vector("list",60)
 
+## CLEAN THE DATA ####
+data_stats = data_clean %>%
+  mutate(conditions = factor(condition, levels = c("nc", "dn","negsub","negob"))) %>%
+  mutate(series_fctr = factor(series,levels = 0:59)) %>%
+  group_by(series, condition) %>%
+  #summarise(series_avg = mean(demeaned_f0, na.rm = T)) %>%
+  ungroup()  
+data_stats
+#filter to groups by condition
+data_nc_stats = data_stats %>%
+  filter(condition == "nc")
+data_dn_stats = data_stats %>%
+  filter(condition == "dn")
+data_negob_stats = data_stats %>%
+  filter(condition == "negob")
+data_negsub_stats = data_stats %>%
+  filter(condition == "negsub")
 
+## PREPARE T TESTS ####
+for (row in 0:59){
+  row_ttest_stats = data_stats %>%
+    filter(series == row)
+  row_data_nc_stats = row_ttest_stats %>%
+    filter(condition == "nc")
+  row_data_dn_stats = row_ttest_stats %>%
+    filter(condition == "dn")
+  row_data_negob_stats = row_ttest_stats %>%
+    filter(condition == "negob")
+  row_data_negsub_stats = row_ttest_stats %>%
+    filter(condition == "negsub")
+  ncvdn.ttest = t.test(row_data_nc_stats$demeaned_f0,
+                       row_data_dn_stats$demeaned_f0,
+                       paired =F)
+  ncvnegob.ttest = t.test(row_data_nc_stats$demeaned_f0,
+                          row_data_negob_stats$demeaned_f0,
+                          paired = F)
+  ncvnegsub.ttest = t.test(row_data_nc_stats$demeaned_f0,
+                           row_data_negsub_stats$demeaned_f0,
+                           paired = F)
+  dnvnegob.ttest = t.test(row_data_dn_stats$demeaned_f0,
+                          row_data_negob_stats$demeaned_f0,
+                          paired = F)
+  dnvnegsub.ttest = t.test(row_data_dn_stats$demeaned_f0,
+                           row_data_negsub_stats$demeaned_f0,
+                           paired = F)
+  negobvnegsub.ttest = t.test(row_data_negob_stats$demeaned_f0,
+                              row_data_negsub_stats$demeaned_f0,
+                              paired = F)
+  ncvdn[[row + 1]] <- ncvdn.ttest$p.value
+  ncvnegob[[row + 1]] <- ncvnegob.ttest$p.value
+  ncvnegsub[[row + 1]] <- ncvnegsub.ttest$p.value
+  dnvnegob[[row +1]] <- dnvnegob.ttest$p.value
+  dnvnegsub[[row + 1]] <- dnvnegsub.ttest$p.value
+  negobvnegsub[[row + 1]] <- negobvnegsub.ttest$p.value
+}
+pvals_data = cbind(data.frame(c(0:60),c(ncvdn),
+                              c(ncvnegob),
+                              c(ncvnegsub)),
+                   c(dnvnegob),
+                   c(dnvnegsub),
+                   c(negobvnegsub))
+pvals_data
+colnames(pvals_data) <- c("series","ncvdn","ncvnegob","ncvnegsub","dnvnegob","dnvnegsub","negobvnegsub")
+ncvdn
+ncvnegob
+ncvnegsub
+dnvnegob
+negobvnegsub
+,ncvnegob,ncvnegsub,dnvnegob,dnvnegsub,negobvnegsub
+pvals_data = data.frame(series = c(0:59),nc_v_dn = c(ncvdn))
+pvals_data
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## ORAGANIZE DATA ####
 # Make data for statistics

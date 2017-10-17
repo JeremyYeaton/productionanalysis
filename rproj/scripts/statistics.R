@@ -4,20 +4,19 @@ source("scripts/data_cleaner.R")
 ## LOAD PACKAGES ####
 library(tidyr)
 library(ez)
+library(ggplot2)
 
 #Name some things
 conditions <- c('nc','dn','negsub','negob')
 #lists which will store t-test values
-ncvdn <- vector("list",60)
-ncvnegob <- vector("list",60)
-ncvnegsub <- vector("list",60)
-dnvnegob <- vector("list",60)
-dnvnegsub <- vector("list",60)
-negobvnegsub <- vector("list",60)
+p_series <- c(0:59,0:59,0:59,0:59,0:59,0:59)
+pvalues <- vector("list",360)
+condition_vector <- vector("list",360)
 
 ## CLEAN THE DATA ####
 data_stats = data_clean %>%
-  mutate(conditions = factor(condition, levels = c("nc", "dn","negsub","negob"))) %>%
+  mutate(conditions = factor(condition, 
+                             levels = c("nc", "dn","negsub","negob"))) %>%
   mutate(series_fctr = factor(series,levels = 0:59)) %>%
   group_by(series, condition) %>%
   #summarise(series_avg = mean(demeaned_f0, na.rm = T)) %>%
@@ -63,29 +62,41 @@ for (row in 0:59){
   negobvnegsub.ttest = t.test(row_data_negob_stats$demeaned_f0,
                               row_data_negsub_stats$demeaned_f0,
                               paired = F)
-  ncvdn[[row + 1]] <- ncvdn.ttest$p.value
-  ncvnegob[[row + 1]] <- ncvnegob.ttest$p.value
-  ncvnegsub[[row + 1]] <- ncvnegsub.ttest$p.value
-  dnvnegob[[row +1]] <- dnvnegob.ttest$p.value
-  dnvnegsub[[row + 1]] <- dnvnegsub.ttest$p.value
-  negobvnegsub[[row + 1]] <- negobvnegsub.ttest$p.value
+  pvalues[[(row + 1)]] <- ncvdn.ttest$p.value
+  pvalues[[(row + 61)]] <- ncvnegob.ttest$p.value
+  pvalues[[(row + 121)]] <- ncvnegsub.ttest$p.value
+  pvalues[[(row + 181)]] <-dnvnegob.ttest$p.value
+  pvalues[[(row + 241)]] <-dnvnegsub.ttest$p.value
+  pvalues[[(row + 301)]] <- negobvnegsub.ttest$p.value
+  condition_vector[[row+1]]<-"ncXdn"
+  condition_vector[[row+61]] <-"ncXnegob"
+  condition_vector[[row+121]] <- "ncXnegsub"
+  condition_vector[[row+181]]<- "dnXnegob"
+  condition_vector[[row+241]]<- "dnXnegsub"
+  condition_vector[[row+301]]<- "negobXnegsub"
 }
-pvals_data = cbind(data.frame(c(0:60),c(ncvdn),
-                              c(ncvnegob),
-                              c(ncvnegsub)),
-                   c(dnvnegob),
-                   c(dnvnegsub),
-                   c(negobvnegsub))
+pvalues
+condition_vector
+pvals_data <- matrix(c(p_series),nrow=360,ncol=1) %>%
+  cbind(c(pvalues)) %>%
+  cbind(c(condition_vector)) 
+colnames(pvals_data) = c("series","pvalue","test_type")
 pvals_data
-colnames(pvals_data) <- c("series","ncvdn","ncvnegob","ncvnegsub","dnvnegob","dnvnegsub","negobvnegsub")
-ncvdn
-ncvnegob
-ncvnegsub
-dnvnegob
-negobvnegsub
-,ncvnegob,ncvnegsub,dnvnegob,dnvnegsub,negobvnegsub
-pvals_data = data.frame(series = c(0:59),nc_v_dn = c(ncvdn))
-pvals_data
+
+write.table(pvals_data,file="data/ttest_pvals.txt")
+read.table("data/ttest_pvals.txt",header=TRUE)
+#unlink("data/ttest_pvals.txt")
+pvals_for_graph = read.table("data/ttest_pvals.txt",header=T) %>%
+  mutate(series = factor(series))
+pvals_for_graph
+
+pvals_graph.plot = ggplot(pvals_for_graph,
+                          aes(x= series,y= pvalue,
+                              color=test_type)) +
+  geom_point(size=3) +
+  ylim(0,.05)
+
+pvals_graph.plot
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

@@ -27,7 +27,7 @@ data_clean = meta_clean %>%
   mutate(subj = factor(subj)) %>%
   arrange(unique)
 
-data_clean
+str(data_clean)
 
 xtabs(~subj,meta_clean)
 

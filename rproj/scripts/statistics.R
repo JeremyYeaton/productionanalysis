@@ -93,13 +93,31 @@ pvals_for_graph
 pvals_graph.plot = ggplot(pvals_for_graph,
                           aes(x= series,y= pvalue,
                               color=test_type)) +
+  scale_x_discrete(breaks=c(0,10,20,30,40,50)) +
   geom_point(size=3) +
+  facet_wrap(~test_type,ncol=3) +
   ylim(0,.05)
 
 pvals_graph.plot
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+confidence intervals?
+repeated measures anova
+homogeneity of variance
+normal distro
+no outliers
+anova for a and b and interaction of a and b
 
+data_stats
+# ezANOVA
+pitch.ezanova = ezANOVA(data.frame(data_stats, na.rm=T),
+                            dv = demeaned_f0,
+                            wid = obj_id,
+                            within = subj,
+                            between = condition,
+                            type = 3)
+
+pitch.ezanova
 ## ORAGANIZE DATA ####
 # Make data for statistics
 data_stats = data_clean %>%

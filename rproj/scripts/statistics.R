@@ -90,42 +90,7 @@ pvals_for_graph = read.table("data/ttest_pvals.txt",header=T,sep=",") %>%
   mutate(series = factor(series))
 pvals_for_graph
 
-pvals_graph.plot = ggplot(pvals_for_graph,
-                          aes(x= series,
-                              color=test_type)) +
-  scale_x_discrete(breaks=c(0,10,20,30,40,50,60)) +
-  geom_point(aes(y=pvalue),size=3) +
-  scale_y_reverse(lim=c(0.05,.0)) +
-  facet_wrap(~test_type,ncol=3)
 
-pvals_graph.plot
-
-data_w_pvals <- data_clean %>% 
-  cbind(pvals_for_graph$pvalue) %>% 
-                        cbind(pvals_for_graph$test_type)
-  
-
-data_w_pvals
-pvals_for_graph
-
-data_w_pvals.plot = ggplot(NULL,aes(0:60))+
-  geom_smooth(data=data_clean,aes(y=(demeaned_f0/subj_stdev),x=series,color=condition)) +
-  geom_point(data=pvals_for_graph,aes(x=series,y=(-pvalue+1)*2,color=test_type)) +
-  scale_y_continuous(sec.axis = sec_axis(~.*2,name="P-value"))
-  
-
-data_w_pvals.plot
-
-
-df1 <- data.frame(p=c(10,8,7,3,2,6,7,8),
-                  v=c(100,300,150,400,450,250,150,400))
-df2 <- data.frame(p=c(10,8,6,4), v=c(150,250,350,400))
-
-plot2 <- ggplot(NULL, aes(v, p)) + 
-  geom_point(data = df1) +
-  geom_step(data = df2)
-
-plot2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 confidence intervals?
 repeated measures anova

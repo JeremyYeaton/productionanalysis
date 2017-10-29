@@ -90,6 +90,65 @@ pvals_for_graph = read.table("data/ttest_pvals.txt",header=T,sep=",") %>%
   mutate(series = factor(series))
 pvals_for_graph
 
+### DURATION T TESTS ####
+nc_dur = filter(duration_condition,condition=='nc')
+dn_dur = filter(duration_condition,condition=='dn')
+negob_dur = filter(duration_condition,condition=='negob')
+negsub_dur = filter(duration_condition,condition=='negsub')
+
+rows=c(4,14,24,34,44,54)
+duration_pvals <- vector('list',36)
+conditions_vector <- vector('list',36)
+series_vector <-vector('list',36)
+for (row in rows){
+  ncvdn.ttest = t.test(filter(data_clean,condition=='nc' & series==row)$duration, 
+                       filter(data_clean,condition=='dn' & series==row)$duration,
+                       paired=F)$p.value
+  ncvnegob.ttest = t.test(filter(data_clean,condition=='nc' & series==row)$duration, 
+                          filter(data_clean,condition=='negob' & series==row)$duration,
+                          paired=F)$p.value
+  ncvnegsub.ttest = t.test(filter(data_clean,condition=='nc' & series==row)$duration, 
+                           filter(data_clean,condition=='negsub' & series==row)$duration,
+                           paired=F)$p.value
+  dnvnegob.ttest = t.test(filter(data_clean,condition=='negob' & series==row)$duration, 
+                          filter(data_clean,condition=='dn' & series==row)$duration,
+                          paired=F)$p.value
+  dnvnegsub.ttest = t.test(filter(data_clean,condition=='negsub' & series==row)$duration, 
+                           filter(data_clean,condition=='dn' & series==row)$duration,
+                           paired=F)$p.value
+  negobvnegsub.ttest = t.test(filter(data_clean,condition=='negob' & series==row)$duration, 
+                              filter(data_clean,condition=='negsub' & series==row)$duration,
+                              paired=F)$p.value
+  duration_pvals[[(row+6)/10]]<-ncvdn.ttest
+  duration_pvals[[((row+6)/10)+6]] <- ncvnegob.ttest
+  duration_pvals[[((row+6)/10)+12]] <- ncvnegsub.ttest
+  duration_pvals[[((row+6)/10)+18]] <- dnvnegob.ttest
+  duration_pvals[[((row+6)/10)+24]] <- dnvnegsub.ttest
+  duration_pvals[[((row+6)/10)+30]] <- negobvnegsub.ttest
+  
+  conditions_vector[[(row+6)/10]]<-'NCXDN'
+  conditions_vector[[((row+6)/10)+6]] <- 'NCXNegOb'
+  conditions_vector[[((row+6)/10)+12]] <- 'NCXNegSub'
+  conditions_vector[[((row+6)/10)+18]] <- 'DNXNegOb'
+  conditions_vector[[((row+6)/10)+24]] <- 'DNXNegSub'
+  conditions_vector[[((row+6)/10)+30]] <- 'NegObXNegSub'
+  
+  series_vector[[(row+6)/10]]<-row
+  series_vector[[((row+6)/10)+6]] <- row
+  series_vector[[((row+6)/10)+12]] <- row
+  series_vector[[((row+6)/10)+18]] <- row
+  series_vector[[((row+6)/10)+24]] <- row
+  series_vector[[((row+6)/10)+30]] <- row
+}
+
+dur_pvals =c(series_vector) %>%
+  cbind(c(duration_pvals)) %>%
+  cbind(c(conditions_vector))
+colnames(dur_pvals)=c("series","pval","test_type")
+
+dur_pvals_clean <- data.frame(dur_pvals) %>%
+  mutate(test_type.f = factor(unlist(test_type)))
+dur_pvals
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 confidence intervals?

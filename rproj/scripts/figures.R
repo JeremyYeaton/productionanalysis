@@ -63,6 +63,33 @@ syll_duration.plot = ggplot(data=data_clean,na.rm=TRUE, aes(x = series, color = 
   facet_wrap(~subj, ncol = 4)
 syll_duration.plot
 
+### DURATION PLOTS ####
+duration_condition = data_clean %>%
+  group_by(subj,condition,series) %>%
+  summarize(mean=mean(duration/duration_sd,na.rm=TRUE))
+
+duration_condition<-cbind(duration_condition,new_series=(duration_condition$series + 6)/10)
+duration_condition
+
+duration_condition.plot = ggplot(duration_condition,aes(x=new_series,y=mean,color=condition)) +
+  geom_point()
+duration_condition.plot
+
+
+dur_pvals.plot = ggplot(dur_pvals_clean,aes(x=as.numeric(series),y=as.numeric(pval))) +
+  geom_point(aes(color=test_type.f),size=3)+
+  scale_y_reverse(limits=c(.05,0)) +
+  facet_wrap(~test_type.f,ncol=3) +
+  ggtitle("p-values from t-tests between conditions")
+
+dur_pvals.plot
+
+duration.plot = ggplot(data_clean, aes(x=(series)), color=condition) +
+  geom_point(na.rm=TRUE,aes(y=duration/duration_sd,color=condition),position="jitter") +
+  #facet_wrap(~subj,ncol=4) +
+  ggtitle("Duration stuff")
+
+duration.plot
 
 ### GRAPHS WITH P VALUES ####
 myColors <- brewer.pal(5,"Set1")
@@ -114,7 +141,6 @@ nc_vs_dn_p.plot = ggplot(clean_subset,aes(as.numeric(series)))+
   ggtitle("Between condition t-test p-value",
           subtitle="Critical Conditions: Negative Concord and Double Negation")
 nc_vs_dn_p.plot
-
 
 #NC vs Negob
 

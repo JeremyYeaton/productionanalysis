@@ -10,13 +10,21 @@ line_max_min = read.table("data/max_min_syll.csv",header=T,sep=",")
 subj_meta_data = read.table("data/subj_meta.csv",header = T, sep = ",")
 
 ## CLEAN UP TABLES TO ONLY INCLUDE 1ST 6 SYLLS #
-meta_clean = subj_meta_data %>%
-  arrange(subj)
-
 maxmin_clean = line_max_min[, c(1,6:9)] %>% 
   arrange(unique) %>%
   filter(series < 60) %>%
   ungroup()
+
+summ <- data_clean %>%
+  group_by(subj) %>%
+  summarize(mean(duration,na.rm=TRUE),
+            sd(duration,na.rm=TRUE))
+summ
+
+meta_clean = subj_meta_data %>%
+  arrange(subj) %>%
+  cbind(subj_mean_duration=summ$`mean(duration, na.rm = TRUE)`) %>%
+  cbind(duration_sd=summ$`sd(duration, na.rm = TRUE)`)
 
 f0_over_time_clean = f0_over_time %>% 
   filter(series < 60)

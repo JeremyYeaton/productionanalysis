@@ -1,361 +1,361 @@
-"series" "pvalue" "test_type"
-"1" 0 0.580189901483078 ncXdn
-"2" 1 0.501464844924282 ncXdn
-"3" 2 0.438234600164039 ncXdn
-"4" 3 0.440691354009434 ncXdn
-"5" 4 0.477794383302553 ncXdn
-"6" 5 0.505391477375562 ncXdn
-"7" 6 0.53340981489533 ncXdn
-"8" 7 0.628301651178505 ncXdn
-"9" 8 0.736030588190963 ncXdn
-"10" 9 0.783775748618527 ncXdn
-"11" 10 0.784673313917908 ncXdn
-"12" 11 0.824999677430106 ncXdn
-"13" 12 0.978791855960055 ncXdn
-"14" 13 0.890750719036003 ncXdn
-"15" 14 0.81924922656445 ncXdn
-"16" 15 0.495360962453447 ncXdn
-"17" 16 0.116561725626263 ncXdn
-"18" 17 0.0149415610386393 ncXdn
-"19" 18 0.00391873924975401 ncXdn
-"20" 19 0.00694217931172339 ncXdn
-"21" 20 0.236020991701212 ncXdn
-"22" 21 0.406170613296032 ncXdn
-"23" 22 0.618679907913596 ncXdn
-"24" 23 0.895795639263828 ncXdn
-"25" 24 0.7925520555726 ncXdn
-"26" 25 0.536807568119607 ncXdn
-"27" 26 0.360283967046877 ncXdn
-"28" 27 0.252516163157694 ncXdn
-"29" 28 0.190627679515549 ncXdn
-"30" 29 0.166593023929394 ncXdn
-"31" 30 0.998805450596462 ncXdn
-"32" 31 0.858030112202929 ncXdn
-"33" 32 0.630494020846169 ncXdn
-"34" 33 0.483177734568632 ncXdn
-"35" 34 0.433240281384097 ncXdn
-"36" 35 0.47626398293966 ncXdn
-"37" 36 0.882487906121706 ncXdn
-"38" 37 0.55621559939303 ncXdn
-"39" 38 0.516991180499766 ncXdn
-"40" 39 0.889381176900405 ncXdn
-"41" 40 0.684314063631003 ncXdn
-"42" 41 0.725628496390973 ncXdn
-"43" 42 0.633778041825688 ncXdn
-"44" 43 0.425201804986981 ncXdn
-"45" 44 0.318180466820536 ncXdn
-"46" 45 0.217958612693365 ncXdn
-"47" 46 0.107841067957927 ncXdn
-"48" 47 0.028347510420836 ncXdn
-"49" 48 0.010318425369616 ncXdn
-"50" 49 0.00637373279366402 ncXdn
-"51" 50 0.00708221266645855 ncXdn
-"52" 51 0.0129980394238279 ncXdn
-"53" 52 0.0295977157733692 ncXdn
-"54" 53 0.112921740613985 ncXdn
-"55" 54 0.402218619583191 ncXdn
-"56" 55 0.807692943725154 ncXdn
-"57" 56 0.738878230302757 ncXdn
-"58" 57 0.366773728076478 ncXdn
-"59" 58 0.182540178449466 ncXdn
-"60" 59 0.135389762495356 ncXdn
-"61" 0 9.95704397627139e-16 ncXnegob
-"62" 1 1.19572704546898e-16 ncXnegob
-"63" 2 5.03682960888275e-17 ncXnegob
-"64" 3 4.59994043379108e-16 ncXnegob
-"65" 4 1.27356535099018e-14 ncXnegob
-"66" 5 2.36206913788243e-14 ncXnegob
-"67" 6 2.20419564671774e-15 ncXnegob
-"68" 7 2.96761063334885e-15 ncXnegob
-"69" 8 4.32420778620761e-14 ncXnegob
-"70" 9 2.42378753078563e-13 ncXnegob
-"71" 10 4.15314605286166e-13 ncXnegob
-"72" 11 9.32226684518099e-14 ncXnegob
-"73" 12 1.82459515225835e-14 ncXnegob
-"74" 13 1.13822449207184e-14 ncXnegob
-"75" 14 8.53645782982208e-13 ncXnegob
-"76" 15 1.5134174694861e-09 ncXnegob
-"77" 16 0.000131031877979086 ncXnegob
-"78" 17 0.0863988158737651 ncXnegob
-"79" 18 0.946340607091222 ncXnegob
-"80" 19 0.111549253808244 ncXnegob
-"81" 20 0.00141653596548282 ncXnegob
-"82" 21 0.00127698275322177 ncXnegob
-"83" 22 0.00180734663096523 ncXnegob
-"84" 23 0.00345653436128029 ncXnegob
-"85" 24 0.00829352551864052 ncXnegob
-"86" 25 0.0238669217944082 ncXnegob
-"87" 26 0.0879359078206022 ncXnegob
-"88" 27 0.290097659912778 ncXnegob
-"89" 28 0.66799065271402 ncXnegob
-"90" 29 0.905594037217185 ncXnegob
-"91" 30 0.41190792540473 ncXnegob
-"92" 31 0.153365216306787 ncXnegob
-"93" 32 0.0766397713088091 ncXnegob
-"94" 33 0.0795751606747117 ncXnegob
-"95" 34 0.103509431264273 ncXnegob
-"96" 35 0.113848028869078 ncXnegob
-"97" 36 0.0548157746685044 ncXnegob
-"98" 37 0.0540914477673472 ncXnegob
-"99" 38 0.183896922353294 ncXnegob
-"100" 39 0.576798074487861 ncXnegob
-"101" 40 0.911857303207979 ncXnegob
-"102" 41 0.960085856689741 ncXnegob
-"103" 42 0.805505561100723 ncXnegob
-"104" 43 0.852342445023339 ncXnegob
-"105" 44 0.854686606350947 ncXnegob
-"106" 45 0.809500750209949 ncXnegob
-"107" 46 0.18536309537177 ncXnegob
-"108" 47 0.00743279532969738 ncXnegob
-"109" 48 0.000251462043367469 ncXnegob
-"110" 49 2.44795961933028e-05 ncXnegob
-"111" 50 3.7309685804859e-05 ncXnegob
-"112" 51 4.61427474612586e-05 ncXnegob
-"113" 52 0.000247319025548121 ncXnegob
-"114" 53 0.00353079754666517 ncXnegob
-"115" 54 0.0322830265869271 ncXnegob
-"116" 55 0.118147208963881 ncXnegob
-"117" 56 0.238117599833944 ncXnegob
-"118" 57 0.339503326862951 ncXnegob
-"119" 58 0.438842597454706 ncXnegob
-"120" 59 0.544588238183872 ncXnegob
-"121" 0 0.00400932299043257 ncXnegsub
-"122" 1 0.00205668806335469 ncXnegsub
-"123" 2 0.000954813146991582 ncXnegsub
-"124" 3 0.000786774370981833 ncXnegsub
-"125" 4 0.000865864352810021 ncXnegsub
-"126" 5 0.00052776736437062 ncXnegsub
-"127" 6 0.000257644764054623 ncXnegsub
-"128" 7 0.00049371235468326 ncXnegsub
-"129" 8 0.00187581721962531 ncXnegsub
-"130" 9 0.00469320845592071 ncXnegsub
-"131" 10 0.0104353189022284 ncXnegsub
-"132" 11 0.0357564734171972 ncXnegsub
-"133" 12 0.108532451474048 ncXnegsub
-"134" 13 0.212781414958791 ncXnegsub
-"135" 14 0.209983276119314 ncXnegsub
-"136" 15 0.166415635982601 ncXnegsub
-"137" 16 0.16390976370823 ncXnegsub
-"138" 17 0.0952915609171573 ncXnegsub
-"139" 18 0.0536591948889879 ncXnegsub
-"140" 19 0.023846672324612 ncXnegsub
-"141" 20 0.0126424280346202 ncXnegsub
-"142" 21 0.00651458167150306 ncXnegsub
-"143" 22 0.00396414749000468 ncXnegsub
-"144" 23 0.002528661237837 ncXnegsub
-"145" 24 0.00170407590881979 ncXnegsub
-"146" 25 0.00138658891562218 ncXnegsub
-"147" 26 0.00137099057732836 ncXnegsub
-"148" 27 0.00162598533490026 ncXnegsub
-"149" 28 0.00221893809406612 ncXnegsub
-"150" 29 0.00323387288510704 ncXnegsub
-"151" 30 0.00177846682888791 ncXnegsub
-"152" 31 0.00377078327383706 ncXnegsub
-"153" 32 0.0184503945550716 ncXnegsub
-"154" 33 0.0890570345247612 ncXnegsub
-"155" 34 0.272879891993306 ncXnegsub
-"156" 35 0.530736891933925 ncXnegsub
-"157" 36 0.623695196501589 ncXnegsub
-"158" 37 0.643603200705624 ncXnegsub
-"159" 38 0.823334161617311 ncXnegsub
-"160" 39 0.626130474983683 ncXnegsub
-"161" 40 0.178795242135467 ncXnegsub
-"162" 41 0.214379934366866 ncXnegsub
-"163" 42 0.125920762906528 ncXnegsub
-"164" 43 0.0451934592804945 ncXnegsub
-"165" 44 0.0340619450744546 ncXnegsub
-"166" 45 0.0408454680351542 ncXnegsub
-"167" 46 0.0978760988087347 ncXnegsub
-"168" 47 0.34903112244601 ncXnegsub
-"169" 48 0.832682145774589 ncXnegsub
-"170" 49 0.803937596810861 ncXnegsub
-"171" 50 0.661137094209187 ncXnegsub
-"172" 51 0.569365801385196 ncXnegsub
-"173" 52 0.451630535784408 ncXnegsub
-"174" 53 0.263415161341334 ncXnegsub
-"175" 54 0.158525221737662 ncXnegsub
-"176" 55 0.124682658569033 ncXnegsub
-"177" 56 0.119116022818968 ncXnegsub
-"178" 57 0.137452275072847 ncXnegsub
-"179" 58 0.180092751046519 ncXnegsub
-"180" 59 0.235736047358128 ncXnegsub
-"181" 0 6.2445304926889e-12 dnXnegob
-"182" 1 1.77646961014764e-12 dnXnegob
-"183" 2 8.16185590683477e-13 dnXnegob
-"184" 3 1.63642645594501e-12 dnXnegob
-"185" 4 1.46305028316082e-11 dnXnegob
-"186" 5 5.72339023541598e-11 dnXnegob
-"187" 6 3.35606207786435e-11 dnXnegob
-"188" 7 2.3504576830667e-11 dnXnegob
-"189" 8 3.4740236222778e-11 dnXnegob
-"190" 9 3.29118266363003e-11 dnXnegob
-"191" 10 6.63304742836323e-12 dnXnegob
-"192" 11 1.63873404207437e-13 dnXnegob
-"193" 12 1.87672366586521e-14 dnXnegob
-"194" 13 3.35778789029627e-14 dnXnegob
-"195" 14 2.27060425010005e-12 dnXnegob
-"196" 15 1.13773354596853e-09 dnXnegob
-"197" 16 2.40963471233509e-07 dnXnegob
-"198" 17 1.96698955062949e-05 dnXnegob
-"199" 18 0.00156994955459602 dnXnegob
-"200" 19 0.189338357000318 dnXnegob
-"201" 20 0.0335047303816568 dnXnegob
-"202" 21 0.00908915700338365 dnXnegob
-"203" 22 0.00360410905631723 dnXnegob
-"204" 23 0.00175797643401931 dnXnegob
-"205" 24 0.00104373491518003 dnXnegob
-"206" 25 0.000991839534055563 dnXnegob
-"207" 26 0.00250840759351006 dnXnegob
-"208" 27 0.0121072122349034 dnXnegob
-"209" 28 0.0558060857834412 dnXnegob
-"210" 29 0.188338236793294 dnXnegob
-"211" 30 0.422370111422489 dnXnegob
-"212" 31 0.124020758808352 dnXnegob
-"213" 32 0.0399013390207814 dnXnegob
-"214" 33 0.0321101137613143 dnXnegob
-"215" 34 0.0378201358950998 dnXnegob
-"216" 35 0.0503911233437424 dnXnegob
-"217" 36 0.0827908638443625 dnXnegob
-"218" 37 0.201113600072288 dnXnegob
-"219" 38 0.471039192546563 dnXnegob
-"220" 39 0.676884690834057 dnXnegob
-"221" 40 0.697643693284843 dnXnegob
-"222" 41 0.808026977099231 dnXnegob
-"223" 42 0.829442967360871 dnXnegob
-"224" 43 0.534604635955269 dnXnegob
-"225" 44 0.202103002383243 dnXnegob
-"226" 45 0.195144511464965 dnXnegob
-"227" 46 0.620720536214659 dnXnegob
-"228" 47 0.891245771560394 dnXnegob
-"229" 48 0.383948803883437 dnXnegob
-"230" 49 0.189188697364768 dnXnegob
-"231" 50 0.170203204493585 dnXnegob
-"232" 51 0.149781491831733 dnXnegob
-"233" 52 0.184663981100193 dnXnegob
-"234" 53 0.217353221522177 dnXnegob
-"235" 54 0.232581400564761 dnXnegob
-"236" 55 0.197601550716573 dnXnegob
-"237" 56 0.10802963928165 dnXnegob
-"238" 57 0.0365557316809022 dnXnegob
-"239" 58 0.0153167405441683 dnXnegob
-"240" 59 0.0149715444072593 dnXnegob
-"241" 0 0.0356145327647433 dnXnegsub
-"242" 1 0.0293467442089378 dnXnegsub
-"243" 2 0.0210684790859286 dnXnegsub
-"244" 3 0.0158224015912533 dnXnegsub
-"245" 4 0.0135052559293802 dnXnegsub
-"246" 5 0.00938666710872123 dnXnegsub
-"247" 6 0.00607930293743473 dnXnegsub
-"248" 7 0.00641583905324136 dnXnegsub
-"249" 8 0.0100730821754209 dnXnegsub
-"250" 9 0.0154957327943714 dnXnegsub
-"251" 10 0.0249046769064635 dnXnegsub
-"252" 11 0.0577146485103536 dnXnegsub
-"253" 12 0.113410893537724 dnXnegsub
-"254" 13 0.176974189783649 dnXnegsub
-"255" 14 0.151038113704358 dnXnegsub
-"256" 15 0.0509441025161903 dnXnegsub
-"257" 16 0.00437973131160455 dnXnegsub
-"258" 17 8.16209351201717e-05 dnXnegsub
-"259" 18 6.28751634532638e-06 dnXnegsub
-"260" 19 3.18490247016993e-06 dnXnegsub
-"261" 20 0.000223978175164644 dnXnegsub
-"262" 21 0.000236760623421232 dnXnegsub
-"263" 22 0.000303039407623189 dnXnegsub
-"264" 23 0.000479254608327965 dnXnegsub
-"265" 24 0.000935278406515699 dnXnegsub
-"266" 25 0.00206634006561077 dnXnegsub
-"267" 26 0.00478933436301832 dnXnegsub
-"268" 27 0.0111090291148825 dnXnegsub
-"269" 28 0.0241696815950188 dnXnegsub
-"270" 29 0.0423554092393265 dnXnegsub
-"271" 30 0.00222349805977327 dnXnegsub
-"272" 31 0.00343934175883424 dnXnegsub
-"273" 32 0.0101322307406567 dnXnegsub
-"274" 33 0.0355829152257619 dnXnegsub
-"275" 34 0.100988002362176 dnXnegsub
-"276" 35 0.242159547173391 dnXnegsub
-"277" 36 0.574150689593648 dnXnegsub
-"278" 37 0.927189182081136 dnXnegsub
-"279" 38 0.670620776618863 dnXnegsub
-"280" 39 0.561711320678222 dnXnegsub
-"281" 40 0.552039238776373 dnXnegsub
-"282" 41 0.602453828407663 dnXnegsub
-"283" 42 0.56001146859334 dnXnegsub
-"284" 43 0.372620613465637 dnXnegsub
-"285" 44 0.237511683261229 dnXnegsub
-"286" 45 0.236682047293542 dnXnegsub
-"287" 46 0.549716112540575 dnXnegsub
-"288" 47 0.536760342089308 dnXnegsub
-"289" 48 0.0887327961673536 dnXnegsub
-"290" 49 0.014766722097682 dnXnegsub
-"291" 50 0.0103788584440059 dnXnegsub
-"292" 51 0.0112205568610621 dnXnegsub
-"293" 52 0.013760808566908 dnXnegsub
-"294" 53 0.0187056608292056 dnXnegsub
-"295" 54 0.0340401437903258 dnXnegsub
-"296" 55 0.0788069531342616 dnXnegsub
-"297" 56 0.193621839049755 dnXnegsub
-"298" 57 0.432981417894475 dnXnegsub
-"299" 58 0.771062171560008 dnXnegsub
-"300" 59 0.987575035995056 dnXnegsub
-"301" 0 3.37671453770467e-09 negobXnegsub
-"302" 1 8.68292945433538e-10 negobXnegsub
-"303" 2 6.43953703487555e-10 negobXnegsub
-"304" 3 3.09566389464147e-09 negobXnegsub
-"305" 4 5.23690785291707e-08 negobXnegsub
-"306" 5 4.57828569577876e-07 negobXnegsub
-"307" 6 6.1297569910107e-07 negobXnegsub
-"308" 7 4.75930624840231e-07 negobXnegsub
-"309" 8 4.11538116654056e-07 negobXnegsub
-"310" 9 2.08050914701977e-07 negobXnegsub
-"311" 10 2.61105901897172e-08 negobXnegsub
-"312" 11 1.53864003690724e-09 negobXnegsub
-"313" 12 1.31452567553763e-09 negobXnegsub
-"314" 13 2.11613572027227e-09 negobXnegsub
-"315" 14 3.3023613176694e-09 negobXnegsub
-"316" 15 1.80079151235914e-06 negobXnegsub
-"317" 16 0.0227196272153914 negobXnegsub
-"318" 17 0.854381627670786 negobXnegsub
-"319" 18 0.0462386234759062 negobXnegsub
-"320" 19 0.000151633041530844 negobXnegsub
-"321" 20 3.45957966264581e-08 negobXnegsub
-"322" 21 6.70514006077815e-09 negobXnegsub
-"323" 22 4.27516885275386e-09 negobXnegsub
-"324" 23 4.41362770848003e-09 negobXnegsub
-"325" 24 6.64112620017442e-09 negobXnegsub
-"326" 25 2.02466801696481e-08 negobXnegsub
-"327" 26 2.65024339026862e-07 negobXnegsub
-"328" 27 8.50885568433135e-06 negobXnegsub
-"329" 28 0.000238065151035607 negobXnegsub
-"330" 29 0.003239325632926 negobXnegsub
-"331" 30 0.0151022573655095 negobXnegsub
-"332" 31 0.0937285782964915 negobXnegsub
-"333" 32 0.371964374189139 negobXnegsub
-"334" 33 0.759844925306075 negobXnegsub
-"335" 34 0.832945456433341 negobXnegsub
-"336" 35 0.515513604013596 negobXnegsub
-"337" 36 0.28282316958513 negobXnegsub
-"338" 37 0.199846464800494 negobXnegsub
-"339" 38 0.262845841830673 negobXnegsub
-"340" 39 0.356451188486834 negobXnegsub
-"341" 40 0.346618107743464 negobXnegsub
-"342" 41 0.423587490494683 negobXnegsub
-"343" 42 0.362373325092319 negobXnegsub
-"344" 43 0.0819363300605343 negobXnegsub
-"345" 44 0.0155410845054315 negobXnegsub
-"346" 45 0.035240825721769 negobXnegsub
-"347" 46 0.353324009259457 negobXnegsub
-"348" 47 0.450726199992028 negobXnegsub
-"349" 48 0.0154547288472106 negobXnegsub
-"350" 49 0.000344129560567069 negobXnegsub
-"351" 50 0.000245849897628975 negobXnegsub
-"352" 51 0.000161076327592167 negobXnegsub
-"353" 52 0.000236899543396179 negobXnegsub
-"354" 53 0.00050748096834755 negobXnegsub
-"355" 54 0.000789736070092786 negobXnegsub
-"356" 55 0.00192604022870286 negobXnegsub
-"357" 56 0.00557797022426282 negobXnegsub
-"358" 57 0.0135407296784936 negobXnegsub
-"359" 58 0.0322264652610083 negobXnegsub
-"360" 59 0.0669823176343212 negobXnegsub
+"series","pvalue","test_type"
+"1",0,0.580189901483078,Negative Concord X Double Negative
+"2",1,0.501464844924282,Negative Concord X Double Negative
+"3",2,0.438234600164039,Negative Concord X Double Negative
+"4",3,0.440691354009434,Negative Concord X Double Negative
+"5",4,0.477794383302553,Negative Concord X Double Negative
+"6",5,0.505391477375562,Negative Concord X Double Negative
+"7",6,0.53340981489533,Negative Concord X Double Negative
+"8",7,0.628301651178505,Negative Concord X Double Negative
+"9",8,0.736030588190963,Negative Concord X Double Negative
+"10",9,0.783775748618527,Negative Concord X Double Negative
+"11",10,0.784673313917908,Negative Concord X Double Negative
+"12",11,0.824999677430106,Negative Concord X Double Negative
+"13",12,0.978791855960055,Negative Concord X Double Negative
+"14",13,0.890750719036003,Negative Concord X Double Negative
+"15",14,0.81924922656445,Negative Concord X Double Negative
+"16",15,0.495360962453447,Negative Concord X Double Negative
+"17",16,0.116561725626263,Negative Concord X Double Negative
+"18",17,0.0149415610386393,Negative Concord X Double Negative
+"19",18,0.00391873924975401,Negative Concord X Double Negative
+"20",19,0.00694217931172339,Negative Concord X Double Negative
+"21",20,0.236020991701212,Negative Concord X Double Negative
+"22",21,0.406170613296032,Negative Concord X Double Negative
+"23",22,0.618679907913596,Negative Concord X Double Negative
+"24",23,0.895795639263828,Negative Concord X Double Negative
+"25",24,0.7925520555726,Negative Concord X Double Negative
+"26",25,0.536807568119607,Negative Concord X Double Negative
+"27",26,0.360283967046877,Negative Concord X Double Negative
+"28",27,0.252516163157694,Negative Concord X Double Negative
+"29",28,0.190627679515549,Negative Concord X Double Negative
+"30",29,0.166593023929394,Negative Concord X Double Negative
+"31",30,0.998805450596462,Negative Concord X Double Negative
+"32",31,0.858030112202929,Negative Concord X Double Negative
+"33",32,0.630494020846169,Negative Concord X Double Negative
+"34",33,0.483177734568632,Negative Concord X Double Negative
+"35",34,0.433240281384097,Negative Concord X Double Negative
+"36",35,0.47626398293966,Negative Concord X Double Negative
+"37",36,0.882487906121706,Negative Concord X Double Negative
+"38",37,0.55621559939303,Negative Concord X Double Negative
+"39",38,0.516991180499766,Negative Concord X Double Negative
+"40",39,0.889381176900405,Negative Concord X Double Negative
+"41",40,0.684314063631003,Negative Concord X Double Negative
+"42",41,0.725628496390973,Negative Concord X Double Negative
+"43",42,0.633778041825688,Negative Concord X Double Negative
+"44",43,0.425201804986981,Negative Concord X Double Negative
+"45",44,0.318180466820536,Negative Concord X Double Negative
+"46",45,0.217958612693365,Negative Concord X Double Negative
+"47",46,0.107841067957927,Negative Concord X Double Negative
+"48",47,0.028347510420836,Negative Concord X Double Negative
+"49",48,0.010318425369616,Negative Concord X Double Negative
+"50",49,0.00637373279366402,Negative Concord X Double Negative
+"51",50,0.00708221266645855,Negative Concord X Double Negative
+"52",51,0.0129980394238279,Negative Concord X Double Negative
+"53",52,0.0295977157733692,Negative Concord X Double Negative
+"54",53,0.112921740613985,Negative Concord X Double Negative
+"55",54,0.402218619583191,Negative Concord X Double Negative
+"56",55,0.807692943725154,Negative Concord X Double Negative
+"57",56,0.738878230302757,Negative Concord X Double Negative
+"58",57,0.366773728076478,Negative Concord X Double Negative
+"59",58,0.182540178449466,Negative Concord X Double Negative
+"60",59,0.135389762495356,Negative Concord X Double Negative
+"61",0,9.95704397627139e-16,Negative Concord X Negative Object Control
+"62",1,1.19572704546898e-16,Negative Concord X Negative Object Control
+"63",2,5.03682960888275e-17,Negative Concord X Negative Object Control
+"64",3,4.59994043379108e-16,Negative Concord X Negative Object Control
+"65",4,1.27356535099018e-14,Negative Concord X Negative Object Control
+"66",5,2.36206913788243e-14,Negative Concord X Negative Object Control
+"67",6,2.20419564671774e-15,Negative Concord X Negative Object Control
+"68",7,2.96761063334885e-15,Negative Concord X Negative Object Control
+"69",8,4.32420778620761e-14,Negative Concord X Negative Object Control
+"70",9,2.42378753078563e-13,Negative Concord X Negative Object Control
+"71",10,4.15314605286166e-13,Negative Concord X Negative Object Control
+"72",11,9.32226684518099e-14,Negative Concord X Negative Object Control
+"73",12,1.82459515225835e-14,Negative Concord X Negative Object Control
+"74",13,1.13822449207184e-14,Negative Concord X Negative Object Control
+"75",14,8.53645782982208e-13,Negative Concord X Negative Object Control
+"76",15,1.5134174694861e-09,Negative Concord X Negative Object Control
+"77",16,0.000131031877979086,Negative Concord X Negative Object Control
+"78",17,0.0863988158737651,Negative Concord X Negative Object Control
+"79",18,0.946340607091222,Negative Concord X Negative Object Control
+"80",19,0.111549253808244,Negative Concord X Negative Object Control
+"81",20,0.00141653596548282,Negative Concord X Negative Object Control
+"82",21,0.00127698275322177,Negative Concord X Negative Object Control
+"83",22,0.00180734663096523,Negative Concord X Negative Object Control
+"84",23,0.00345653436128029,Negative Concord X Negative Object Control
+"85",24,0.00829352551864052,Negative Concord X Negative Object Control
+"86",25,0.0238669217944082,Negative Concord X Negative Object Control
+"87",26,0.0879359078206022,Negative Concord X Negative Object Control
+"88",27,0.290097659912778,Negative Concord X Negative Object Control
+"89",28,0.66799065271402,Negative Concord X Negative Object Control
+"90",29,0.905594037217185,Negative Concord X Negative Object Control
+"91",30,0.41190792540473,Negative Concord X Negative Object Control
+"92",31,0.153365216306787,Negative Concord X Negative Object Control
+"93",32,0.0766397713088091,Negative Concord X Negative Object Control
+"94",33,0.0795751606747117,Negative Concord X Negative Object Control
+"95",34,0.103509431264273,Negative Concord X Negative Object Control
+"96",35,0.113848028869078,Negative Concord X Negative Object Control
+"97",36,0.0548157746685044,Negative Concord X Negative Object Control
+"98",37,0.0540914477673472,Negative Concord X Negative Object Control
+"99",38,0.183896922353294,Negative Concord X Negative Object Control
+"100",39,0.576798074487861,Negative Concord X Negative Object Control
+"101",40,0.911857303207979,Negative Concord X Negative Object Control
+"102",41,0.960085856689741,Negative Concord X Negative Object Control
+"103",42,0.805505561100723,Negative Concord X Negative Object Control
+"104",43,0.852342445023339,Negative Concord X Negative Object Control
+"105",44,0.854686606350947,Negative Concord X Negative Object Control
+"106",45,0.809500750209949,Negative Concord X Negative Object Control
+"107",46,0.18536309537177,Negative Concord X Negative Object Control
+"108",47,0.00743279532969738,Negative Concord X Negative Object Control
+"109",48,0.000251462043367469,Negative Concord X Negative Object Control
+"110",49,2.44795961933028e-05,Negative Concord X Negative Object Control
+"111",50,3.7309685804859e-05,Negative Concord X Negative Object Control
+"112",51,4.61427474612586e-05,Negative Concord X Negative Object Control
+"113",52,0.000247319025548121,Negative Concord X Negative Object Control
+"114",53,0.00353079754666517,Negative Concord X Negative Object Control
+"115",54,0.0322830265869271,Negative Concord X Negative Object Control
+"116",55,0.118147208963881,Negative Concord X Negative Object Control
+"117",56,0.238117599833944,Negative Concord X Negative Object Control
+"118",57,0.339503326862951,Negative Concord X Negative Object Control
+"119",58,0.438842597454706,Negative Concord X Negative Object Control
+"120",59,0.544588238183872,Negative Concord X Negative Object Control
+"121",0,0.00400932299043257,Negative Concord X Negative Subject Control
+"122",1,0.00205668806335469,Negative Concord X Negative Subject Control
+"123",2,0.000954813146991582,Negative Concord X Negative Subject Control
+"124",3,0.000786774370981833,Negative Concord X Negative Subject Control
+"125",4,0.000865864352810021,Negative Concord X Negative Subject Control
+"126",5,0.00052776736437062,Negative Concord X Negative Subject Control
+"127",6,0.000257644764054623,Negative Concord X Negative Subject Control
+"128",7,0.00049371235468326,Negative Concord X Negative Subject Control
+"129",8,0.00187581721962531,Negative Concord X Negative Subject Control
+"130",9,0.00469320845592071,Negative Concord X Negative Subject Control
+"131",10,0.0104353189022284,Negative Concord X Negative Subject Control
+"132",11,0.0357564734171972,Negative Concord X Negative Subject Control
+"133",12,0.108532451474048,Negative Concord X Negative Subject Control
+"134",13,0.212781414958791,Negative Concord X Negative Subject Control
+"135",14,0.209983276119314,Negative Concord X Negative Subject Control
+"136",15,0.166415635982601,Negative Concord X Negative Subject Control
+"137",16,0.16390976370823,Negative Concord X Negative Subject Control
+"138",17,0.0952915609171573,Negative Concord X Negative Subject Control
+"139",18,0.0536591948889879,Negative Concord X Negative Subject Control
+"140",19,0.023846672324612,Negative Concord X Negative Subject Control
+"141",20,0.0126424280346202,Negative Concord X Negative Subject Control
+"142",21,0.00651458167150306,Negative Concord X Negative Subject Control
+"143",22,0.00396414749000468,Negative Concord X Negative Subject Control
+"144",23,0.002528661237837,Negative Concord X Negative Subject Control
+"145",24,0.00170407590881979,Negative Concord X Negative Subject Control
+"146",25,0.00138658891562218,Negative Concord X Negative Subject Control
+"147",26,0.00137099057732836,Negative Concord X Negative Subject Control
+"148",27,0.00162598533490026,Negative Concord X Negative Subject Control
+"149",28,0.00221893809406612,Negative Concord X Negative Subject Control
+"150",29,0.00323387288510704,Negative Concord X Negative Subject Control
+"151",30,0.00177846682888791,Negative Concord X Negative Subject Control
+"152",31,0.00377078327383706,Negative Concord X Negative Subject Control
+"153",32,0.0184503945550716,Negative Concord X Negative Subject Control
+"154",33,0.0890570345247612,Negative Concord X Negative Subject Control
+"155",34,0.272879891993306,Negative Concord X Negative Subject Control
+"156",35,0.530736891933925,Negative Concord X Negative Subject Control
+"157",36,0.623695196501589,Negative Concord X Negative Subject Control
+"158",37,0.643603200705624,Negative Concord X Negative Subject Control
+"159",38,0.823334161617311,Negative Concord X Negative Subject Control
+"160",39,0.626130474983683,Negative Concord X Negative Subject Control
+"161",40,0.178795242135467,Negative Concord X Negative Subject Control
+"162",41,0.214379934366866,Negative Concord X Negative Subject Control
+"163",42,0.125920762906528,Negative Concord X Negative Subject Control
+"164",43,0.0451934592804945,Negative Concord X Negative Subject Control
+"165",44,0.0340619450744546,Negative Concord X Negative Subject Control
+"166",45,0.0408454680351542,Negative Concord X Negative Subject Control
+"167",46,0.0978760988087347,Negative Concord X Negative Subject Control
+"168",47,0.34903112244601,Negative Concord X Negative Subject Control
+"169",48,0.832682145774589,Negative Concord X Negative Subject Control
+"170",49,0.803937596810861,Negative Concord X Negative Subject Control
+"171",50,0.661137094209187,Negative Concord X Negative Subject Control
+"172",51,0.569365801385196,Negative Concord X Negative Subject Control
+"173",52,0.451630535784408,Negative Concord X Negative Subject Control
+"174",53,0.263415161341334,Negative Concord X Negative Subject Control
+"175",54,0.158525221737662,Negative Concord X Negative Subject Control
+"176",55,0.124682658569033,Negative Concord X Negative Subject Control
+"177",56,0.119116022818968,Negative Concord X Negative Subject Control
+"178",57,0.137452275072847,Negative Concord X Negative Subject Control
+"179",58,0.180092751046519,Negative Concord X Negative Subject Control
+"180",59,0.235736047358128,Negative Concord X Negative Subject Control
+"181",0,6.2445304926889e-12,Double Negative X Negative Object Control
+"182",1,1.77646961014764e-12,Double Negative X Negative Object Control
+"183",2,8.16185590683477e-13,Double Negative X Negative Object Control
+"184",3,1.63642645594501e-12,Double Negative X Negative Object Control
+"185",4,1.46305028316082e-11,Double Negative X Negative Object Control
+"186",5,5.72339023541598e-11,Double Negative X Negative Object Control
+"187",6,3.35606207786435e-11,Double Negative X Negative Object Control
+"188",7,2.3504576830667e-11,Double Negative X Negative Object Control
+"189",8,3.4740236222778e-11,Double Negative X Negative Object Control
+"190",9,3.29118266363003e-11,Double Negative X Negative Object Control
+"191",10,6.63304742836323e-12,Double Negative X Negative Object Control
+"192",11,1.63873404207437e-13,Double Negative X Negative Object Control
+"193",12,1.87672366586521e-14,Double Negative X Negative Object Control
+"194",13,3.35778789029627e-14,Double Negative X Negative Object Control
+"195",14,2.27060425010005e-12,Double Negative X Negative Object Control
+"196",15,1.13773354596853e-09,Double Negative X Negative Object Control
+"197",16,2.40963471233509e-07,Double Negative X Negative Object Control
+"198",17,1.96698955062949e-05,Double Negative X Negative Object Control
+"199",18,0.00156994955459602,Double Negative X Negative Object Control
+"200",19,0.189338357000318,Double Negative X Negative Object Control
+"201",20,0.0335047303816568,Double Negative X Negative Object Control
+"202",21,0.00908915700338365,Double Negative X Negative Object Control
+"203",22,0.00360410905631723,Double Negative X Negative Object Control
+"204",23,0.00175797643401931,Double Negative X Negative Object Control
+"205",24,0.00104373491518003,Double Negative X Negative Object Control
+"206",25,0.000991839534055563,Double Negative X Negative Object Control
+"207",26,0.00250840759351006,Double Negative X Negative Object Control
+"208",27,0.0121072122349034,Double Negative X Negative Object Control
+"209",28,0.0558060857834412,Double Negative X Negative Object Control
+"210",29,0.188338236793294,Double Negative X Negative Object Control
+"211",30,0.422370111422489,Double Negative X Negative Object Control
+"212",31,0.124020758808352,Double Negative X Negative Object Control
+"213",32,0.0399013390207814,Double Negative X Negative Object Control
+"214",33,0.0321101137613143,Double Negative X Negative Object Control
+"215",34,0.0378201358950998,Double Negative X Negative Object Control
+"216",35,0.0503911233437424,Double Negative X Negative Object Control
+"217",36,0.0827908638443625,Double Negative X Negative Object Control
+"218",37,0.201113600072288,Double Negative X Negative Object Control
+"219",38,0.471039192546563,Double Negative X Negative Object Control
+"220",39,0.676884690834057,Double Negative X Negative Object Control
+"221",40,0.697643693284843,Double Negative X Negative Object Control
+"222",41,0.808026977099231,Double Negative X Negative Object Control
+"223",42,0.829442967360871,Double Negative X Negative Object Control
+"224",43,0.534604635955269,Double Negative X Negative Object Control
+"225",44,0.202103002383243,Double Negative X Negative Object Control
+"226",45,0.195144511464965,Double Negative X Negative Object Control
+"227",46,0.620720536214659,Double Negative X Negative Object Control
+"228",47,0.891245771560394,Double Negative X Negative Object Control
+"229",48,0.383948803883437,Double Negative X Negative Object Control
+"230",49,0.189188697364768,Double Negative X Negative Object Control
+"231",50,0.170203204493585,Double Negative X Negative Object Control
+"232",51,0.149781491831733,Double Negative X Negative Object Control
+"233",52,0.184663981100193,Double Negative X Negative Object Control
+"234",53,0.217353221522177,Double Negative X Negative Object Control
+"235",54,0.232581400564761,Double Negative X Negative Object Control
+"236",55,0.197601550716573,Double Negative X Negative Object Control
+"237",56,0.10802963928165,Double Negative X Negative Object Control
+"238",57,0.0365557316809022,Double Negative X Negative Object Control
+"239",58,0.0153167405441683,Double Negative X Negative Object Control
+"240",59,0.0149715444072593,Double Negative X Negative Object Control
+"241",0,0.0356145327647433,Double Negative X Negative Subject Control
+"242",1,0.0293467442089378,Double Negative X Negative Subject Control
+"243",2,0.0210684790859286,Double Negative X Negative Subject Control
+"244",3,0.0158224015912533,Double Negative X Negative Subject Control
+"245",4,0.0135052559293802,Double Negative X Negative Subject Control
+"246",5,0.00938666710872123,Double Negative X Negative Subject Control
+"247",6,0.00607930293743473,Double Negative X Negative Subject Control
+"248",7,0.00641583905324136,Double Negative X Negative Subject Control
+"249",8,0.0100730821754209,Double Negative X Negative Subject Control
+"250",9,0.0154957327943714,Double Negative X Negative Subject Control
+"251",10,0.0249046769064635,Double Negative X Negative Subject Control
+"252",11,0.0577146485103536,Double Negative X Negative Subject Control
+"253",12,0.113410893537724,Double Negative X Negative Subject Control
+"254",13,0.176974189783649,Double Negative X Negative Subject Control
+"255",14,0.151038113704358,Double Negative X Negative Subject Control
+"256",15,0.0509441025161903,Double Negative X Negative Subject Control
+"257",16,0.00437973131160455,Double Negative X Negative Subject Control
+"258",17,8.16209351201717e-05,Double Negative X Negative Subject Control
+"259",18,6.28751634532638e-06,Double Negative X Negative Subject Control
+"260",19,3.18490247016993e-06,Double Negative X Negative Subject Control
+"261",20,0.000223978175164644,Double Negative X Negative Subject Control
+"262",21,0.000236760623421232,Double Negative X Negative Subject Control
+"263",22,0.000303039407623189,Double Negative X Negative Subject Control
+"264",23,0.000479254608327965,Double Negative X Negative Subject Control
+"265",24,0.000935278406515699,Double Negative X Negative Subject Control
+"266",25,0.00206634006561077,Double Negative X Negative Subject Control
+"267",26,0.00478933436301832,Double Negative X Negative Subject Control
+"268",27,0.0111090291148825,Double Negative X Negative Subject Control
+"269",28,0.0241696815950188,Double Negative X Negative Subject Control
+"270",29,0.0423554092393265,Double Negative X Negative Subject Control
+"271",30,0.00222349805977327,Double Negative X Negative Subject Control
+"272",31,0.00343934175883424,Double Negative X Negative Subject Control
+"273",32,0.0101322307406567,Double Negative X Negative Subject Control
+"274",33,0.0355829152257619,Double Negative X Negative Subject Control
+"275",34,0.100988002362176,Double Negative X Negative Subject Control
+"276",35,0.242159547173391,Double Negative X Negative Subject Control
+"277",36,0.574150689593648,Double Negative X Negative Subject Control
+"278",37,0.927189182081136,Double Negative X Negative Subject Control
+"279",38,0.670620776618863,Double Negative X Negative Subject Control
+"280",39,0.561711320678222,Double Negative X Negative Subject Control
+"281",40,0.552039238776373,Double Negative X Negative Subject Control
+"282",41,0.602453828407663,Double Negative X Negative Subject Control
+"283",42,0.56001146859334,Double Negative X Negative Subject Control
+"284",43,0.372620613465637,Double Negative X Negative Subject Control
+"285",44,0.237511683261229,Double Negative X Negative Subject Control
+"286",45,0.236682047293542,Double Negative X Negative Subject Control
+"287",46,0.549716112540575,Double Negative X Negative Subject Control
+"288",47,0.536760342089308,Double Negative X Negative Subject Control
+"289",48,0.0887327961673536,Double Negative X Negative Subject Control
+"290",49,0.014766722097682,Double Negative X Negative Subject Control
+"291",50,0.0103788584440059,Double Negative X Negative Subject Control
+"292",51,0.0112205568610621,Double Negative X Negative Subject Control
+"293",52,0.013760808566908,Double Negative X Negative Subject Control
+"294",53,0.0187056608292056,Double Negative X Negative Subject Control
+"295",54,0.0340401437903258,Double Negative X Negative Subject Control
+"296",55,0.0788069531342616,Double Negative X Negative Subject Control
+"297",56,0.193621839049755,Double Negative X Negative Subject Control
+"298",57,0.432981417894475,Double Negative X Negative Subject Control
+"299",58,0.771062171560008,Double Negative X Negative Subject Control
+"300",59,0.987575035995056,Double Negative X Negative Subject Control
+"301",0,3.37671453770467e-09,Negative Object Control X Negative Subject Control
+"302",1,8.68292945433538e-10,Negative Object Control X Negative Subject Control
+"303",2,6.43953703487555e-10,Negative Object Control X Negative Subject Control
+"304",3,3.09566389464147e-09,Negative Object Control X Negative Subject Control
+"305",4,5.23690785291707e-08,Negative Object Control X Negative Subject Control
+"306",5,4.57828569577876e-07,Negative Object Control X Negative Subject Control
+"307",6,6.1297569910107e-07,Negative Object Control X Negative Subject Control
+"308",7,4.75930624840231e-07,Negative Object Control X Negative Subject Control
+"309",8,4.11538116654056e-07,Negative Object Control X Negative Subject Control
+"310",9,2.08050914701977e-07,Negative Object Control X Negative Subject Control
+"311",10,2.61105901897172e-08,Negative Object Control X Negative Subject Control
+"312",11,1.53864003690724e-09,Negative Object Control X Negative Subject Control
+"313",12,1.31452567553763e-09,Negative Object Control X Negative Subject Control
+"314",13,2.11613572027227e-09,Negative Object Control X Negative Subject Control
+"315",14,3.3023613176694e-09,Negative Object Control X Negative Subject Control
+"316",15,1.80079151235914e-06,Negative Object Control X Negative Subject Control
+"317",16,0.0227196272153914,Negative Object Control X Negative Subject Control
+"318",17,0.854381627670786,Negative Object Control X Negative Subject Control
+"319",18,0.0462386234759062,Negative Object Control X Negative Subject Control
+"320",19,0.000151633041530844,Negative Object Control X Negative Subject Control
+"321",20,3.45957966264581e-08,Negative Object Control X Negative Subject Control
+"322",21,6.70514006077815e-09,Negative Object Control X Negative Subject Control
+"323",22,4.27516885275386e-09,Negative Object Control X Negative Subject Control
+"324",23,4.41362770848003e-09,Negative Object Control X Negative Subject Control
+"325",24,6.64112620017442e-09,Negative Object Control X Negative Subject Control
+"326",25,2.02466801696481e-08,Negative Object Control X Negative Subject Control
+"327",26,2.65024339026862e-07,Negative Object Control X Negative Subject Control
+"328",27,8.50885568433135e-06,Negative Object Control X Negative Subject Control
+"329",28,0.000238065151035607,Negative Object Control X Negative Subject Control
+"330",29,0.003239325632926,Negative Object Control X Negative Subject Control
+"331",30,0.0151022573655095,Negative Object Control X Negative Subject Control
+"332",31,0.0937285782964915,Negative Object Control X Negative Subject Control
+"333",32,0.371964374189139,Negative Object Control X Negative Subject Control
+"334",33,0.759844925306075,Negative Object Control X Negative Subject Control
+"335",34,0.832945456433341,Negative Object Control X Negative Subject Control
+"336",35,0.515513604013596,Negative Object Control X Negative Subject Control
+"337",36,0.28282316958513,Negative Object Control X Negative Subject Control
+"338",37,0.199846464800494,Negative Object Control X Negative Subject Control
+"339",38,0.262845841830673,Negative Object Control X Negative Subject Control
+"340",39,0.356451188486834,Negative Object Control X Negative Subject Control
+"341",40,0.346618107743464,Negative Object Control X Negative Subject Control
+"342",41,0.423587490494683,Negative Object Control X Negative Subject Control
+"343",42,0.362373325092319,Negative Object Control X Negative Subject Control
+"344",43,0.0819363300605343,Negative Object Control X Negative Subject Control
+"345",44,0.0155410845054315,Negative Object Control X Negative Subject Control
+"346",45,0.035240825721769,Negative Object Control X Negative Subject Control
+"347",46,0.353324009259457,Negative Object Control X Negative Subject Control
+"348",47,0.450726199992028,Negative Object Control X Negative Subject Control
+"349",48,0.0154547288472106,Negative Object Control X Negative Subject Control
+"350",49,0.000344129560567069,Negative Object Control X Negative Subject Control
+"351",50,0.000245849897628975,Negative Object Control X Negative Subject Control
+"352",51,0.000161076327592167,Negative Object Control X Negative Subject Control
+"353",52,0.000236899543396179,Negative Object Control X Negative Subject Control
+"354",53,0.00050748096834755,Negative Object Control X Negative Subject Control
+"355",54,0.000789736070092786,Negative Object Control X Negative Subject Control
+"356",55,0.00192604022870286,Negative Object Control X Negative Subject Control
+"357",56,0.00557797022426282,Negative Object Control X Negative Subject Control
+"358",57,0.0135407296784936,Negative Object Control X Negative Subject Control
+"359",58,0.0322264652610083,Negative Object Control X Negative Subject Control
+"360",59,0.0669823176343212,Negative Object Control X Negative Subject Control

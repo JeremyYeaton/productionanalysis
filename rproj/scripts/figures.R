@@ -57,7 +57,7 @@ subj_divby_stdev.plot = ggplot(data_clean, aes(x=series, color = condition)) +
 subj_divby_stdev.plot
 
 ## SYLL PLOTS ####
-syll_duration.plot = ggplot(data_clean, aes(x = series, color = condition)) +
+syll_duration.plot = ggplot(data=data_clean,na.rm=TRUE, aes(x = series, color = condition)) +
   geom_smooth(aes(y = duration)) +
   facet_wrap(~subj, ncol = 4)
 syll_duration.plot

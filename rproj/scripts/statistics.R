@@ -68,12 +68,12 @@ for (row in 0:59){
   pvalues[[(row + 181)]] <-dnvnegob.ttest$p.value
   pvalues[[(row + 241)]] <-dnvnegsub.ttest$p.value
   pvalues[[(row + 301)]] <- negobvnegsub.ttest$p.value
-  condition_vector[[row+1]]<-"ncXdn"
-  condition_vector[[row+61]] <-"ncXnegob"
-  condition_vector[[row+121]] <- "ncXnegsub"
-  condition_vector[[row+181]]<- "dnXnegob"
-  condition_vector[[row+241]]<- "dnXnegsub"
-  condition_vector[[row+301]]<- "negobXnegsub"
+  condition_vector[[row+1]]<-"Negative Concord X Double Negative"
+  condition_vector[[row+61]] <-"Negative Concord X Negative Object Control"
+  condition_vector[[row+121]] <- "Negative Concord X Negative Subject Control"
+  condition_vector[[row+181]]<- "Double Negative X Negative Object Control"
+  condition_vector[[row+241]]<- "Double Negative X Negative Subject Control"
+  condition_vector[[row+301]]<- "Negative Object Control X Negative Subject Control"
 }
 pvalues
 condition_vector
@@ -83,23 +83,49 @@ pvals_data <- matrix(c(p_series),nrow=360,ncol=1) %>%
 colnames(pvals_data) = c("series","pvalue","test_type")
 pvals_data
 
-write.table(pvals_data,file="data/ttest_pvals.txt")
-read.table("data/ttest_pvals.txt",header=TRUE)
+write.table(pvals_data,file="data/ttest_pvals.txt",sep=",")
+read.table("data/ttest_pvals.txt",header=TRUE,sep=",")
 #unlink("data/ttest_pvals.txt")
-pvals_for_graph = read.table("data/ttest_pvals.txt",header=T) %>%
+pvals_for_graph = read.table("data/ttest_pvals.txt",header=T,sep=",") %>%
   mutate(series = factor(series))
 pvals_for_graph
 
 pvals_graph.plot = ggplot(pvals_for_graph,
-                          aes(x= series,y= pvalue,
+                          aes(x= series,
                               color=test_type)) +
-  scale_x_discrete(breaks=c(0,10,20,30,40,50)) +
-  geom_point(size=3) +
-  facet_wrap(~test_type,ncol=3) +
-  ylim(0,.05)
+  scale_x_discrete(breaks=c(0,10,20,30,40,50,60)) +
+  geom_point(aes(y=pvalue),size=3) +
+  scale_y_reverse(lim=c(0.05,.0)) +
+  facet_wrap(~test_type,ncol=3)
 
 pvals_graph.plot
 
+data_w_pvals <- data_clean %>% 
+  cbind(pvals_for_graph$pvalue) %>% 
+                        cbind(pvals_for_graph$test_type)
+  
+
+data_w_pvals
+pvals_for_graph
+
+data_w_pvals.plot = ggplot(NULL,aes(0:60))+
+  geom_smooth(data=data_clean,aes(y=(demeaned_f0/subj_stdev),x=series,color=condition)) +
+  geom_point(data=pvals_for_graph,aes(x=series,y=(-pvalue+1)*2,color=test_type)) +
+  scale_y_continuous(sec.axis = sec_axis(~.*2,name="P-value"))
+  
+
+data_w_pvals.plot
+
+
+df1 <- data.frame(p=c(10,8,7,3,2,6,7,8),
+                  v=c(100,300,150,400,450,250,150,400))
+df2 <- data.frame(p=c(10,8,6,4), v=c(150,250,350,400))
+
+plot2 <- ggplot(NULL, aes(v, p)) + 
+  geom_point(data = df1) +
+  geom_step(data = df2)
+
+plot2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 confidence intervals?
 repeated measures anova

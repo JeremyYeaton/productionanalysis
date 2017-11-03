@@ -140,7 +140,11 @@ for (row in rows){
   series_vector[[((row+6)/10)+24]] <- row
   series_vector[[((row+6)/10)+30]] <- row
 }
-
+data_clean
+ncvdn.ttest = t.test(filter(data_clean,condition=='nc' & series==44)$duration, 
+                     filter(data_clean,condition=='dn' & series==44)$duration,
+                     paired=F)
+ncvdn.ttest
 dur_pvals =c(series_vector) %>%
   cbind(c(duration_pvals)) %>%
   cbind(c(conditions_vector))
@@ -150,6 +154,9 @@ dur_pvals_clean <- data.frame(dur_pvals) %>%
   mutate(test_type.f = factor(unlist(test_type)))
 dur_pvals
 
+var_subset <- data_clean %>%
+  filter(condition=='dn')
+summarize(filter(var_subset,condition=='nc'),var(var_subset$demeaned_f0))
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 confidence intervals?
 repeated measures anova
@@ -160,10 +167,10 @@ anova for a and b and interaction of a and b
 
 data_stats
 # ezANOVA
-pitch.ezanova = ezANOVA(data.frame(data_stats, na.rm=T),
+pitch.ezanova = ezANOVA(data.frame(data_clean, na.rm=T),
                             dv = demeaned_f0,
                             wid = obj_id,
-                            within = subj,
+                            within_full = .(subj,series),
                             between = condition,
                             type = 3)
 

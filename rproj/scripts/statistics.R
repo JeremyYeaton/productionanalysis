@@ -155,15 +155,21 @@ dur_pvals_clean <- data.frame(dur_pvals) %>%
 dur_pvals
 
 var_subset <- data_clean %>%
-  filter(condition=='dn')
-summarize(filter(var_subset,condition=='nc'),var(var_subset$demeaned_f0))
+  filter(condition=='nc')
+summarize(filter(var_subset,condition=='dn'),var(var_subset$demeaned_f0))
+
+varplot.plot = ggplot(data=filter(data_clean,(condition=='nc'|condition=='dn')), aes(x=series,color=condition))+
+  geom_smooth(aes(y=(demeaned_f0)))
+
+varplot.plot
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-confidence intervals?
-repeated measures anova
-homogeneity of variance
-normal distro
-no outliers
-anova for a and b and interaction of a and b
+#confidence intervals?
+#repeated measures anova
+#homogeneity of variance
+#normal distro
+#no outliers
+#anova for a and b and interaction of a and b
 
 data_stats
 # ezANOVA
@@ -175,64 +181,20 @@ pitch.ezanova = ezANOVA(data.frame(data_clean, na.rm=T),
                             type = 3)
 
 pitch.ezanova
-## ORAGANIZE DATA ####
-# Make data for statistics
-data_stats = data_clean %>%
-  mutate(civil_war = factor(civil_war, levels = c("union", "confederacy"))) %>%
-  group_by(state, incumbent_party, civil_war) %>%
-  summarise(perc_incumbent_mean = mean(perc_votes_incumbent, na.rm = T)) %>%
-  ungroup()
 
-# Check if incumbent party is within-state
-xtabs(~state+incumbent_party, data_stats)
+duration.lm <- lmer(data=line_max_min,
+                    duration~condition + 
+                      series + (condition*series)+
+                      (1|subj), REML=F)
+duration.lm.sum<-summary(duration.lm)
+duration.lm.sum
 
-# Check if civil war is within-state
-xtabs(~state+civil_war, data_stats)
+plot(duration.lm)
 
-# ezANOVA
-incumbent.ezanova = ezANOVA(data.frame(data_stats),
-                            dv = perc_incumbent_mean,
-                            wid = state,
-                            within = incumbent_party,
-                            between = civil_war,
-                            type = 3)
+duration.null <- lmer(data=line_max_min,
+                      duration~condition + 
+                        series + 
+                        (1|subj), REML=F)
+plot(duration.null)
 
-incumbent.ezanova
-
-# Prepare data for t-test
-data_union_stats = data_stats %>%
-  filter(civil_war == "union") %>%
-  spread(incumbent_party, perc_incumbent_mean)
-
-data_confederacy_stats = data_stats %>%
-  filter(civil_war == "confederacy") %>%
-  spread(incumbent_party, perc_incumbent_mean)
-
-data_democrat_stats = data_stats %>%
-  filter(incumbent_party == "democrat")
-
-data_republican_stats = data_stats %>%
-  filter(incumbent_party == "republican")
-
-## FOLLOW-UP T-TESTS ####
-# Effect of incumbent party, separated by civil war
-incumbent_union.ttest = t.test(data_union_stats$democrat,
-                               data_union_stats$republican,
-                               paired = T)
-incumbent_union.ttest
-
-incumbent_confederacy.ttest = t.test(data_confederacy_stats$democrat,
-                                     data_confederacy_stats$republican,
-                                     paired = T)
-incumbent_confederacy.ttest
-
-# Effect of incumbent party, separated by civil war
-incumbent_democrat.ttest = t.test(perc_incumbent_mean ~ civil_war,
-                                  paired = F,
-                                  data = data_democrat_stats)
-incumbent_democrat.ttest
-
-incumbent_republican.ttest = t.test(perc_incumbent_mean ~ civil_war,
-                                    paired = F,
-                                    data = data_republican_stats)
-incumbent_republican.ttest
+plot(anova(duration.null,duration.lm))

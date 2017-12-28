@@ -15,18 +15,19 @@ combined_normal_f0.plot = ggplot(data_clean, aes(x=series, color = condition)) +
 combined_normal_f0.plot
 
 scaled_normal_f0.plot = ggplot(data_clean, aes(x = series, color = condition)) +
-  geom_smooth(aes(y = demeaned_f0/subj_stdev),se=FALSE) +
+  geom_smooth(aes(y = demeaned_f0/subj_stdev),se=T) +
   ylab("f0 relative to subject range") +
   theme(legend.position="bottom")
 scaled_normal_f0.plot
 
-normal_f0_bysubj.plot = ggplot(data_clean, aes(x=series, color = condition)) +
+normal_f0_bysubj.plot = ggplot(data=filter(data_clean,subj==105 & (trial==3 |trial==11)), aes(x=series, color = condition)) +
   geom_smooth(aes(y = demeaned_f0)) +
   ylim(c(-100,150)) +
   labs(title="f0 during first 6 syllables of utterance", 
        x = "per sonne ne verb rien", 
        y= "Fundamental Frequency (Hz)") +
-  coord_cartesian(xlim=c(40,60), ylim=c(-25,50)) +
+  #coord_cartesian(xlim=c(40,60), ylim=c(-25,50)) +
+  #coord_cartesian(ylim=c(-25,50)) +
   facet_wrap(~subj, ncol = 4, scales = "free")
 normal_f0_bysubj.plot
 
@@ -35,7 +36,8 @@ normal_f0_bysubj_scaled.plot = ggplot(data_clean, aes(x=series, color = conditio
   labs(title="f0 during first 6 syllables of utterance", 
        x = "per sonne ne verb rien", 
        y= "Fundamental Frequency (Hz)") +
-  facet_wrap(~subj, ncol = 4,scales="free")
+  facet_wrap(~subj, ncol = 4)
+#,scales="free")
 normal_f0_bysubj_scaled.plot
 
 divby_stdev.plot = ggplot(data_clean, aes(x=series, color = condition)) +
@@ -50,7 +52,7 @@ divby_stdev.plot = ggplot(data_clean, aes(x=series, color = condition)) +
 divby_stdev.plot
 
 subj_divby_stdev.plot = ggplot(data_clean, aes(x=series, color = condition)) +
-  geom_smooth(aes(y = demeaned_f0/subj_stdev),level=.99) +
+  geom_smooth(aes(y = demeaned_f0/subj_stdev),level=.95) +
   #ylim(c(-3,3)) +
   #coord_cartesian(ylim =c(-.75,1.25)) +
   labs(title="f0 during first 6 syllables of utterance", 
@@ -74,11 +76,36 @@ duration_condition = data_clean %>%
 duration_condition<-cbind(duration_condition,new_series=(duration_condition$series + 6)/10)
 duration_condition
 
-duration_condition.plot = ggplot(duration_condition,aes(x=new_series,y=mean,color=condition)) +
-  geom_point()
+duration_condition.plot = ggplot(duration_condition,
+                                 aes(x=new_series,
+                                     y=mean,
+                                     color=condition)) +
+  geom_point() +
+  geom_smooth(data=line_max_min,aes(x=series, y=duration,color=condition))
 duration_condition.plot
 
+#Duration Summary
+duration_summary <- line_max_min %>%
+  filter(series<61) %>%
+  group_by(subj) %>%
+  cbind(summarize(sub_mean=mean(duration))) %>%
+  ungroup() %>%
+  mutate(z_score=duration/sub_sd)%>%
+  group_by(condition, series) %>%
+  summarise(mean=mean(duration))
 
+duration_summary
+
+duration_summary.plot = ggplot(duration_summary,
+                                 aes(x=series,
+                                     y=mean,
+                                     color=condition)) +
+  geom_point(aes(size=4)) +
+  geom_smooth()
+
+duration_summary.plot
+
+#Duration P-val plots
 dur_pvals.plot = ggplot(dur_pvals_clean,aes(x=as.numeric(series),y=as.numeric(pval))) +
   geom_point(aes(color=test_type.f),size=3)+
   scale_y_reverse(limits=c(.05,0)) +
@@ -154,4 +181,3 @@ nc_vs_dn_p.plot
 #DN vs negsub
 
 #Negsub vs Negob
-

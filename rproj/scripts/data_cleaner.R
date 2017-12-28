@@ -12,7 +12,7 @@ subj_meta_data = read.table("data/subj_meta.csv",header = T, sep = ",")
 ## CLEAN UP TABLES TO ONLY INCLUDE 1ST 6 SYLLS #
 maxmin_clean = line_max_min[, c(1,6:9)] %>% 
   arrange(unique) %>%
-  filter(series < 60) %>%
+  filter(series < 61) %>%
   ungroup()
 
 summ <- data_clean %>%
@@ -27,7 +27,7 @@ meta_clean = subj_meta_data %>%
   cbind(duration_sd=summ$`sd(duration, na.rm = TRUE)`)
 
 f0_over_time_clean = f0_over_time %>% 
-  filter(series < 60)
+  filter(series < 61)
 
 # Combine three data frames
 data_clean = meta_clean %>%

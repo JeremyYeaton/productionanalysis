@@ -1,0 +1,6 @@
+Condition     mean       SD
+   <fctr>    <dbl>    <dbl>
+1        dn 167.8117 63.41876
+2        nc 156.7921 65.15172
+3     negob 153.2326 65.69514
+4    negsub 143.9549 59.88083

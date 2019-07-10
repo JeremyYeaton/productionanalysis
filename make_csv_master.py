@@ -71,6 +71,7 @@ for s in subjects:
 		sum_of_squares += (demeaned_keyval)**2
 	subj_var = sum_of_squares/(len(sublines)-1)
 	subj_stdev = subj_var**0.5
+	subj_mean_duration = 
 #append to data dictionary
 	data[s].append([subj_mean,subj_var,subj_stdev])
 	for line in sublines:

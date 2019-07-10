@@ -1,0 +1,1121 @@
+subject	item	response	rt	category	condition	truthVal	Check	PrsntOrd	check_mm
+100	16	V	14.96	Critical2 DN	dn	V	T	1	dn
+100	6	V	8.404	Critical1 NC	nc	V	T	4	nc
+100	7	F	9.105	Critical1 NC	nc	F	T	7	nc
+100	9	V	6.81	Critical2 DN	dn	V	T	9	dn
+100	13	V	9.457	Critical2 DN	dn	V	T	12	dn
+100	8	F	35.24	Critical1 NC	nc	F	T	15	nc
+100	10	F	6.842	Critical2 DN	dn	F	T	17	dn
+100	4	V	22.08	Critical1 NC	nc	V	T	20	nc
+100	5	F	5.017	Critical1 NC	nc	F	T	21	nc
+100	11	V	20.25	Critical2 DN	dn	V	T	23	dn
+100	14	F	9.01	Critical2 DN	dn	F	T	28	dn
+100	3	V	6.682	Critical1 NC	nc	V	T	30	nc
+100	2	V	7.322	Critical1 NC	nc	V	T	34	nc
+100	12	F	7.457	Critical2 DN	dn	F	T	35	dn
+100	15	F	4.483	Critical2 DN	dn	F	T	37	dn
+100	1	V	14.71	Critical1 NC	nc	F	F	39	nc_mm
+100	17	V	4.291	Critical3 NegOb	negob	V	T	33	0
+100	18	V	6.194	Critical3 NegOb	negob	V	T	8	0
+100	19	F	4.156	Critical3 NegOb	negob	F	T	36	0
+100	20	F	4.139	Critical3 NegOb	negob	F	T	19	0
+100	21	F	3.723	Critical3 NegOb	negob	F	T	27	0
+100	22	V	5.931	Critical3 NegOb	negob	V	T	3	0
+100	23	V	23.38	Critical3 NegOb	negob	V	T	24	0
+100	24	F	7.779	Critical3 NegOb	negob	F	T	11	0
+100	25	V	10.96	Critical4 NegSub	negsub	V	T	32	0
+100	26	F	8.716	Critical4 NegSub	negsub	F	T	10	0
+100	27	V	4.924	Critical4 NegSub	negsub	V	T	2	0
+100	28	V	7.73	Critical4 NegSub	negsub	V	T	40	0
+100	29	V	10.01	Critical4 NegSub	negsub	V	T	14	0
+100	30	F	22.75	Critical4 NegSub	negsub	F	T	16	0
+100	31	F	6.01	Critical4 NegSub	negsub	F	T	22	0
+100	32	F	3.81	Critical4 NegSub	negsub	F	T	26	0
+100	33	F	3.995	Control	filler	F	T	5	0
+100	34	V	4.571	Control	filler	V	T	31	0
+100	35	F	2.091	Control	filler	F	T	38	0
+100	36	F	3.06	Control	filler	F	T	29	0
+100	37	V	4.291	Control	filler	V	T	13	0
+100	38	F	3.907	Control	filler	F	T	18	0
+100	39	V	5.858	Control	filler	V	T	25	0
+100	40	V	5.362	Control	filler	V	T	6	0
+101	12	F	8.714	Critical2 DN	dn	F	T	3	dn
+101	6	V	4.322	Critical1 NC	nc	V	T	5	nc
+101	13	F	12.59	Critical2 DN	dn	V	F	6	dn_mm
+101	7	F	5.162	Critical1 NC	nc	F	T	9	nc
+101	3	V	5.483	Critical1 NC	nc	V	T	12	nc
+101	9	V	9.715	Critical2 DN	dn	V	T	14	dn
+101	1	F	6.138	Critical1 NC	nc	F	T	16	nc
+101	15	V	5.417	Critical2 DN	dn	F	F	18	dn_mm
+101	10	F	5.234	Critical2 DN	dn	F	T	22	dn
+101	8	F	6.075	Critical1 NC	nc	F	T	24	nc
+101	4	V	5.034	Critical1 NC	nc	V	T	26	nc
+101	14	F	5.154	Critical2 DN	dn	F	T	27	dn
+101	11	V	6.49	Critical2 DN	dn	V	T	33	dn
+101	5	F	5.954	Critical1 NC	nc	F	T	34	nc
+101	2	V	5.082	Critical1 NC	nc	V	T	36	nc
+101	16	V	6.322	Critical2 DN	dn	V	T	40	dn
+101	17	V	6.578	Critical3 NegOb	negob	V	T	30	0
+101	18	V	3.714	Critical3 NegOb	negob	V	T	23	0
+101	19	F	5.467	Critical3 NegOb	negob	F	T	4	0
+101	20	F	4.738	Critical3 NegOb	negob	F	T	10	0
+101	21	F	5.243	Critical3 NegOb	negob	F	T	15	0
+101	22	V	3.555	Critical3 NegOb	negob	V	T	19	0
+101	23	V	6.42	Critical3 NegOb	negob	V	T	35	0
+101	24	F	5.562	Critical3 NegOb	negob	F	T	38	0
+101	25	V	5.802	Critical4 NegSub	negsub	V	T	8	0
+101	26	F	5.674	Critical4 NegSub	negsub	F	T	32	0
+101	27	V	5.026	Critical4 NegSub	negsub	V	T	29	0
+101	28	V	8.77	Critical4 NegSub	negsub	V	T	17	0
+101	29	V	8.034	Critical4 NegSub	negsub	V	T	2	0
+101	30	F	5.722	Critical4 NegSub	negsub	F	T	39	0
+101	31	F	3.85	Critical4 NegSub	negsub	F	T	21	0
+101	32	F	5.476	Critical4 NegSub	negsub	F	T	13	0
+101	33	F	3.97	Control	filler	F	T	37	0
+101	34	V	8.921	Control	filler	V	T	1	0
+101	35	F	3.81	Control	filler	F	T	28	0
+101	36	F	4.138	Control	filler	F	T	11	0
+101	37	V	4.3	Control	filler	V	T	7	0
+101	38	F	2.506	Control	filler	F	T	20	0
+101	39	V	4.395	Control	filler	V	T	25	0
+101	40	V	3.25	Control	filler	V	T	31	0
+102	5	F	5.516	Critical1 NC	nc	F	T	4	nc
+102	14	F	5.608	Critical2 DN	dn	F	T	5	dn
+102	7	F	5.53	Critical1 NC	nc	F	T	8	nc
+102	12	F	6.93	Critical2 DN	dn	F	T	10	dn
+102	15	V	4.778	Critical2 DN	dn	F	F	11	dn_mm
+102	2	V	3.332	Critical1 NC	nc	V	T	15	nc
+102	13	F	6.363	Critical2 DN	dn	V	F	17	dn_mm
+102	6	V	4.555	Critical1 NC	nc	V	T	18	nc
+102	8	F	3.986	Critical1 NC	nc	F	T	21	nc
+102	16	V	4.219	Critical2 DN	dn	V	T	25	dn
+102	3	V	2.667	Critical1 NC	nc	V	T	26	nc
+102	9	V	3.259	Critical2 DN	dn	V	T	29	dn
+102	1	F	2.955	Critical1 NC	nc	F	T	32	nc
+102	11	F	6.163	Critical2 DN	dn	V	F	35	dn_mm
+102	4	V	2.378	Critical1 NC	nc	V	T	36	nc
+102	10	F	3.194	Critical2 DN	dn	F	T	37	dn
+102	17	V	4.258	Critical3 NegOb	negob	V	T	33	0
+102	18	V	3.634	Critical3 NegOb	negob	V	T	30	0
+102	19	F	2.962	Critical3 NegOb	negob	F	T	14	0
+102	20	F	8.713	Critical3 NegOb	negob	F	T	1	0
+102	21	F	5.107	Critical3 NegOb	negob	F	T	7	0
+102	22	V	2.427	Critical3 NegOb	negob	V	T	20	0
+102	23	V	3.609	Critical3 NegOb	negob	V	T	23	0
+102	24	F	4.042	Critical3 NegOb	negob	F	T	38	0
+102	25	V	4.226	Critical4 NegSub	negsub	V	T	16	0
+102	26	F	3.562	Critical4 NegSub	negsub	F	T	22	0
+102	27	V	5.259	Critical4 NegSub	negsub	V	T	39	0
+102	28	V	4.467	Critical4 NegSub	negsub	V	T	6	0
+102	29	V	5.17	Critical4 NegSub	negsub	V	T	12	0
+102	30	F	4.555	Critical4 NegSub	negsub	F	T	27	0
+102	31	F	2.995	Critical4 NegSub	negsub	F	T	3	0
+102	32	F	2.578	Critical4 NegSub	negsub	F	T	31	0
+102	33	F	2.235	Control	filler	F	T	13	0
+102	34	V	3.226	Control	filler	V	T	40	0
+102	35	F	1.786	Control	filler	F	T	24	0
+102	36	F	6.106	Control	filler	F	T	2	0
+102	37	V	2.866	Control	filler	V	T	28	0
+102	38	V	3.059	Control	filler	F	F	34	0
+102	39	V	3.427	Control	filler	V	T	19	0
+102	40	V	3.465	Control	filler	V	T	9	0
+103	4	V	10	Critical1 NC	nc	V	T	1	nc
+103	9	V	6.109	Critical2 DN	dn	V	T	2	dn
+103	6	V	4.169	Critical1 NC	nc	V	T	7	nc
+103	14	V	5.137	Critical2 DN	dn	F	F	8	dn_mm
+103	1	F	5.027	Critical1 NC	nc	F	T	12	nc
+103	13	F	7.653	Critical2 DN	dn	V	F	13	dn_mm
+103	8	F	4.167	Critical1 NC	nc	F	T	17	nc
+103	11	F	6.429	Critical2 DN	dn	V	F	20	dn_mm
+103	12	F	5.436	Critical2 DN	dn	F	T	22	dn
+103	5	F	4.868	Critical1 NC	nc	F	T	23	nc
+103	10	F	4.38	Critical2 DN	dn	F	T	28	dn
+103	3	V	3.417	Critical1 NC	nc	V	T	30	nc
+103	7	F	5.071	Critical1 NC	nc	F	T	32	nc
+103	15	V	6.782	Critical2 DN	dn	F	F	34	dn_mm
+103	16	F	8.27	Critical2 DN	dn	V	F	37	dn_mm
+103	2	V	3.307	Critical1 NC	nc	V	T	40	nc
+103	17	V	5.295	Critical3 NegOb	negob	V	T	39	0
+103	18	V	5.967	Critical3 NegOb	negob	V	T	33	0
+103	19	F	3.781	Critical3 NegOb	negob	F	T	25	0
+103	20	F	4.231	Critical3 NegOb	negob	F	T	26	0
+103	21	F	6.351	Critical3 NegOb	negob	F	T	9	0
+103	22	V	3.069	Critical3 NegOb	negob	V	T	18	0
+103	23	V	4.197	Critical3 NegOb	negob	V	T	5	0
+103	24	F	4.49	Critical3 NegOb	negob	F	T	15	0
+103	25	V	5.687	Critical4 NegSub	negsub	V	T	19	0
+103	26	F	4.44	Critical4 NegSub	negsub	F	T	35	0
+103	27	V	12.61	Critical4 NegSub	negsub	V	T	24	0
+103	28	V	5.68	Critical4 NegSub	negsub	V	T	6	0
+103	29	V	6.392	Critical4 NegSub	negsub	V	T	4	0
+103	30	F	4.868	Critical4 NegSub	negsub	F	T	38	0
+103	31	F	3.612	Critical4 NegSub	negsub	F	T	14	0
+103	32	F	4.503	Critical4 NegSub	negsub	F	T	27	0
+103	33	F	3.687	Control	filler	F	T	3	0
+103	34	V	4.861	Control	filler	V	T	21	0
+103	35	F	3.781	Control	filler	F	T	11	0
+103	36	F	2.805	Control	filler	F	T	31	0
+103	37	V	3.087	Control	filler	V	T	16	0
+103	38	F	1.575	Control	filler	F	T	29	0
+103	39	V	6.989	Control	filler	V	T	10	0
+103	40	V	2.753	Control	filler	V	T	36	0
+104	6	V	15.55	Critical1 NC	nc	V	T	3	nc
+104	14	V	23.38	Critical2 DN	dn	F	F	4	dn_mm
+104	11	F	15.87	Critical2 DN	dn	V	F	7	dn_mm
+104	4	V	14.55	Critical1 NC	nc	V	T	8	nc
+104	5	F	7.538	Critical1 NC	nc	F	T	12	nc
+104	9	F	14.08	Critical2 DN	dn	V	F	15	dn_mm
+104	3	V	5.194	Critical1 NC	nc	V	T	18	nc
+104	13	F	7.735	Critical2 DN	dn	V	F	19	dn_mm
+104	12	F	12.53	Critical2 DN	dn	F	T	23	dn
+104	7	F	7.332	Critical1 NC	nc	F	T	24	nc
+104	8	F	7.187	Critical1 NC	nc	F	T	27	nc
+104	16	F	7.779	Critical2 DN	dn	V	F	30	dn_mm
+104	15	F	100	Critical2 DN	dn	F	T	31	dn
+104	1	F	8.936	Critical1 NC	nc	F	T	34	nc
+104	10	V	9.022	Critical2 DN	dn	F	F	37	dn_mm
+104	2	F	4.992	Critical1 NC	nc	V	F	40	nc_mm
+104	17	F	11.91	Critical3 NegOb	negob	V	F	5	0
+104	18	F	6.007	Critical3 NegOb	negob	V	F	20	0
+104	19	F	16.79	Critical3 NegOb	negob	F	T	21	0
+104	20	F	4.076	Critical3 NegOb	negob	F	T	33	0
+104	21	F	9.97	Critical3 NegOb	negob	F	T	29	0
+104	22	V	2.973	Critical3 NegOb	negob	V	T	39	0
+104	23	V	13.62	Critical3 NegOb	negob	V	T	6	0
+104	24	F	6.239	Critical3 NegOb	negob	F	T	14	0
+104	25	F	32.38	Critical4 NegSub	negsub	V	F	1	0
+104	26	F	33.87	Critical4 NegSub	negsub	F	T	38	0
+104	27	V	12.32	Critical4 NegSub	negsub	V	T	32	0
+104	28	V	19.87	Critical4 NegSub	negsub	V	T	16	0
+104	29	V	4.664	Critical4 NegSub	negsub	V	T	26	0
+104	30	F	14.21	Critical4 NegSub	negsub	F	T	10	0
+104	31	F	4.409	Critical4 NegSub	negsub	F	T	11	0
+104	32	F	6.551	Critical4 NegSub	negsub	F	T	25	0
+104	33	F	5.696	Control	filler	F	T	2	0
+104	34	V	3.767	Control	filler	V	T	13	0
+104	35	F	3.26	Control	filler	F	T	35	0
+104	36	F	3.424	Control	filler	F	T	28	0
+104	37	V	4.359	Control	filler	V	T	36	0
+104	38	F	3.407	Control	filler	F	T	22	0
+104	39	V	8.204	Control	filler	V	T	9	0
+104	40	V	4.254	Control	filler	V	T	17	0
+105	2	V	5.187	Critical1 NC	nc	V	T	4	nc
+105	11	V	5.448	Critical2 DN	dn	V	T	5	dn
+105	9	V	6.01	Critical2 DN	dn	V	T	6	dn
+105	6	V	4.411	Critical1 NC	nc	V	T	7	nc
+105	3	V	3.7	Critical1 NC	nc	V	T	13	nc
+105	13	V	6.488	Critical2 DN	dn	V	T	15	dn
+105	5	F	5.618	Critical1 NC	nc	F	T	16	nc
+105	10	F	4.641	Critical2 DN	dn	F	T	20	dn
+105	8	F	3.858	Critical1 NC	nc	F	T	21	nc
+105	15	F	5.203	Critical2 DN	dn	F	T	22	dn
+105	7	F	3.795	Critical1 NC	nc	F	T	26	nc
+105	16	V	5.642	Critical2 DN	dn	V	T	28	dn
+105	14	F	3.723	Critical2 DN	dn	F	T	32	dn
+105	1	F	3.241	Critical1 NC	nc	F	T	33	nc
+105	4	V	2.866	Critical1 NC	nc	V	T	36	nc
+105	12	F	4.77	Critical2 DN	dn	F	T	38	dn
+105	17	V	4.676	Critical3 NegOb	negob	V	T	31	0
+105	18	V	5.394	Critical3 NegOb	negob	V	T	9	0
+105	19	F	2.738	Critical3 NegOb	negob	F	T	29	0
+105	20	F	2.884	Critical3 NegOb	negob	F	T	18	0
+105	21	F	4.394	Critical3 NegOb	negob	F	T	39	0
+105	22	V	3.163	Critical3 NegOb	negob	V	T	14	0
+105	23	V	3.628	Critical3 NegOb	negob	V	T	3	0
+105	24	F	3.539	Critical3 NegOb	negob	F	T	23	0
+105	25	V	4.963	Critical4 NegSub	negsub	V	T	37	0
+105	26	F	6.661	Critical4 NegSub	negsub	F	T	2	0
+105	27	V	4.266	Critical4 NegSub	negsub	V	T	34	0
+105	28	V	3.425	Critical4 NegSub	negsub	V	T	11	0
+105	29	V	4.836	Critical4 NegSub	negsub	V	T	30	0
+105	30	F	5.459	Critical4 NegSub	negsub	F	T	8	0
+105	31	F	5.546	Critical4 NegSub	negsub	F	T	25	0
+105	32	F	4.354	Critical4 NegSub	negsub	F	T	19	0
+105	33	F	2.403	Control	filler	F	T	10	0
+105	34	V	4.85	Control	filler	V	T	27	0
+105	35	F	7.609	Control	filler	F	T	1	0
+105	36	F	3.506	Control	filler	F	T	24	0
+105	37	V	2.826	Control	filler	V	T	12	0
+105	38	F	2.521	Control	filler	F	T	40	0
+105	39	V	3.643	Control	filler	V	T	17	0
+105	40	V	2.93	Control	filler	V	T	35	0
+106	4	F	4.889	Critical1 NC	nc	V	F	2	nc_mm
+106	11	F	8.049	Critical2 DN	dn	V	F	4	dn_mm
+106	16	V	5.714	Critical2 DN	dn	V	T	8	dn
+106	3	V	4.45	Critical1 NC	nc	V	T	10	nc
+106	10	V	5.362	Critical2 DN	dn	F	F	12	dn_mm
+106	8	F	6.138	Critical1 NC	nc	F	T	14	nc
+106	14	V	7.891	Critical2 DN	dn	F	F	16	dn_mm
+106	7	F	4.179	Critical1 NC	nc	F	T	18	nc
+106	1	F	7.859	Critical1 NC	nc	F	T	23	nc
+106	13	V	6.034	Critical2 DN	dn	V	T	25	dn
+106	5	F	3.891	Critical1 NC	nc	F	T	28	nc
+106	15	F	4.05	Critical2 DN	dn	F	T	30	dn
+106	9	F	4.483	Critical2 DN	dn	V	F	31	dn_mm
+106	2	V	2.411	Critical1 NC	nc	V	T	33	nc
+106	12	V	4.315	Critical2 DN	dn	F	F	37	dn_mm
+106	6	V	2.835	Critical1 NC	nc	V	T	38	nc
+106	17	V	5.651	Critical3 NegOb	negob	V	T	6	0
+106	18	V	4.483	Critical3 NegOb	negob	V	T	26	0
+106	19	F	5.411	Critical3 NegOb	negob	F	T	13	0
+106	20	F	2.45	Critical3 NegOb	negob	F	T	20	0
+106	21	F	7.875	Critical3 NegOb	negob	F	T	32	0
+106	22	V	1.882	Critical3 NegOb	negob	V	T	36	0
+106	23	V	6.138	Critical3 NegOb	negob	V	T	21	0
+106	24	F	6.073	Critical3 NegOb	negob	F	T	3	0
+106	25	V	4.578	Critical4 NegSub	negsub	V	T	40	0
+106	26	F	5.851	Critical4 NegSub	negsub	F	T	35	0
+106	27	V	3.659	Critical4 NegSub	negsub	V	T	19	0
+106	28	V	8.903	Critical4 NegSub	negsub	V	T	1	0
+106	29	V	5.98	Critical4 NegSub	negsub	V	T	22	0
+106	30	F	5.098	Critical4 NegSub	negsub	F	T	11	0
+106	31	F	3.515	Critical4 NegSub	negsub	F	T	29	0
+106	32	F	7.467	Critical4 NegSub	negsub	F	T	9	0
+106	33	F	1.634	Control	filler	F	T	39	0
+106	34	V	2.699	Control	filler	V	T	34	0
+106	35	F	2.051	Control	filler	F	T	17	0
+106	36	F	4.067	Control	filler	F	T	15	0
+106	37	V	3.483	Control	filler	V	T	24	0
+106	38	F	3.035	Control	filler	F	T	5	0
+106	39	V	6.098	Control	filler	V	T	27	0
+106	40	F	3.578	Control	filler	V	F	7	0
+107	5	F	5.833	Critical1 NC	nc	F	T	4	nc
+107	13	F	5.154	Critical2 DN	dn	V	F	5	dn_mm
+107	14	F	6.417	Critical2 DN	dn	F	T	6	dn
+107	4	V	3.555	Critical1 NC	nc	V	T	9	nc
+107	7	F	4.171	Critical1 NC	nc	F	T	12	nc
+107	16	V	5.69	Critical2 DN	dn	V	T	13	dn
+107	8	F	3.77	Critical1 NC	nc	F	T	17	nc
+107	15	F	6.019	Critical2 DN	dn	F	T	18	dn
+107	3	V	3.89	Critical1 NC	nc	V	T	21	nc
+107	11	V	3.754	Critical2 DN	dn	V	T	24	dn
+107	2	V	3.69	Critical1 NC	nc	V	T	26	nc
+107	12	F	4.322	Critical2 DN	dn	F	T	28	dn
+107	6	V	3.786	Critical1 NC	nc	V	T	32	nc
+107	10	F	5.562	Critical2 DN	dn	F	T	33	dn
+107	9	V	5.243	Critical2 DN	dn	V	T	36	dn
+107	1	F	3.195	Critical1 NC	nc	F	T	38	nc
+107	17	V	3.306	Critical3 NegOb	negob	V	T	27	0
+107	18	V	3.723	Critical3 NegOb	negob	V	T	40	0
+107	19	F	4.066	Critical3 NegOb	negob	F	T	7	0
+107	20	F	3.85	Critical3 NegOb	negob	F	T	3	0
+107	21	F	3.435	Critical3 NegOb	negob	F	T	34	0
+107	22	V	3.939	Critical3 NegOb	negob	V	T	19	0
+107	23	V	3.819	Critical3 NegOb	negob	V	T	15	0
+107	24	F	3.948	Critical3 NegOb	negob	F	T	22	0
+107	25	V	3.947	Critical4 NegSub	negsub	V	T	37	0
+107	26	F	4.22	Critical4 NegSub	negsub	F	T	8	0
+107	27	V	4.042	Critical4 NegSub	negsub	V	T	30	0
+107	28	V	8.164	Critical4 NegSub	negsub	V	T	35	0
+107	29	V	11.28	Critical4 NegSub	negsub	V	T	1	0
+107	30	F	3.69	Critical4 NegSub	negsub	F	T	23	0
+107	31	F	3.483	Critical4 NegSub	negsub	F	T	20	0
+107	32	F	4.899	Critical4 NegSub	negsub	F	T	14	0
+107	33	F	3.322	Control	filler	F	T	2	0
+107	34	V	4.163	Control	filler	V	T	25	0
+107	35	F	2.18	Control	filler	F	T	31	0
+107	36	F	3.971	Control	filler	F	T	16	0
+107	37	V	3.627	Control	filler	V	T	29	0
+107	38	V	2.643	Control	filler	F	F	10	0
+107	39	V	4.003	Control	filler	V	T	39	0
+107	40	V	3.217	Control	filler	V	T	11	0
+108	10	V	11.66	Critical2 DN	dn	F	F	2	dn_mm
+108	6	V	8.787	Critical1 NC	nc	V	T	4	nc
+108	15	V	10.57	Critical2 DN	dn	F	F	7	dn_mm
+108	3	V	5.739	Critical1 NC	nc	V	T	10	nc
+108	1	F	6.745	Critical1 NC	nc	F	T	11	nc
+108	9	F	8.29	Critical2 DN	dn	V	F	14	dn_mm
+108	5	F	9.924	Critical1 NC	nc	F	T	16	nc
+108	11	F	6.186	Critical2 DN	dn	V	F	20	dn_mm
+108	7	F	7.051	Critical1 NC	nc	F	T	21	nc
+108	16	F	14.24	Critical2 DN	dn	V	F	24	dn_mm
+108	12	F	11.41	Critical2 DN	dn	F	T	27	dn
+108	2	V	5.748	Critical1 NC	nc	V	T	29	nc
+108	8	F	5.676	Critical1 NC	nc	F	T	31	nc
+108	13	F	13.05	Critical2 DN	dn	V	F	33	dn_mm
+108	14	F	6.811	Critical2 DN	dn	F	T	39	dn
+108	4	V	3.467	Critical1 NC	nc	V	T	40	nc
+108	17	V	5.082	Critical3 NegOb	negob	V	T	35	0
+108	18	V	6.378	Critical3 NegOb	negob	V	T	15	0
+108	19	F	10.29	Critical3 NegOb	negob	F	T	18	0
+108	20	F	8.274	Critical3 NegOb	negob	F	T	25	0
+108	21	F	9.378	Critical3 NegOb	negob	F	T	6	0
+108	22	V	4.205	Critical3 NegOb	negob	V	T	5	0
+108	23	V	8.53	Critical3 NegOb	negob	V	T	26	0
+108	24	F	7.849	Critical3 NegOb	negob	F	T	36	0
+108	25	V	8.42	Critical4 NegSub	negsub	V	T	28	0
+108	26	F	10.55	Critical4 NegSub	negsub	F	T	37	0
+108	27	V	7.914	Critical4 NegSub	negsub	V	T	8	0
+108	28	V	12.81	Critical4 NegSub	negsub	V	T	19	0
+108	29	V	7.94	Critical4 NegSub	negsub	V	T	22	0
+108	30	F	6.907	Critical4 NegSub	negsub	F	T	34	0
+108	31	F	13.36	Critical4 NegSub	negsub	F	T	1	0
+108	32	F	7.979	Critical4 NegSub	negsub	F	T	13	0
+108	33	F	4.867	Control	filler	F	T	3	0
+108	34	V	9.21	Control	filler	V	T	9	0
+108	35	F	4.811	Control	filler	F	T	17	0
+108	36	F	5.97	Control	filler	F	T	23	0
+108	37	V	4.027	Control	filler	V	T	38	0
+108	38	F	4.907	Control	filler	F	T	12	0
+108	39	V	7.619	Control	filler	V	T	30	0
+108	40	V	8.292	Control	filler	V	T	32	0
+109	7	F	3.987	Critical1 NC	nc	F	T	2	nc
+109	16	V	5.763	Critical2 DN	dn	V	T	4	dn
+109	12	F	4.45	Critical2 DN	dn	F	T	7	dn
+109	8	F	3.138	Critical1 NC	nc	F	T	9	nc
+109	13	V	6.723	Critical2 DN	dn	V	T	11	dn
+109	2	V	5.059	Critical1 NC	nc	V	T	14	nc
+109	4	V	2.243	Critical1 NC	nc	V	T	17	nc
+109	15	V	3.394	Critical2 DN	dn	F	F	20	dn_mm
+109	11	F	5.13	Critical2 DN	dn	V	F	21	dn_mm
+109	1	F	5.202	Critical1 NC	nc	F	T	25	nc
+109	14	F	5.226	Critical2 DN	dn	F	T	26	dn
+109	6	F	3.299	Critical1 NC	nc	V	F	28	nc_mm
+109	9	V	3.426	Critical2 DN	dn	V	T	31	dn
+109	5	F	3.321	Critical1 NC	nc	F	T	34	nc
+109	10	F	3.683	Critical2 DN	dn	F	T	37	dn
+109	3	V	7.62	Critical1 NC	nc	V	T	38	nc
+109	17	V	3.538	Critical3 NegOb	negob	V	T	13	0
+109	18	F	2.697	Critical3 NegOb	negob	V	F	39	0
+109	19	F	3.042	Critical3 NegOb	negob	F	T	32	0
+109	20	F	2.475	Critical3 NegOb	negob	F	T	27	0
+109	21	F	4.859	Critical3 NegOb	negob	F	T	5	0
+109	22	V	3.923	Critical3 NegOb	negob	V	T	8	0
+109	23	V	7.098	Critical3 NegOb	negob	V	T	22	0
+109	24	F	2.466	Critical3 NegOb	negob	F	T	19	0
+109	25	F	4.594	Critical4 NegSub	negsub	V	F	29	0
+109	26	F	3.387	Critical4 NegSub	negsub	F	T	33	0
+109	27	V	9.051	Critical4 NegSub	negsub	V	T	1	0
+109	28	F	4.483	Critical4 NegSub	negsub	V	F	23	0
+109	29	V	3.628	Critical4 NegSub	negsub	V	T	10	0
+109	30	F	3.282	Critical4 NegSub	negsub	F	T	40	0
+109	31	F	3.5	Critical4 NegSub	negsub	F	T	15	0
+109	32	F	2.916	Critical4 NegSub	negsub	F	T	18	0
+109	33	F	4.945	Control	filler	F	T	24	0
+109	34	F	3.491	Control	filler	V	F	36	0
+109	35	F	3.963	Control	filler	F	T	12	0
+109	36	F	3.066	Control	filler	F	T	16	0
+109	37	F	3.738	Control	filler	V	F	35	0
+109	38	F	3.954	Control	filler	F	T	30	0
+109	39	V	3.226	Control	filler	V	T	3	0
+109	40	V	4.187	Control	filler	V	T	6	0
+110	16	V	7.115	Critical2 DN	dn	V	T	2	dn
+110	1	F	8.052	Critical1 NC	nc	F	T	5	nc
+110	4	V	6.771	Critical1 NC	nc	V	T	7	nc
+110	14	F	11.03	Critical2 DN	dn	F	T	8	dn
+110	9	V	6.474	Critical2 DN	dn	V	T	11	dn
+110	8	F	7.146	Critical1 NC	nc	F	T	15	nc
+110	13	V	16.39	Critical2 DN	dn	V	T	19	dn
+110	3	V	5.619	Critical1 NC	nc	V	T	20	nc
+110	11	V	6.171	Critical2 DN	dn	V	T	21	dn
+110	2	V	5.187	Critical1 NC	nc	V	T	23	nc
+110	10	F	7.018	Critical2 DN	dn	F	T	26	dn
+110	5	F	8.722	Critical1 NC	nc	F	T	30	nc
+110	7	F	3.928	Critical1 NC	nc	F	T	32	nc
+110	15	F	7.29	Critical2 DN	dn	F	T	35	dn
+110	6	V	5.809	Critical1 NC	nc	V	T	37	nc
+110	12	F	6.97	Critical2 DN	dn	F	T	40	dn
+110	17	F	5.65	Critical3 NegOb	negob	V	F	13	0
+110	18	F	7.578	Critical3 NegOb	negob	V	F	16	0
+110	19	F	8.244	Critical3 NegOb	negob	F	T	1	0
+110	20	F	6.619	Critical3 NegOb	negob	F	T	22	0
+110	21	F	7.611	Critical3 NegOb	negob	F	T	10	0
+110	22	F	7.036	Critical3 NegOb	negob	V	F	29	0
+110	23	V	4.754	Critical3 NegOb	negob	V	T	33	0
+110	24	F	5.187	Critical3 NegOb	negob	F	T	38	0
+110	25	F	6.939	Critical4 NegSub	negsub	V	F	3	0
+110	26	F	5.139	Critical4 NegSub	negsub	F	T	31	0
+110	27	V	6.819	Critical4 NegSub	negsub	V	T	9	0
+110	28	F	6.883	Critical4 NegSub	negsub	V	F	36	0
+110	29	V	6.674	Critical4 NegSub	negsub	V	T	14	0
+110	30	F	7.451	Critical4 NegSub	negsub	F	T	28	0
+110	31	F	5.972	Critical4 NegSub	negsub	F	T	18	0
+110	32	F	7.075	Critical4 NegSub	negsub	F	T	24	0
+110	33	F	6.628	Control	filler	F	T	6	0
+110	34	V	8.483	Control	filler	V	T	27	0
+110	35	F	5.665	Control	filler	F	T	25	0
+110	36	F	6.338	Control	filler	F	T	12	0
+110	37	V	5.212	Control	filler	V	T	4	0
+110	38	F	4.619	Control	filler	F	T	39	0
+110	39	V	13.48	Control	filler	V	T	17	0
+110	40	V	7.689	Control	filler	V	T	34	0
+111	1	F	13.92	Critical1 NC	nc	F	T	1	nc
+111	12	F	7.258	Critical2 DN	dn	F	T	3	dn
+111	3	V	7.779	Critical1 NC	nc	V	T	7	nc
+111	16	V	9.993	Critical2 DN	dn	V	T	9	dn
+111	8	F	7.154	Critical1 NC	nc	F	T	12	nc
+111	11	V	6.875	Critical2 DN	dn	V	T	15	dn
+111	15	F	4.587	Critical2 DN	dn	F	T	16	dn
+111	4	V	3.978	Critical1 NC	nc	V	T	18	nc
+111	2	V	5.57	Critical1 NC	nc	V	T	21	nc
+111	13	V	10.93	Critical2 DN	dn	V	T	23	dn
+111	14	F	5.602	Critical2 DN	dn	F	T	27	dn
+111	5	F	6.019	Critical1 NC	nc	F	T	30	nc
+111	7	F	6.411	Critical1 NC	nc	F	T	32	nc
+111	9	V	10.6	Critical2 DN	dn	V	T	35	dn
+111	10	F	4.801	Critical2 DN	dn	F	T	37	dn
+111	6	V	4.113	Critical1 NC	nc	V	T	38	nc
+111	17	V	5.85	Critical3 NegOb	negob	V	T	13	0
+111	18	V	6.674	Critical3 NegOb	negob	V	T	26	0
+111	19	F	3.442	Critical3 NegOb	negob	F	T	10	0
+111	20	F	3.409	Critical3 NegOb	negob	F	T	36	0
+111	21	F	4.642	Critical3 NegOb	negob	F	T	25	0
+111	22	V	5.915	Critical3 NegOb	negob	V	T	2	0
+111	23	V	4.172	Critical3 NegOb	negob	V	T	17	0
+111	24	F	4.802	Critical3 NegOb	negob	F	T	34	0
+111	25	V	7.473	Critical4 NegSub	negsub	V	T	4	0
+111	26	F	7.13	Critical4 NegSub	negsub	F	T	40	0
+111	27	V	4.642	Critical4 NegSub	negsub	V	T	28	0
+111	28	V	4.635	Critical4 NegSub	negsub	V	T	14	0
+111	29	V	6.643	Critical4 NegSub	negsub	V	T	8	0
+111	30	F	7.875	Critical4 NegSub	negsub	F	T	19	0
+111	31	F	3.482	Critical4 NegSub	negsub	F	T	33	0
+111	32	F	3.69	Critical4 NegSub	negsub	F	T	24	0
+111	33	F	3.794	Control	filler	F	T	5	0
+111	34	V	5.81	Control	filler	V	T	39	0
+111	35	F	2.955	Control	filler	F	T	29	0
+111	36	F	3.986	Control	filler	F	T	31	0
+111	37	V	3.276	Control	filler	V	T	11	0
+111	38	F	3.467	Control	filler	F	T	20	0
+111	39	V	3.882	Control	filler	V	T	22	0
+111	40	V	4.38	Control	filler	V	T	6	0
+112	14	F	7.012	Critical2 DN	dn	F	T	2	dn
+112	8	F	7.754	Critical1 NC	nc	F	T	4	nc
+112	10	F	8.786	Critical2 DN	dn	F	T	9	dn
+112	6	V	3.89	Critical1 NC	nc	V	T	10	nc
+112	16	V	6.217	Critical2 DN	dn	V	T	11	dn
+112	4	F	9.819	Critical1 NC	nc	V	F	12	nc_mm
+112	11	V	5.394	Critical2 DN	dn	V	T	18	dn
+112	2	F	10.31	Critical1 NC	nc	V	F	19	nc_mm
+112	15	F	4.666	Critical2 DN	dn	F	T	21	dn
+112	1	F	4.059	Critical1 NC	nc	F	T	25	nc
+112	7	F	5.419	Critical1 NC	nc	F	T	27	nc
+112	9	V	5.131	Critical2 DN	dn	V	T	29	dn
+112	12	F	4.82	Critical2 DN	dn	F	T	32	dn
+112	5	F	4.082	Critical1 NC	nc	F	T	35	nc
+112	13	V	10.68	Critical2 DN	dn	V	T	39	dn
+112	3	V	3.058	Critical1 NC	nc	V	T	40	nc
+112	17	V	3.955	Critical3 NegOb	negob	V	T	13	0
+112	18	V	6.233	Critical3 NegOb	negob	V	T	3	0
+112	19	F	4.434	Critical3 NegOb	negob	F	T	8	0
+112	20	F	3.05	Critical3 NegOb	negob	F	T	24	0
+112	21	F	4.059	Critical3 NegOb	negob	F	T	16	0
+112	22	V	3.299	Critical3 NegOb	negob	V	T	33	0
+112	23	V	3.371	Critical3 NegOb	negob	V	T	28	0
+112	24	F	7.259	Critical3 NegOb	negob	F	T	36	0
+112	25	V	5.123	Critical4 NegSub	negsub	V	T	15	0
+112	26	F	4.625	Critical4 NegSub	negsub	F	T	23	0
+112	27	V	6.035	Critical4 NegSub	negsub	V	T	7	0
+112	28	V	3.418	Critical4 NegSub	negsub	V	T	34	0
+112	29	V	3.522	Critical4 NegSub	negsub	V	T	37	0
+112	30	F	5.355	Critical4 NegSub	negsub	F	T	20	0
+112	31	F	3.355	Critical4 NegSub	negsub	F	T	30	0
+112	32	F	9.371	Critical4 NegSub	negsub	F	T	1	0
+112	33	F	8.411	Control	filler	F	T	26	0
+112	34	V	3.97	Control	filler	V	T	22	0
+112	35	F	2.385	Control	filler	F	T	38	0
+112	36	F	5.833	Control	filler	F	T	5	0
+112	37	V	3.195	Control	filler	V	T	17	0
+112	38	F	2.491	Control	filler	F	T	14	0
+112	39	V	5.234	Control	filler	V	T	6	0
+112	40	V	3.771	Control	filler	V	T	31	0
+113	2	V	8.098	Critical1 NC	nc	V	T	3	nc
+113	13	V	19.36	Critical2 DN	dn	V	T	5	dn
+113	11	V	11.06	Critical2 DN	dn	V	T	9	dn
+113	6	F	14.53	Critical1 NC	nc	V	F	10	nc_mm
+113	15	F	10.36	Critical2 DN	dn	F	T	13	dn
+113	8	V	11.37	Critical1 NC	nc	F	F	14	nc_mm
+113	12	F	15.01	Critical2 DN	dn	F	T	16	dn
+113	7	V	10.84	Critical1 NC	nc	F	F	20	nc_mm
+113	14	F	6.98	Critical2 DN	dn	F	T	21	dn
+113	3	V	12.57	Critical1 NC	nc	V	T	24	nc
+113	1	F	8.243	Critical1 NC	nc	F	T	27	nc
+113	16	V	7.827	Critical2 DN	dn	V	T	28	dn
+113	4	V	5.233	Critical1 NC	nc	V	T	32	nc
+113	10	F	9.779	Critical2 DN	dn	F	T	33	dn
+113	5	F	10.41	Critical1 NC	nc	F	T	37	nc
+113	9	V	9.98	Critical2 DN	dn	V	T	38	dn
+113	17	V	6.01	Critical3 NegOb	negob	V	T	18	0
+113	18	V	5.362	Critical3 NegOb	negob	V	T	25	0
+113	19	F	3.788	Critical3 NegOb	negob	F	T	39	0
+113	20	F	6.146	Critical3 NegOb	negob	F	T	2	0
+113	21	F	5.691	Critical3 NegOb	negob	F	T	35	0
+113	22	V	3.947	Critical3 NegOb	negob	V	T	7	0
+113	23	V	4.17	Critical3 NegOb	negob	V	T	30	0
+113	24	F	7.993	Critical3 NegOb	negob	F	T	15	0
+113	25	V	17.59	Critical4 NegSub	negsub	V	T	1	0
+113	26	F	8.674	Critical4 NegSub	negsub	F	T	31	0
+113	27	V	9.796	Critical4 NegSub	negsub	V	T	40	0
+113	28	V	7.9	Critical4 NegSub	negsub	V	T	6	0
+113	29	V	7.801	Critical4 NegSub	negsub	V	T	19	0
+113	30	F	9.748	Critical4 NegSub	negsub	F	T	22	0
+113	31	F	5.026	Critical4 NegSub	negsub	F	T	11	0
+113	32	F	5.068	Critical4 NegSub	negsub	F	T	29	0
+113	33	F	3.787	Control	filler	F	T	23	0
+113	34	V	5.94	Control	filler	V	T	36	0
+113	35	F	2.796	Control	filler	F	T	12	0
+113	36	F	5.554	Control	filler	F	T	4	0
+113	37	V	5.506	Control	filler	V	T	17	0
+113	38	F	3.138	Control	filler	F	T	8	0
+113	39	V	10.42	Control	filler	V	T	26	0
+113	40	V	3.259	Control	filler	V	T	34	0
+114	11	F	19.9	Critical2 DN	dn	V	F	1	dn_mm
+114	1	F	7.347	Critical1 NC	nc	F	T	5	nc
+114	8	F	8.898	Critical1 NC	nc	F	T	7	nc
+114	15	V	7.026	Critical2 DN	dn	F	F	10	dn_mm
+114	16	V	7.539	Critical2 DN	dn	V	T	13	dn
+114	2	V	7.427	Critical1 NC	nc	V	T	14	nc
+114	10	F	5.825	Critical2 DN	dn	F	T	16	dn
+114	5	F	5.756	Critical1 NC	nc	F	T	17	nc
+114	13	F	7.763	Critical2 DN	dn	V	F	22	dn_mm
+114	4	V	3.202	Critical1 NC	nc	V	T	24	nc
+114	3	V	4.786	Critical1 NC	nc	V	T	27	nc
+114	14	V	6.756	Critical2 DN	dn	F	F	28	dn_mm
+114	6	V	5.93	Critical1 NC	nc	V	T	33	nc
+114	12	F	7.003	Critical2 DN	dn	F	T	35	dn
+114	7	F	4.713	Critical1 NC	nc	F	T	37	nc
+114	9	F	8.674	Critical2 DN	dn	V	F	40	dn_mm
+114	17	F	6.937	Critical3 NegOb	negob	V	F	15	0
+114	18	V	4.626	Critical3 NegOb	negob	V	T	21	0
+114	19	F	4.73	Critical3 NegOb	negob	F	T	4	0
+114	20	F	3.756	Critical3 NegOb	negob	F	T	34	0
+114	21	F	6.145	Critical3 NegOb	negob	F	T	9	0
+114	22	V	3.723	Critical3 NegOb	negob	V	T	30	0
+114	23	V	4.715	Critical3 NegOb	negob	V	T	18	0
+114	24	F	7.243	Critical3 NegOb	negob	F	T	36	0
+114	25	V	5.546	Critical4 NegSub	negsub	V	T	20	0
+114	26	F	4.539	Critical4 NegSub	negsub	F	T	23	0
+114	27	V	5.898	Critical4 NegSub	negsub	V	T	11	0
+114	28	V	5.707	Critical4 NegSub	negsub	V	T	32	0
+114	29	F	4.576	Critical4 NegSub	negsub	V	F	39	0
+114	30	F	7.595	Critical4 NegSub	negsub	F	T	3	0
+114	31	F	5.795	Critical4 NegSub	negsub	F	T	6	0
+114	32	F	6.482	Critical4 NegSub	negsub	F	T	26	0
+114	33	F	4.345	Control	filler	F	T	12	0
+114	34	V	8.961	Control	filler	V	T	29	0
+114	35	F	5.138	Control	filler	F	T	31	0
+114	36	F	4.779	Control	filler	F	T	38	0
+114	37	V	4.602	Control	filler	V	T	19	0
+114	38	F	4.098	Control	filler	F	T	25	0
+114	39	V	9.009	Control	filler	V	T	2	0
+114	40	V	4.754	Control	filler	V	T	8	0
+115	14	F	5.578	Critical2 DN	dn	F	T	3	dn
+115	7	F	13.27	Critical1 NC	nc	F	T	5	nc
+115	15	V	6.25	Critical2 DN	dn	F	F	6	dn_mm
+115	2	V	5.33	Critical1 NC	nc	V	T	9	nc
+115	10	F	6.835	Critical2 DN	dn	F	T	11	dn
+115	8	F	3.996	Critical1 NC	nc	F	T	14	nc
+115	1	F	5.434	Critical1 NC	nc	F	T	16	nc
+115	16	V	5.66	Critical2 DN	dn	V	T	19	dn
+115	5	F	7.604	Critical1 NC	nc	F	T	23	nc
+115	11	V	5.676	Critical2 DN	dn	V	T	24	dn
+115	13	V	6.219	Critical2 DN	dn	V	T	27	dn
+115	3	V	3.401	Critical1 NC	nc	V	T	28	nc
+115	9	V	4.483	Critical2 DN	dn	V	T	31	dn
+115	6	V	3.331	Critical1 NC	nc	V	T	32	nc
+115	12	F	5.299	Critical2 DN	dn	F	T	37	dn
+115	4	V	4.715	Critical1 NC	nc	V	T	40	nc
+115	17	V	3.554	Critical3 NegOb	negob	V	T	30	0
+115	18	V	3.923	Critical3 NegOb	negob	V	T	21	0
+115	19	F	4.514	Critical3 NegOb	negob	F	T	10	0
+115	20	F	3.434	Critical3 NegOb	negob	F	T	13	0
+115	21	F	11.07	Critical3 NegOb	negob	F	T	1	0
+115	22	V	2.674	Critical3 NegOb	negob	V	T	38	0
+115	23	V	3.281	Critical3 NegOb	negob	V	T	34	0
+115	24	F	4.634	Critical3 NegOb	negob	F	T	17	0
+115	25	V	5.115	Critical4 NegSub	negsub	V	T	20	0
+115	26	F	5.29	Critical4 NegSub	negsub	F	T	8	0
+115	27	V	3.699	Critical4 NegSub	negsub	V	T	39	0
+115	28	V	5.09	Critical4 NegSub	negsub	V	T	4	0
+115	29	V	4.73	Critical4 NegSub	negsub	V	T	26	0
+115	30	F	4.778	Critical4 NegSub	negsub	F	T	35	0
+115	31	F	2.899	Critical4 NegSub	negsub	F	T	25	0
+115	32	F	3.954	Critical4 NegSub	negsub	F	T	12	0
+115	33	F	3.731	Control	filler	F	T	29	0
+115	34	V	11.17	Control	filler	V	T	2	0
+115	35	F	3.394	Control	filler	F	T	22	0
+115	36	F	2.905	Control	filler	F	T	18	0
+115	37	V	4.338	Control	filler	V	T	15	0
+115	38	F	3.138	Control	filler	F	T	36	0
+115	39	V	4.73	Control	filler	V	T	7	0
+115	40	V	2.691	Control	filler	V	T	33	0
+116	11	V	14.1	Critical2 DN	dn	V	T	2	dn
+116	7	F	12.49	Critical1 NC	nc	F	T	3	nc
+116	6	V	7.25	Critical1 NC	nc	V	T	8	nc
+116	16	V	7.235	Critical2 DN	dn	V	T	9	dn
+116	3	V	6.45	Critical1 NC	nc	V	T	12	nc
+116	9	V	7.844	Critical2 DN	dn	V	T	13	dn
+116	2	V	5.157	Critical1 NC	nc	V	T	19	nc
+116	15	F	7.691	Critical2 DN	dn	F	T	20	dn
+116	8	V	7.531	Critical1 NC	nc	F	F	21	nc_mm
+116	13	V	13.47	Critical2 DN	dn	V	T	22	dn
+116	4	V	4.811	Critical1 NC	nc	V	T	29	nc
+116	10	F	3.56	Critical2 DN	dn	F	T	30	dn
+116	14	F	4.347	Critical2 DN	dn	F	T	31	dn
+116	1	F	4.683	Critical1 NC	nc	F	T	32	nc
+116	5	F	6.161	Critical1 NC	nc	F	T	37	nc
+116	12	F	7.059	Critical2 DN	dn	F	T	40	dn
+116	17	V	10.38	Critical3 NegOb	negob	V	T	35	0
+116	18	V	3.61	Critical3 NegOb	negob	V	T	39	0
+116	19	F	5.082	Critical3 NegOb	negob	F	T	28	0
+116	20	F	6.474	Critical3 NegOb	negob	F	T	14	0
+116	21	F	4.292	Critical3 NegOb	negob	F	T	23	0
+116	22	V	5.554	Critical3 NegOb	negob	V	T	5	0
+116	23	V	3.476	Critical3 NegOb	negob	V	T	16	0
+116	24	F	9.418	Critical3 NegOb	negob	F	T	10	0
+116	25	V	4.147	Critical4 NegSub	negsub	V	T	33	0
+116	26	F	6.154	Critical4 NegSub	negsub	F	T	4	0
+116	27	V	4.058	Critical4 NegSub	negsub	V	T	26	0
+116	28	V	4.651	Critical4 NegSub	negsub	V	T	24	0
+116	29	V	4.706	Critical4 NegSub	negsub	V	T	7	0
+116	30	F	5.467	Critical4 NegSub	negsub	F	T	38	0
+116	31	F	5.499	Critical4 NegSub	negsub	F	T	15	0
+116	32	F	4.218	Critical4 NegSub	negsub	F	T	17	0
+116	33	F	2.786	Control	filler	F	T	18	0
+116	34	V	3.403	Control	filler	V	T	25	0
+116	35	F	3.723	Control	filler	F	T	27	0
+116	36	F	4.05	Control	filler	F	T	11	0
+116	37	V	3.187	Control	filler	V	T	36	0
+116	38	F	4.483	Control	filler	F	T	34	0
+116	39	V	10.67	Control	filler	V	T	1	0
+116	40	V	4.003	Control	filler	V	T	6	0
+117	16	V	13.45	Critical2 DN	dn	V	T	4	dn
+117	8	F	4.601	Critical1 NC	nc	F	T	5	nc
+117	15	V	8.651	Critical2 DN	dn	F	F	7	dn_mm
+117	7	F	4.851	Critical1 NC	nc	F	T	9	nc
+117	4	V	2.947	Critical1 NC	nc	V	T	13	nc
+117	12	F	6.315	Critical2 DN	dn	F	T	14	dn
+117	9	V	5.891	Critical2 DN	dn	V	T	18	dn
+117	2	V	4.859	Critical1 NC	nc	V	T	19	nc
+117	11	V	7.491	Critical2 DN	dn	V	T	21	dn
+117	6	V	3.243	Critical1 NC	nc	V	T	25	nc
+117	10	F	4.715	Critical2 DN	dn	F	T	26	dn
+117	5	V	5.25	Critical1 NC	nc	F	F	28	nc_mm
+117	13	V	8.554	Critical2 DN	dn	V	T	32	dn
+117	1	F	4.267	Critical1 NC	nc	F	T	35	nc
+117	3	F	3.459	Critical1 NC	nc	V	F	38	nc_mm
+117	14	F	4.699	Critical2 DN	dn	F	T	40	dn
+117	17	V	4.01	Critical3 NegOb	negob	V	T	24	0
+117	18	V	4.97	Critical3 NegOb	negob	V	T	36	0
+117	19	F	6.402	Critical3 NegOb	negob	F	T	8	0
+117	20	F	3.866	Critical3 NegOb	negob	F	T	3	0
+117	21	F	5.042	Critical3 NegOb	negob	F	T	29	0
+117	22	V	2.219	Critical3 NegOb	negob	V	T	20	0
+117	23	V	3.69	Critical3 NegOb	negob	V	T	31	0
+117	24	F	4.812	Critical3 NegOb	negob	F	T	12	0
+117	25	V	5.89	Critical4 NegSub	negsub	V	T	16	0
+117	26	F	11.76	Critical4 NegSub	negsub	F	T	1	0
+117	27	V	6.684	Critical4 NegSub	negsub	V	T	22	0
+117	28	V	6.794	Critical4 NegSub	negsub	V	T	15	0
+117	29	V	5.171	Critical4 NegSub	negsub	V	T	27	0
+117	30	F	7.026	Critical4 NegSub	negsub	F	T	6	0
+117	31	F	3.092	Critical4 NegSub	negsub	F	T	37	0
+117	32	F	3.691	Critical4 NegSub	negsub	F	T	34	0
+117	33	F	7.065	Control	filler	F	T	2	0
+117	34	V	14.17	Control	filler	V	T	10	0
+117	35	F	3.355	Control	filler	F	T	17	0
+117	36	F	2.667	Control	filler	F	T	30	0
+117	37	V	6.139	Control	filler	V	T	23	0
+117	38	F	1.947	Control	filler	F	T	33	0
+117	39	V	4.107	Control	filler	V	T	39	0
+117	40	V	4.618	Control	filler	V	T	11	0
+118	7	F	5.977	Critical1 NC	nc	F	T	4	nc
+118	15	V	10.83	Critical2 DN	dn	F	F	5	dn_mm
+118	2	V	6.171	Critical1 NC	nc	V	T	6	nc
+118	11	F	9.564	Critical2 DN	dn	V	F	7	dn_mm
+118	5	F	5.539	Critical1 NC	nc	F	T	14	nc
+118	16	F	9.033	Critical2 DN	dn	V	F	15	dn_mm
+118	12	V	5.874	Critical2 DN	dn	F	F	16	dn_mm
+118	3	V	4.475	Critical1 NC	nc	V	T	20	nc
+118	13	F	8.842	Critical2 DN	dn	V	F	22	dn_mm
+118	6	F	4.626	Critical1 NC	nc	V	F	24	nc_mm
+118	8	F	4.586	Critical1 NC	nc	F	T	28	nc
+118	10	F	4.626	Critical2 DN	dn	F	T	29	dn
+118	14	V	4.828	Critical2 DN	dn	F	F	32	dn_mm
+118	1	F	4.939	Critical1 NC	nc	F	T	35	nc
+118	4	V	4.187	Critical1 NC	nc	V	T	36	nc
+118	9	F	6.394	Critical2 DN	dn	V	F	38	dn_mm
+118	17	V	6.131	Critical3 NegOb	negob	V	T	33	0
+118	18	V	7.026	Critical3 NegOb	negob	V	T	3	0
+118	19	F	3.97	Critical3 NegOb	negob	F	T	12	0
+118	20	F	3.843	Critical3 NegOb	negob	F	T	39	0
+118	21	F	6.155	Critical3 NegOb	negob	F	T	17	0
+118	22	V	4.13	Critical3 NegOb	negob	V	T	25	0
+118	23	V	6.642	Critical3 NegOb	negob	V	T	9	0
+118	24	F	4.426	Critical3 NegOb	negob	F	T	30	0
+118	25	V	4.889	Critical4 NegSub	negsub	V	T	27	0
+118	26	F	6.305	Critical4 NegSub	negsub	F	T	23	0
+118	27	V	9.793	Critical4 NegSub	negsub	V	T	8	0
+118	28	V	5.698	Critical4 NegSub	negsub	V	T	37	0
+118	29	V	5.299	Critical4 NegSub	negsub	V	T	18	0
+118	30	F	7.938	Critical4 NegSub	negsub	F	T	13	0
+118	31	F	3.914	Critical4 NegSub	negsub	F	T	31	0
+118	32	F	9.082	Critical4 NegSub	negsub	F	T	2	0
+118	33	F	3.339	Control	filler	F	T	34	0
+118	34	V	8.69	Control	filler	V	T	11	0
+118	35	F	3.082	Control	filler	F	T	40	0
+118	36	F	6.828	Control	filler	F	T	1	0
+118	37	V	3.746	Control	filler	V	T	10	0
+118	38	V	3.658	Control	filler	F	F	19	0
+118	39	V	4.555	Control	filler	V	T	21	0
+118	40	V	4.451	Control	filler	V	T	26	0
+119	14	F	7.075	Critical2 DN	dn	F	T	4	dn
+119	8	F	3.803	Critical1 NC	nc	F	T	5	nc
+119	4	V	7.636	Critical1 NC	nc	V	T	7	nc
+119	9	V	9.684	Critical2 DN	dn	V	T	9	dn
+119	5	F	10.77	Critical1 NC	nc	F	T	11	nc
+119	13	V	11.54	Critical2 DN	dn	V	T	13	dn
+119	12	F	5.282	Critical2 DN	dn	F	T	17	dn
+119	2	F	10.58	Critical1 NC	nc	V	F	19	nc_mm
+119	11	V	5.851	Critical2 DN	dn	V	T	23	dn
+119	7	V	10.78	Critical1 NC	nc	F	F	24	nc_mm
+119	16	V	4.203	Critical2 DN	dn	V	T	26	dn
+119	3	F	5.299	Critical1 NC	nc	V	F	27	nc_mm
+119	1	F	1.73	Critical1 NC	nc	F	T	31	nc
+119	10	F	1.338	Critical2 DN	dn	F	T	33	dn
+119	6	V	1.371	Critical1 NC	nc	V	T	38	nc
+119	15	F	1.338	Critical2 DN	dn	F	T	40	dn
+119	17	V	4.802	Critical3 NegOb	negob	V	T	16	0
+119	18	V	3.699	Critical3 NegOb	negob	V	T	8	0
+119	19	F	2.219	Critical3 NegOb	negob	F	T	28	0
+119	20	F	4.618	Critical3 NegOb	negob	F	T	12	0
+119	21	F	2.066	Critical3 NegOb	negob	F	T	32	0
+119	22	F	3.905	Critical3 NegOb	negob	V	F	3	0
+119	23	V	2.667	Critical3 NegOb	negob	V	T	25	0
+119	24	F	1.203	Critical3 NegOb	negob	F	T	39	0
+119	25	F	9.203	Critical4 NegSub	negsub	V	F	1	0
+119	26	F	23.25	Critical4 NegSub	negsub	F	T	35	0
+119	27	V	2.963	Critical4 NegSub	negsub	V	T	15	0
+119	28	V	4.891	Critical4 NegSub	negsub	V	T	18	0
+119	29	V	3.498	Critical4 NegSub	negsub	V	T	29	0
+119	30	F	3.883	Critical4 NegSub	negsub	F	T	37	0
+119	31	F	2.882	Critical4 NegSub	negsub	F	T	21	0
+119	32	F	4.979	Critical4 NegSub	negsub	F	T	6	0
+119	33	F	2.754	Control	filler	F	T	36	0
+119	34	V	4.226	Control	filler	V	T	22	0
+119	35	F	1.739	Control	filler	F	T	34	0
+119	36	F	4.652	Control	filler	F	T	14	0
+119	37	V	2.034	Control	filler	V	T	20	0
+119	38	F	2.306	Control	filler	F	T	10	0
+119	39	V	2.38	Control	filler	V	T	30	0
+119	40	V	4.667	Control	filler	V	T	2	0
+120	10	F	8.284	Critical2 DN	dn	F	T	1	dn
+120	7	V	15.82	Critical1 NC	nc	F	F	3	nc_mm
+120	5	V	20.45	Critical1 NC	nc	F	F	7	nc_mm
+120	9	V	6.802	Critical2 DN	dn	V	T	10	dn
+120	13	V	7.923	Critical2 DN	dn	V	T	12	dn
+120	3	F	6.77	Critical1 NC	nc	V	F	14	nc_mm
+120	12	F	8.059	Critical2 DN	dn	F	T	18	dn
+120	6	F	12.06	Critical1 NC	nc	V	F	19	nc_mm
+120	16	V	5.553	Critical2 DN	dn	V	T	24	dn
+120	1	V	11.65	Critical1 NC	nc	F	F	25	nc_mm
+120	2	F	13.3	Critical1 NC	nc	V	F	26	nc_mm
+120	15	F	6.218	Critical2 DN	dn	F	T	28	dn
+120	14	F	4.899	Critical2 DN	dn	F	T	32	dn
+120	4	F	11.83	Critical1 NC	nc	V	F	35	nc_mm
+120	11	V	6.524	Critical2 DN	dn	V	T	38	dn
+120	8	F	13.44	Critical1 NC	nc	F	T	40	nc
+120	17	V	4.651	Critical3 NegOb	negob	V	T	23	0
+120	18	V	6.25	Critical3 NegOb	negob	V	T	15	0
+120	19	F	3.881	Critical3 NegOb	negob	F	T	8	0
+120	20	F	5.491	Critical3 NegOb	negob	F	T	30	0
+120	21	F	9.555	Critical3 NegOb	negob	F	T	20	0
+120	22	V	3.962	Critical3 NegOb	negob	V	T	36	0
+120	23	V	4.898	Critical3 NegOb	negob	V	T	33	0
+120	24	F	7.802	Critical3 NegOb	negob	F	T	2	0
+120	25	V	14.49	Critical4 NegSub	negsub	V	T	11	0
+120	26	F	6.236	Critical4 NegSub	negsub	F	T	31	0
+120	27	V	18.63	Critical4 NegSub	negsub	V	T	17	0
+120	28	V	6.361	Critical4 NegSub	negsub	V	T	9	0
+120	29	V	7.796	Critical4 NegSub	negsub	V	T	22	0
+120	30	F	7.138	Critical4 NegSub	negsub	F	T	5	0
+120	31	F	4.322	Critical4 NegSub	negsub	F	T	29	0
+120	32	F	3.066	Critical4 NegSub	negsub	F	T	39	0
+120	33	F	2.69	Control	filler	F	T	37	0
+120	34	V	5.263	Control	filler	V	T	4	0
+120	35	F	8.073	Control	filler	F	T	16	0
+120	36	F	5.659	Control	filler	F	T	27	0
+120	37	V	2.627	Control	filler	V	T	13	0
+120	38	F	3.692	Control	filler	F	T	6	0
+120	39	V	7.131	Control	filler	V	T	34	0
+120	40	V	3.308	Control	filler	V	T	21	0
+121	10	V	114.4	Critical2 DN	dn	F	F	1	dn_mm
+121	3	V	10.8	Critical1 NC	nc	V	T	5	nc
+121	12	F	31.07	Critical2 DN	dn	F	T	7	dn
+121	4	V	5.386	Critical1 NC	nc	V	T	10	nc
+121	9	V	30.29	Critical2 DN	dn	V	T	13	dn
+121	6	V	4.851	Critical1 NC	nc	V	T	15	nc
+121	1	F	4.242	Critical1 NC	nc	F	T	16	nc
+121	11	V	20.1	Critical2 DN	dn	V	T	20	dn
+121	5	F	6.842	Critical1 NC	nc	F	T	21	nc
+121	16	V	11.15	Critical2 DN	dn	V	T	22	dn
+121	15	F	11.27	Critical2 DN	dn	F	T	27	dn
+121	2	V	4.684	Critical1 NC	nc	V	T	28	nc
+121	13	V	8.866	Critical2 DN	dn	V	T	31	dn
+121	8	F	4.553	Critical1 NC	nc	F	T	32	nc
+121	14	F	5.083	Critical2 DN	dn	F	T	36	dn
+121	7	V	14.86	Critical1 NC	nc	F	F	40	nc_mm
+121	17	V	4.586	Critical3 NegOb	negob	V	T	35	0
+121	18	V	6.427	Critical3 NegOb	negob	V	T	25	0
+121	19	F	3.642	Critical3 NegOb	negob	F	T	14	0
+121	20	F	9.194	Critical3 NegOb	negob	F	T	8	0
+121	21	F	6.819	Critical3 NegOb	negob	F	T	4	0
+121	22	V	4.315	Critical3 NegOb	negob	V	T	26	0
+121	23	V	5.436	Critical3 NegOb	negob	V	T	18	0
+121	24	F	5.828	Critical3 NegOb	negob	F	T	37	0
+121	25	V	5.795	Critical4 NegSub	negsub	V	T	17	0
+121	26	F	6.17	Critical4 NegSub	negsub	F	T	2	0
+121	27	V	7.002	Critical4 NegSub	negsub	V	T	30	0
+121	28	V	7.084	Critical4 NegSub	negsub	V	T	6	0
+121	29	V	6.003	Critical4 NegSub	negsub	V	T	33	0
+121	30	F	6.851	Critical4 NegSub	negsub	F	T	24	0
+121	31	F	3.85	Critical4 NegSub	negsub	F	T	39	0
+121	32	F	6.828	Critical4 NegSub	negsub	F	T	12	0
+121	33	F	3.498	Control	filler	F	T	23	0
+121	34	V	7.003	Control	filler	V	T	19	0
+121	35	F	3.003	Control	filler	F	T	11	0
+121	36	F	3.274	Control	filler	F	T	29	0
+121	37	V	7.786	Control	filler	V	T	3	0
+121	38	F	4.171	Control	filler	F	T	9	0
+121	39	V	5.075	Control	filler	V	T	34	0
+121	40	V	3.473	Control	filler	V	T	38	0
+122	4	V	6.907	Critical1 NC	nc	V	T	2	nc
+122	13	F	23.25	Critical2 DN	dn	V	F	4	dn_mm
+122	6	V	11.07	Critical1 NC	nc	V	T	7	nc
+122	14	V	10.25	Critical2 DN	dn	F	F	9	dn_mm
+122	15	V	7.713	Critical2 DN	dn	F	F	12	dn_mm
+122	5	F	17.42	Critical1 NC	nc	F	T	13	nc
+122	11	F	10.22	Critical2 DN	dn	V	F	18	dn_mm
+122	7	F	7.907	Critical1 NC	nc	F	T	19	nc
+122	16	F	10.82	Critical2 DN	dn	V	F	22	dn_mm
+122	8	F	5.94	Critical1 NC	nc	F	T	24	nc
+122	12	V	7.306	Critical2 DN	dn	F	F	28	dn_mm
+122	3	V	4.553	Critical1 NC	nc	V	T	30	nc
+122	9	F	10.49	Critical2 DN	dn	V	F	34	dn_mm
+122	1	F	4.403	Critical1 NC	nc	F	T	35	nc
+122	2	V	4.865	Critical1 NC	nc	V	T	39	nc
+122	10	F	6.85	Critical2 DN	dn	F	T	40	dn
+122	17	V	6.22	Critical3 NegOb	negob	V	T	23	0
+122	18	V	7.172	Critical3 NegOb	negob	V	T	10	0
+122	19	F	16.33	Critical3 NegOb	negob	F	T	1	0
+122	20	F	3.819	Critical3 NegOb	negob	F	T	27	0
+122	21	F	7.186	Critical3 NegOb	negob	F	T	37	0
+122	22	V	3.337	Critical3 NegOb	negob	V	T	32	0
+122	23	V	5.747	Critical3 NegOb	negob	V	T	15	0
+122	24	F	5.092	Critical3 NegOb	negob	F	T	16	0
+122	25	V	5.442	Critical4 NegSub	negsub	V	T	29	0
+122	26	F	7.139	Critical4 NegSub	negsub	F	T	5	0
+122	27	V	6.651	Critical4 NegSub	negsub	V	T	25	0
+122	28	V	6.25	Critical4 NegSub	negsub	V	T	6	0
+122	29	V	4.434	Critical4 NegSub	negsub	V	T	38	0
+122	30	F	6.282	Critical4 NegSub	negsub	F	T	20	0
+122	31	F	5.299	Critical4 NegSub	negsub	F	T	33	0
+122	32	F	4.217	Critical4 NegSub	negsub	F	T	11	0
+122	33	F	4.362	Control	filler	F	T	14	0
+122	34	V	6.506	Control	filler	V	T	21	0
+122	35	F	7.772	Control	filler	F	T	17	0
+122	36	F	5.579	Control	filler	F	T	3	0
+122	37	V	5.259	Control	filler	V	T	36	0
+122	38	F	3.09	Control	filler	F	T	8	0
+122	39	V	4.819	Control	filler	V	T	26	0
+122	40	V	4.634	Control	filler	V	T	31	0
+123	1	F	5.353	Critical1 NC	nc	F	T	1	nc
+123	12	V	5.259	Critical2 DN	dn	F	F	2	dn_mm
+123	8	F	3.355	Critical1 NC	nc	F	T	6	nc
+123	14	V	3.523	Critical2 DN	dn	F	F	9	dn_mm
+123	9	F	2.827	Critical2 DN	dn	V	F	11	dn_mm
+123	3	V	2.762	Critical1 NC	nc	V	T	14	nc
+123	5	F	3.506	Critical1 NC	nc	F	T	19	nc
+123	10	F	2.699	Critical2 DN	dn	F	T	20	dn
+123	16	V	6.594	Critical2 DN	dn	V	T	21	dn
+123	4	F	2.73	Critical1 NC	nc	V	F	23	nc_mm
+123	11	V	2.907	Critical2 DN	dn	V	T	26	dn
+123	6	V	2.786	Critical1 NC	nc	V	T	27	nc
+123	7	F	2.01	Critical1 NC	nc	F	T	34	nc
+123	15	F	1.939	Critical2 DN	dn	F	T	35	dn
+123	2	V	3.147	Critical1 NC	nc	V	T	36	nc
+123	13	V	2.05	Critical2 DN	dn	V	T	40	dn
+123	17	V	2.995	Critical3 NegOb	negob	V	T	29	0
+123	18	V	4.098	Critical3 NegOb	negob	V	T	10	0
+123	19	F	1.154	Critical3 NegOb	negob	F	T	33	0
+123	20	F	3.428	Critical3 NegOb	negob	F	T	13	0
+123	21	F	3.907	Critical3 NegOb	negob	F	T	16	0
+123	22	V	3.011	Critical3 NegOb	negob	V	T	5	0
+123	23	V	2.488	Critical3 NegOb	negob	V	T	37	0
+123	24	F	3.49	Critical3 NegOb	negob	F	T	24	0
+123	25	V	3.676	Critical4 NegSub	negsub	V	T	39	0
+123	26	F	1.33	Critical4 NegSub	negsub	F	T	30	0
+123	27	V	1.802	Critical4 NegSub	negsub	V	T	32	0
+123	28	V	3.274	Critical4 NegSub	negsub	V	T	22	0
+123	29	V	3.531	Critical4 NegSub	negsub	V	T	3	0
+123	30	F	3.914	Critical4 NegSub	negsub	F	T	7	0
+123	31	F	1.875	Critical4 NegSub	negsub	F	T	18	0
+123	32	F	3.122	Critical4 NegSub	negsub	F	T	12	0
+123	33	F	2.787	Control	filler	F	T	8	0
+123	34	V	3.16	Control	filler	V	T	15	0
+123	35	F	2.186	Control	filler	F	T	25	0
+123	36	F	1.819	Control	filler	F	T	17	0
+123	37	V	4.402	Control	filler	V	T	4	0
+123	38	F	1.883	Control	filler	F	T	28	0
+123	39	V	2.338	Control	filler	V	T	31	0
+123	40	V	1.115	Control	filler	V	T	38	0
+124	12	F	28.81	Critical2 DN	dn	F	T	1	dn
+124	1	F	7.707	Critical1 NC	nc	F	T	3	nc
+124	14	F	3.292	Critical2 DN	dn	F	T	7	dn
+124	2	V	2.155	Critical1 NC	nc	V	T	10	nc
+124	5	F	4.595	Critical1 NC	nc	F	T	11	nc
+124	15	V	5.835	Critical2 DN	dn	F	F	13	dn_mm
+124	13	V	8.89	Critical2 DN	dn	V	T	16	dn
+124	7	F	3.97	Critical1 NC	nc	F	T	19	nc
+124	3	V	3.051	Critical1 NC	nc	V	T	21	nc
+124	10	V	4.956	Critical2 DN	dn	F	F	23	dn_mm
+124	11	F	5.891	Critical2 DN	dn	V	F	26	dn_mm
+124	4	V	2.458	Critical1 NC	nc	V	T	28	nc
+124	8	F	2.203	Critical1 NC	nc	F	T	32	nc
+124	16	V	3.883	Critical2 DN	dn	V	T	33	dn
+124	6	V	2.61	Critical1 NC	nc	V	T	39	nc
+124	9	V	5.058	Critical2 DN	dn	V	T	40	dn
+124	17	V	2.995	Critical3 NegOb	negob	V	T	31	0
+124	18	V	2.809	Critical3 NegOb	negob	V	T	24	0
+124	19	F	3.394	Critical3 NegOb	negob	F	T	2	0
+124	20	F	1.74	Critical3 NegOb	negob	F	T	38	0
+124	21	F	3.171	Critical3 NegOb	negob	F	T	8	0
+124	22	V	1.523	Critical3 NegOb	negob	V	T	20	0
+124	23	V	3.539	Critical3 NegOb	negob	V	T	14	0
+124	24	F	3.141	Critical3 NegOb	negob	F	T	30	0
+124	25	V	3.634	Critical4 NegSub	negsub	V	T	17	0
+124	26	F	2.89	Critical4 NegSub	negsub	F	T	15	0
+124	27	V	5.722	Critical4 NegSub	negsub	V	T	37	0
+124	28	V	3.891	Critical4 NegSub	negsub	V	T	25	0
+124	29	V	3.019	Critical4 NegSub	negsub	V	T	27	0
+124	30	F	5.826	Critical4 NegSub	negsub	F	T	5	0
+124	31	F	2.977	Critical4 NegSub	negsub	F	T	34	0
+124	32	F	5.138	Critical4 NegSub	negsub	F	T	6	0
+124	33	F	1.515	Control	filler	F	T	22	0
+124	34	V	1.85	Control	filler	V	T	36	0
+124	35	F	2.875	Control	filler	F	T	9	0
+124	36	F	3.675	Control	filler	F	T	4	0
+124	37	V	1.891	Control	filler	V	T	29	0
+124	38	F	2.362	Control	filler	F	T	35	0
+124	39	V	3.524	Control	filler	V	T	18	0
+124	40	V	4.723	Control	filler	V	T	12	0
+125	3	V	5.467	Critical1 NC	nc	V	T	4	nc
+125	10	F	7.426	Critical2 DN	dn	F	T	5	dn
+125	6	F	3.769	Critical1 NC	nc	V	F	6	nc_mm
+125	15	F	4.251	Critical2 DN	dn	F	T	10	dn
+125	11	V	4.306	Critical2 DN	dn	V	T	14	dn
+125	2	V	7.14	Critical1 NC	nc	V	T	15	nc
+125	13	V	6.075	Critical2 DN	dn	V	T	17	dn
+125	8	F	3.371	Critical1 NC	nc	F	T	18	nc
+125	1	F	5.763	Critical1 NC	nc	F	T	22	nc
+125	16	V	6.624	Critical2 DN	dn	V	T	25	dn
+125	7	V	3.873	Critical1 NC	nc	F	F	26	nc_mm
+125	12	F	5.203	Critical2 DN	dn	F	T	29	dn
+125	4	V	2.498	Critical1 NC	nc	V	T	31	nc
+125	14	F	4.059	Critical2 DN	dn	F	T	35	dn
+125	5	F	4.809	Critical1 NC	nc	F	T	36	nc
+125	9	V	3.786	Critical2 DN	dn	V	T	38	dn
+125	17	F	4.881	Critical3 NegOb	negob	V	F	3	0
+125	18	V	2.825	Critical3 NegOb	negob	V	T	12	0
+125	19	V	4.948	Critical3 NegOb	negob	F	F	39	0
+125	20	F	3.154	Critical3 NegOb	negob	F	T	34	0
+125	21	F	3.891	Critical3 NegOb	negob	F	T	21	0
+125	22	V	2.859	Critical3 NegOb	negob	V	T	28	0
+125	23	V	4.889	Critical3 NegOb	negob	V	T	19	0
+125	24	F	4.147	Critical3 NegOb	negob	F	T	9	0
+125	25	V	25.15	Critical4 NegSub	negsub	V	T	1	0
+125	26	F	3.7	Critical4 NegSub	negsub	F	T	23	0
+125	27	V	4.37	Critical4 NegSub	negsub	V	T	33	0
+125	28	V	4.289	Critical4 NegSub	negsub	V	T	37	0
+125	29	V	3.898	Critical4 NegSub	negsub	V	T	7	0
+125	30	F	4.555	Critical4 NegSub	negsub	F	T	16	0
+125	31	F	3.187	Critical4 NegSub	negsub	F	T	27	0
+125	32	F	3.946	Critical4 NegSub	negsub	F	T	13	0
+125	33	F	2.748	Control	filler	F	T	8	0
+125	34	V	3.73	Control	filler	V	T	11	0
+125	35	F	2.77	Control	filler	F	T	20	0
+125	36	F	3.187	Control	filler	F	T	2	0
+125	37	V	2.234	Control	filler	V	T	32	0
+125	38	V	2.138	Control	filler	F	F	24	0
+125	39	V	3.474	Control	filler	V	T	30	0
+125	40	V	8.77	Control	filler	V	T	40	0
+126	6	V	14.17	Critical1 NC	nc	V	T	4	nc
+126	11	F	7.883	Critical2 DN	dn	V	F	5	dn_mm
+126	14	F	11.29	Critical2 DN	dn	F	T	7	dn
+126	8	F	3.873	Critical1 NC	nc	F	T	9	nc
+126	5	F	5.779	Critical1 NC	nc	F	T	11	nc
+126	13	F	12.51	Critical2 DN	dn	V	F	15	dn_mm
+126	2	V	3.066	Critical1 NC	nc	V	T	17	nc
+126	9	V	8.051	Critical2 DN	dn	V	T	18	dn
+126	10	F	5.074	Critical2 DN	dn	F	T	21	dn
+126	3	V	5.066	Critical1 NC	nc	V	T	25	nc
+126	16	V	5.002	Critical2 DN	dn	V	T	27	dn
+126	4	V	2.931	Critical1 NC	nc	V	T	30	nc
+126	7	F	2.771	Critical1 NC	nc	F	T	31	nc
+126	15	F	10.95	Critical2 DN	dn	F	T	35	dn
+126	1	F	2.851	Critical1 NC	nc	F	T	39	nc
+126	12	F	4.713	Critical2 DN	dn	F	T	40	dn
+126	17	V	7.369	Critical3 NegOb	negob	V	T	20	0
+126	18	V	3.612	Critical3 NegOb	negob	V	T	34	0
+126	19	F	4.234	Critical3 NegOb	negob	F	T	24	0
+126	20	F	2.778	Critical3 NegOb	negob	F	T	26	0
+126	21	F	3.467	Critical3 NegOb	negob	F	T	38	0
+126	22	V	2.075	Critical3 NegOb	negob	V	T	13	0
+126	23	V	10.95	Critical3 NegOb	negob	V	T	1	0
+126	24	F	1.786	Critical3 NegOb	negob	F	T	10	0
+126	25	V	6.481	Critical4 NegSub	negsub	V	T	6	0
+126	26	F	4.196	Critical4 NegSub	negsub	F	T	12	0
+126	27	V	7.513	Critical4 NegSub	negsub	V	T	28	0
+126	28	V	10.55	Critical4 NegSub	negsub	V	T	36	0
+126	29	V	6.401	Critical4 NegSub	negsub	V	T	32	0
+126	30	F	5.523	Critical4 NegSub	negsub	F	T	2	0
+126	31	F	4.019	Critical4 NegSub	negsub	F	T	16	0
+126	32	F	6.761	Critical4 NegSub	negsub	F	T	22	0
+126	33	F	3.347	Control	filler	F	T	19	0
+126	34	V	2.817	Control	filler	V	T	8	0
+126	35	F	2.595	Control	filler	F	T	37	0
+126	36	F	3.658	Control	filler	F	T	14	0
+126	37	V	2.266	Control	filler	V	T	3	0
+126	38	V	3.178	Control	filler	F	F	29	0
+126	39	V	3.371	Control	filler	V	T	23	0
+126	40	V	4.185	Control	filler	V	T	33	0
+127	11	V	12.45	Critical2 DN	dn	V	T	4	dn
+127	5	V	10.59	Critical1 NC	nc	F	F	5	nc_mm
+127	3	F	9.586	Critical1 NC	nc	V	F	7	nc_mm
+127	12	F	9.664	Critical2 DN	dn	F	T	8	dn
+127	13	V	7.779	Critical2 DN	dn	V	T	11	dn
+127	7	F	19.89	Critical1 NC	nc	F	T	14	nc
+127	1	F	7.922	Critical1 NC	nc	F	T	16	nc
+127	14	F	11.44	Critical2 DN	dn	F	T	17	dn
+127	15	V	11.12	Critical2 DN	dn	F	F	22	dn_mm
+127	4	V	5.917	Critical1 NC	nc	V	T	25	nc
+127	6	V	5.914	Critical1 NC	nc	V	T	26	nc
+127	10	F	7.618	Critical2 DN	dn	F	T	30	dn
+127	9	V	9.49	Critical2 DN	dn	V	T	31	dn
+127	8	F	10.56	Critical1 NC	nc	F	T	34	nc
+127	2	V	3.098	Critical1 NC	nc	V	T	36	nc
+127	16	V	7.467	Critical2 DN	dn	V	T	37	dn
+127	17	V	8.01	Critical3 NegOb	negob	V	T	10	0
+127	18	V	5.348	Critical3 NegOb	negob	V	T	2	0
+127	19	F	3.125	Critical3 NegOb	negob	F	T	24	0
+127	20	F	3.682	Critical3 NegOb	negob	F	T	32	0
+127	21	F	11.37	Critical3 NegOb	negob	F	T	18	0
+127	22	V	3.555	Critical3 NegOb	negob	V	T	39	0
+127	23	V	3.306	Critical3 NegOb	negob	V	T	27	0
+127	24	F	3.586	Critical3 NegOb	negob	F	T	12	0
+127	25	V	5.475	Critical4 NegSub	negsub	V	T	19	0
+127	26	F	7.618	Critical4 NegSub	negsub	F	T	3	0
+127	27	V	3.866	Critical4 NegSub	negsub	V	T	13	0
+127	28	V	4.011	Critical4 NegSub	negsub	V	T	9	0
+127	29	V	4.632	Critical4 NegSub	negsub	V	T	23	0
+127	30	F	4.458	Critical4 NegSub	negsub	F	T	38	0
+127	31	F	3.851	Critical4 NegSub	negsub	F	T	29	0
+127	32	F	3.81	Critical4 NegSub	negsub	F	T	35	0
+127	33	F	2.138	Control	filler	F	T	20	0
+127	34	V	5.85	Control	filler	V	T	21	0
+127	35	F	15.22	Control	filler	F	T	1	0
+127	36	F	5.068	Control	filler	F	T	6	0
+127	37	V	2.5	Control	filler	V	T	28	0
+127	38	F	3.57	Control	filler	F	T	40	0
+127	39	V	6.883	Control	filler	V	T	33	0
+127	40	V	4.562	Control	filler	V	T	15	0

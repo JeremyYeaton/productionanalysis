@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.64115 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.64115 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.021121911855171 
+            text = "pER" 
+        intervals [2]:
+            xmin = 0.021121911855171 
+            xmax = 0.13582909160648504 
+            text = "pER" 
+        intervals [3]:
+            xmin = 0.13582909160648504 
+            xmax = 0.2883057085929878 
+            text = "sOn" 
+        intervals [4]:
+            xmin = 0.2883057085929878 
+            xmax = 0.4156027007560315 
+            text = "n@" 
+        intervals [5]:
+            xmin = 0.4156027007560315 
+            xmax = 0.5820679982000116 
+            text = "mE" 
+        intervals [6]:
+            xmin = 0.5820679982000116 
+            xmax = 0.785 
+            text = "Rje~" 
+        intervals [7]:
+            xmin = 0.785 
+            xmax = 0.875 
+            text = "da~" 
+        intervals [8]:
+            xmin = 0.875 
+            xmax = 1.035 
+            text = "se" 
+        intervals [9]:
+            xmin = 1.035 
+            xmax = 1.1649999999999998 
+            text = "pla" 
+        intervals [10]:
+            xmin = 1.1649999999999998 
+            xmax = 1.4749999999999999 
+            text = "kaR" 
+        intervals [11]:
+            xmin = 1.4749999999999999 
+            xmax = 1.64115 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.64115 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.021121911855171 
+            text = "personne" 
+        intervals [2]:
+            xmin = 0.021121911855171 
+            xmax = 0.2883057085929878 
+            text = "personne" 
+        intervals [3]:
+            xmin = 0.2883057085929878 
+            xmax = 0.4156027007560315 
+            text = "ne" 
+        intervals [4]:
+            xmin = 0.4156027007560315 
+            xmax = 0.5820679982000116 
+            text = "met" 
+        intervals [5]:
+            xmin = 0.5820679982000116 
+            xmax = 0.785 
+            text = "rien" 
+        intervals [6]:
+            xmin = 0.785 
+            xmax = 0.875 
+            text = "dans" 
+        intervals [7]:
+            xmin = 0.875 
+            xmax = 1.035 
+            text = "ses" 
+        intervals [8]:
+            xmin = 1.035 
+            xmax = 1.4749999999999999 
+            text = "placards" 
+        intervals [9]:
+            xmin = 1.4749999999999999 
+            xmax = 1.64115 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.64115 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.021121911855171 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.021121911855171 
+            xmax = 1.64115 
+            text = "pERsOn n@ mE Rje~ da~ se plakaR" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.64115 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.021121911855171 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.021121911855171 
+            xmax = 1.64115 
+            text = "personne ne met rien dans ses placards" 

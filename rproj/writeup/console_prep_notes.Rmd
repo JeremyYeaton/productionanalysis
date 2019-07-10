@@ -1,0 +1,15 @@
+---
+title: "Notes on analysis"
+author: "Jeremy Yeaton"
+date: "February 10, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Analyses still to do:
+## Duration
+Statistical significance in variances for duration?
+Difference DN/ NC (maybe compared to controls) on PP1

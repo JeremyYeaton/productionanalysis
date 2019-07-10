@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.5908 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.5908 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02482265974084004 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02482265974084004 
+            xmax = 0.12304057752457553 
+            text = "pER" 
+        intervals [3]:
+            xmin = 0.12304057752457553 
+            xmax = 0.405 
+            text = "sOn" 
+        intervals [4]:
+            xmin = 0.405 
+            xmax = 0.505 
+            text = "n@" 
+        intervals [5]:
+            xmin = 0.505 
+            xmax = 0.705 
+            text = "di" 
+        intervals [6]:
+            xmin = 0.705 
+            xmax = 0.845 
+            text = "mo" 
+        intervals [7]:
+            xmin = 0.845 
+            xmax = 1.035 
+            text = "pa~" 
+        intervals [8]:
+            xmin = 1.035 
+            xmax = 1.125 
+            text = "da~" 
+        intervals [9]:
+            xmin = 1.125 
+            xmax = 1.2249999999999999 
+            text = "y" 
+        intervals [10]:
+            xmin = 1.2249999999999999 
+            xmax = 1.565 
+            text = "n9R" 
+        intervals [11]:
+            xmin = 1.565 
+            xmax = 1.5908 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.5908 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02482265974084004 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02482265974084004 
+            xmax = 0.405 
+            text = "personne" 
+        intervals [3]:
+            xmin = 0.405 
+            xmax = 0.505 
+            text = "ne" 
+        intervals [4]:
+            xmin = 0.505 
+            xmax = 0.705 
+            text = "dit" 
+        intervals [5]:
+            xmin = 0.705 
+            xmax = 0.845 
+            text = "mot" 
+        intervals [6]:
+            xmin = 0.845 
+            xmax = 1.125 
+            text = "pendant" 
+        intervals [7]:
+            xmin = 1.125 
+            xmax = 1.2249999999999999 
+            text = "une" 
+        intervals [8]:
+            xmin = 1.2249999999999999 
+            xmax = 1.565 
+            text = "heure" 
+        intervals [9]:
+            xmin = 1.565 
+            xmax = 1.5908 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.5908 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02482265974084004 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02482265974084004 
+            xmax = 1.5908 
+            text = "pERsOn n@ di mo pa~da~ y n9R" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.5908 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02482265974084004 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02482265974084004 
+            xmax = 1.5908 
+            text = "personne ne dit mot pendant une heure" 

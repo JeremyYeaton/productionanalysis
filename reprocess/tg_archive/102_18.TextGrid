@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.31725 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.31725 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 0.28500000000000003 
+            text = "Ra" 
+        intervals [3]:
+            xmin = 0.28500000000000003 
+            xmax = 0.375 
+            text = "ul" 
+        intervals [4]:
+            xmin = 0.375 
+            xmax = 0.485 
+            text = "n@" 
+        intervals [5]:
+            xmin = 0.485 
+            xmax = 0.645 
+            text = "bwa" 
+        intervals [6]:
+            xmin = 0.645 
+            xmax = 0.9044048423400411 
+            text = "Rje~" 
+        intervals [7]:
+            xmin = 0.9044048423400411 
+            xmax = 0.975 
+            text = "o" 
+        intervals [8]:
+            xmin = 0.975 
+            xmax = 1.115 
+            text = "ZuR" 
+        intervals [9]:
+            xmin = 1.115 
+            xmax = 1.265 
+            text = "dHi" 
+        intervals [10]:
+            xmin = 1.265 
+            xmax = 1.31725 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.31725 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 0.375 
+            text = "raoul" 
+        intervals [3]:
+            xmin = 0.375 
+            xmax = 0.485 
+            text = "ne" 
+        intervals [4]:
+            xmin = 0.485 
+            xmax = 0.645 
+            text = "boit" 
+        intervals [5]:
+            xmin = 0.645 
+            xmax = 0.9044048423400411 
+            text = "rien" 
+        intervals [6]:
+            xmin = 0.9044048423400411 
+            xmax = 1.265 
+            text = "aujourd'hui" 
+        intervals [7]:
+            xmin = 1.265 
+            xmax = 1.31725 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.31725 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 1.31725 
+            text = "Raul n@ bwa Rje~ n*oZuRdHi" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.31725 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 1.31725 
+            text = "raoul ne boit rien aujourd'hui" 

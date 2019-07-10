@@ -15,8 +15,20 @@ plot(zscore)
 
 panel_data <- zscored_data
 
-series50.lm <-lm(data=zscored_data[zscored_data$series>=50,], zscore~ series + condition + series*condition)
+series50.lm <-lm(data=zscored_data[zscored_data$series>=47,], 
+                 zscore~ series + condition + series*condition)
 
 summary(series50.lm)
 
 plot(series50.lm)
+
+
+#Duration stuff?
+duration_data <- line_max_min %>%
+  mutate(syll_num = (series-4)/10) %>%
+  filter(syll_num<6)
+duration_data
+
+duration.lm1 <- lm(data=duration_data, 
+                   duration~ condition + syll_num +condition*syll_num)
+summary(duration.lm1)

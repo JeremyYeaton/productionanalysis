@@ -1,0 +1,10 @@
+Data: over46
+Models:
+full.lm: demeaned_f0 ~ series * condition + condition + series
+ser_cond_slope.lmer: demeaned_f0 ~ series * condition + condition + series + (1 + 
+ser_cond_slope.lmer:     condition | subj)
+                    Df   AIC   BIC logLik deviance  Chisq Chi Df Pr(>Chisq)    
+full.lm              9 64787 64849 -32385    64769                             
+ser_cond_slope.lmer 19 63565 63696 -31763    63527 1242.2     10  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

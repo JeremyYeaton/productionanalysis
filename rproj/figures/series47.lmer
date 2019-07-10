@@ -1,0 +1,24 @@
+Call:
+lm(formula = demeaned_f0 ~ series + condition + series * condition, 
+    data = over46)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-124.892  -13.035    0.632   11.891  305.699 
+
+Coefficients:
+                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            136.0190    10.0835  13.489  < 2e-16 ***
+series                  -2.6066     0.1898 -13.735  < 2e-16 ***
+conditionnc            -67.2633    14.1837  -4.742 2.15e-06 ***
+conditionnegob         -16.5800    13.9702  -1.187   0.2353    
+conditionnegsub        -32.8087    13.9702  -2.348   0.0189 *  
+series:conditionnc       1.2096     0.2670   4.531 5.96e-06 ***
+series:conditionnegob    0.3973     0.2629   1.511   0.1309    
+series:conditionnegsub   0.5012     0.2629   1.906   0.0567 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 29.97 on 7467 degrees of freedom
+Multiple R-squared:  0.08124,	Adjusted R-squared:  0.08038 
+F-statistic: 94.32 on 7 and 7467 DF,  p-value: < 2.2e-16

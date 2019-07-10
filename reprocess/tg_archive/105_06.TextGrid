@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.56165 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.56165 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1239248891159855 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.1239248891159855 
+            xmax = 0.26038445851072867 
+            text = "pER" 
+        intervals [3]:
+            xmin = 0.26038445851072867 
+            xmax = 0.5003844585107287 
+            text = "sOn" 
+        intervals [4]:
+            xmin = 0.5003844585107287 
+            xmax = 0.6003844585107286 
+            text = "n@" 
+        intervals [5]:
+            xmin = 0.6003844585107286 
+            xmax = 0.8403844585107287 
+            text = "ma~Z" 
+        intervals [6]:
+            xmin = 0.8403844585107287 
+            xmax = 1.1003844585107285 
+            text = "Rje~" 
+        intervals [7]:
+            xmin = 1.1003844585107285 
+            xmax = 1.1803844585107284 
+            text = "i" 
+        intervals [8]:
+            xmin = 1.1803844585107284 
+            xmax = 1.3303844585107285 
+            text = "si" 
+        intervals [9]:
+            xmin = 1.3303844585107285 
+            xmax = 1.56165 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.56165 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1239248891159855 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.1239248891159855 
+            xmax = 0.5003844585107287 
+            text = "personne" 
+        intervals [3]:
+            xmin = 0.5003844585107287 
+            xmax = 0.6003844585107286 
+            text = "ne" 
+        intervals [4]:
+            xmin = 0.6003844585107286 
+            xmax = 0.8403844585107287 
+            text = "mange" 
+        intervals [5]:
+            xmin = 0.8403844585107287 
+            xmax = 1.1003844585107285 
+            text = "rien" 
+        intervals [6]:
+            xmin = 1.1003844585107285 
+            xmax = 1.3303844585107285 
+            text = "ici" 
+        intervals [7]:
+            xmin = 1.3303844585107285 
+            xmax = 1.56165 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.56165 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1239248891159855 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.1239248891159855 
+            xmax = 1.56165 
+            text = "pERsOn n@ ma~Z Rje~ n*isi" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.56165 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1239248891159855 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.1239248891159855 
+            xmax = 1.56165 
+            text = "personne ne mange rien ici" 

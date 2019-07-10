@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.44075 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.44075 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 0.195 
+            text = "le" 
+        intervals [3]:
+            xmin = 0.195 
+            xmax = 0.325 
+            text = "Za~" 
+        intervals [4]:
+            xmin = 0.325 
+            xmax = 0.41500000000000004 
+            text = "n@" 
+        intervals [5]:
+            xmin = 0.41500000000000004 
+            xmax = 0.645 
+            text = "ma~Z" 
+        intervals [6]:
+            xmin = 0.645 
+            xmax = 0.925 
+            text = "Rje~" 
+        intervals [7]:
+            xmin = 0.925 
+            xmax = 0.985 
+            text = "l@" 
+        intervals [8]:
+            xmin = 0.985 
+            xmax = 1.375 
+            text = "swaR" 
+        intervals [9]:
+            xmin = 1.375 
+            xmax = 1.44075 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.44075 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 0.195 
+            text = "les" 
+        intervals [3]:
+            xmin = 0.195 
+            xmax = 0.325 
+            text = "gens" 
+        intervals [4]:
+            xmin = 0.325 
+            xmax = 0.41500000000000004 
+            text = "ne" 
+        intervals [5]:
+            xmin = 0.41500000000000004 
+            xmax = 0.645 
+            text = "mangent" 
+        intervals [6]:
+            xmin = 0.645 
+            xmax = 0.925 
+            text = "rien" 
+        intervals [7]:
+            xmin = 0.925 
+            xmax = 0.985 
+            text = "le" 
+        intervals [8]:
+            xmin = 0.985 
+            xmax = 1.375 
+            text = "soir" 
+        intervals [9]:
+            xmin = 1.375 
+            xmax = 1.44075 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.44075 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 1.44075 
+            text = "le Za~ n@ ma~Z Rje~ l@ swaR" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.44075 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 1.44075 
+            text = "les gens ne mangent rien le soir" 

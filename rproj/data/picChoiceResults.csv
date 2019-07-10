@@ -1,0 +1,9 @@
+condition	int	value
+DP DP	dn	.6667
+DP DP	nc	.3333
+DP Pro	dn	.6792
+DP Pro	nc	.3208
+Pro DP	dn	.4667
+Pro DP	nc	.5333
+Pro Pro	dn	.4667
+Pro Pro	nc	.5333

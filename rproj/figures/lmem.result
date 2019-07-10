@@ -1,0 +1,39 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: demeaned_f0 ~ series * condition + condition + series + (1 +      condition | subj)
+   Data: over46
+
+REML criterion at convergence: 63525.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.7017 -0.5404 -0.0309  0.4849  5.4231 
+
+Random effects:
+ Groups   Name            Variance Std.Dev. Corr             
+ subj     (Intercept)      60.61    7.785                    
+          conditionnc      59.59    7.719   -0.15            
+          conditionnegob   83.66    9.147   -0.38  0.59      
+          conditionnegsub  49.58    7.041   -0.31  0.18  0.54
+ Residual                 353.04   18.789                    
+Number of obs: 7275, groups:  subj, 20
+
+Fixed effects:
+                       Estimate Std. Error t value
+(Intercept)            130.2274     6.6366  19.622
+series                  -2.4844     0.1206 -20.606
+conditionnc            -52.0684     9.1518  -5.689
+conditionnegob         -21.5778     9.0914  -2.373
+conditionnegsub        -46.9842     9.0858  -5.171
+series:conditionnc       0.8770     0.1692   5.182
+series:conditionnegob    0.4982     0.1668   2.987
+series:conditionnegsub   0.7371     0.1684   4.376
+
+Correlation of Fixed Effects:
+             (Intr) series cndtnnc cndtnngb cndtnngs srs:cndtnnc srs:cndtnngb
+series       -0.963                                                          
+conditionnc  -0.682  0.698                                                   
+conditinngb  -0.702  0.703  0.518                                            
+conditnngsb  -0.694  0.703  0.499   0.517                                    
+srs:cndtnnc   0.686 -0.712 -0.980  -0.501   -0.501                           
+srs:cndtnngb  0.696 -0.723 -0.505  -0.972   -0.508    0.515                  
+srs:cndtnngs  0.689 -0.716 -0.500  -0.503   -0.982    0.510       0.517 

@@ -1,0 +1,26 @@
+\frametitle{Duration}
+\begin{tabular}{l l}
+\begin{verbatim}
+Condition     mean       SD
+   <fctr>    <dbl>    <dbl>
+1        dn 167.8117 63.41876
+2        nc 156.7921 65.15172
+3     negob 153.2326 65.69514
+4    negsub 143.9549 59.88083
+\end{verbatim}
+&\includegraphics[width=.5\linewidth]{figures/dur_cond.jpeg} %\begin{left}\tiny{\verbatiminput{figures/dur.result}}
+%\end{left}\\
+\\
+\end{tabular}
+
+\begin{frame}[fragile]
+\frametitle{Duration}
+\begin{tabular}{l l}
+\begin{tabular}{lll}
+Condition & Mean (ms) & $\mu$\\
+\end{tabular}
+&\includegraphics[width=.5\linewidth]{figures/dur_cond.jpeg} %\begin{left}\tiny{\verbatiminput{figures/dur.result}}
+%\end{left}\\
+\\
+\end{tabular}
+

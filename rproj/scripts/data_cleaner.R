@@ -17,21 +17,20 @@ maxmin_clean = line_max_min[, c(1,6:9)] %>%
 
 summ <- data_clean %>%
   group_by(subj) %>%
-  summarize(mean(duration,na.rm=TRUE),
-            sd(duration,na.rm=TRUE))
-summ
+  summarize(meanDuration = mean(duration,na.rm=TRUE),
+            sdDuration = sd(duration,na.rm=TRUE))
 
 meta_clean = subj_meta_data %>%
   arrange(subj) %>%
-  cbind(subj_mean_duration=summ$`mean(duration, na.rm = TRUE)`) %>%
-  cbind(duration_sd=summ$`sd(duration, na.rm = TRUE)`)
+  cbind(subj_mean_duration=summ$meanDuration) %>%
+  cbind(duration_sd=summ$sdDuration)
 
 f0_over_time_clean = f0_over_time %>% 
   filter(series < 61)
 
 # Combine three data frames
 data_clean = meta_clean %>%
-  inner_join(merge(x = f0_over_time_clean, y = maxmin_clean[, c(1,3:5)], by = "unique", all.x = T)) %>%
+  inner_join(merge(x = f0_over_time, y = maxmin_clean[, c(1,3:5)], by = "unique", all.x = T)) %>%
   mutate(subj = factor(subj)) %>%
   arrange(unique)
 

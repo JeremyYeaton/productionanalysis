@@ -1,116 +1,90 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.673 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.673 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.018679795297583505 
-            text = "pER" 
-        intervals [2]:
-            xmin = 0.018679795297583505 
-            xmax = 0.195 
-            text = "pER" 
-        intervals [3]:
-            xmin = 0.195 
-            xmax = 0.405 
-            text = "sOn" 
-        intervals [4]:
-            xmin = 0.405 
-            xmax = 0.515 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.515 
-            xmax = 0.6950000000000001 
-            text = "vwa" 
-        intervals [6]:
-            xmin = 0.6950000000000001 
-            xmax = 1.055 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 1.055 
-            xmax = 1.2049999999999998 
-            text = "dy" 
-        intervals [8]:
-            xmin = 1.2049999999999998 
-            xmax = 1.4549999999999998 
-            text = "tu" 
-        intervals [9]:
-            xmin = 1.4549999999999998 
-            xmax = 1.673 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.673 
-        intervals: size = 8 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.018679795297583505 
-            text = "personne" 
-        intervals [2]:
-            xmin = 0.018679795297583505 
-            xmax = 0.405 
-            text = "personne" 
-        intervals [3]:
-            xmin = 0.405 
-            xmax = 0.515 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.515 
-            xmax = 0.6950000000000001 
-            text = "voit" 
-        intervals [5]:
-            xmin = 0.6950000000000001 
-            xmax = 1.055 
-            text = "rien" 
-        intervals [6]:
-            xmin = 1.055 
-            xmax = 1.2049999999999998 
-            text = "du" 
-        intervals [7]:
-            xmin = 1.2049999999999998 
-            xmax = 1.4549999999999998 
-            text = "tout" 
-        intervals [8]:
-            xmin = 1.4549999999999998 
-            xmax = 1.673 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.673 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.018679795297583505 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.018679795297583505 
-            xmax = 1.673 
-            text = "pERsOn n@ vwa Rje~ dy tu" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.673 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.018679795297583505 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.018679795297583505 
-            xmax = 1.673 
-            text = "personne ne voit rien du tout" 
+0
+1.673
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.673
+9
+0
+0.018679795297583505
+"pER"
+0.018679795297583505
+0.195
+"pER"
+0.195
+0.405
+"sOn"
+0.405
+0.515
+"n@"
+0.515
+0.6950000000000001
+"vwa"
+0.6950000000000001
+1.055
+"Rje~"
+1.055
+1.2049999999999998
+"dy"
+1.2049999999999998
+1.4549999999999998
+"tu"
+1.4549999999999998
+1.673
+"_"
+"IntervalTier"
+"words"
+0
+1.673
+8
+0
+0.018679795297583505
+"personne"
+0.018679795297583505
+0.405
+"personne"
+0.405
+0.515
+"ne"
+0.515
+0.6950000000000001
+"voit"
+0.6950000000000001
+1.055
+"rien"
+1.055
+1.2049999999999998
+"du"
+1.2049999999999998
+1.4549999999999998
+"tout"
+1.4549999999999998
+1.673
+"_"
+"IntervalTier"
+"phono"
+0
+1.673
+2
+0
+0.018679795297583505
+"_"
+0.018679795297583505
+1.673
+"pERsOn n@ vwa Rje~ dy tu"
+"IntervalTier"
+"ortho"
+0
+1.673
+2
+0
+0.018679795297583505
+"_"
+0.018679795297583505
+1.673
+"personne ne voit rien du tout"

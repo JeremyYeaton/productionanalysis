@@ -1,120 +1,93 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.2651 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.2651 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.045 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.045 
-            xmax = 0.16499999999999998 
-            text = "ma" 
-        intervals [3]:
-            xmin = 0.16499999999999998 
-            xmax = 0.28500000000000003 
-            text = "Ri" 
-        intervals [4]:
-            xmin = 0.28500000000000003 
-            xmax = 0.385 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.385 
-            xmax = 0.515 
-            text = "li" 
-        intervals [6]:
-            xmin = 0.515 
-            xmax = 0.755 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.755 
-            xmax = 0.8150000000000001 
-            text = "l@" 
-        intervals [8]:
-            xmin = 0.8150000000000001 
-            xmax = 0.895 
-            text = "wi" 
-        intervals [9]:
-            xmin = 0.895 
-            xmax = 1.2249999999999999 
-            text = "kEnd" 
-        intervals [10]:
-            xmin = 1.2249999999999999 
-            xmax = 1.2651 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.2651 
-        intervals: size = 8 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.045 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.045 
-            xmax = 0.28500000000000003 
-            text = "marie" 
-        intervals [3]:
-            xmin = 0.28500000000000003 
-            xmax = 0.385 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.385 
-            xmax = 0.515 
-            text = "lit" 
-        intervals [5]:
-            xmin = 0.515 
-            xmax = 0.755 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.755 
-            xmax = 0.8150000000000001 
-            text = "le" 
-        intervals [7]:
-            xmin = 0.8150000000000001 
-            xmax = 1.2249999999999999 
-            text = "week-end" 
-        intervals [8]:
-            xmin = 1.2249999999999999 
-            xmax = 1.2651 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.2651 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.045 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.045 
-            xmax = 1.2651 
-            text = "maRi n@ li Rje~ l@ wikEnd" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.2651 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.045 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.045 
-            xmax = 1.2651 
-            text = "marie ne lit rien le week-end" 
+0
+1.2651
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.2651
+10
+0
+0.045
+"_"
+0.045
+0.16499999999999998
+"ma"
+0.16499999999999998
+0.28500000000000003
+"Ri"
+0.28500000000000003
+0.385
+"n@"
+0.385
+0.515
+"li"
+0.515
+0.755
+"Rje~"
+0.755
+0.8150000000000001
+"l@"
+0.8150000000000001
+0.895
+"wi"
+0.895
+1.2249999999999999
+"kEnd"
+1.2249999999999999
+1.2651
+"_"
+"IntervalTier"
+"words"
+0
+1.2651
+8
+0
+0.045
+"_"
+0.045
+0.28500000000000003
+"marie"
+0.28500000000000003
+0.385
+"ne"
+0.385
+0.515
+"lit"
+0.515
+0.755
+"rien"
+0.755
+0.8150000000000001
+"le"
+0.8150000000000001
+1.2249999999999999
+"week-end"
+1.2249999999999999
+1.2651
+"_"
+"IntervalTier"
+"phono"
+0
+1.2651
+2
+0
+0.045
+"_"
+0.045
+1.2651
+"maRi n@ li Rje~ l@ wikEnd"
+"IntervalTier"
+"ortho"
+0
+1.2651
+2
+0
+0.045
+"_"
+0.045
+1.2651
+"marie ne lit rien le week-end"

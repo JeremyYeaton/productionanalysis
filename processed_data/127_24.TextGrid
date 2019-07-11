@@ -1,120 +1,93 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.4593 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.4593 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 0.175 
-            text = "ly" 
-        intervals [3]:
-            xmin = 0.175 
-            xmax = 0.375 
-            text = "si" 
-        intervals [4]:
-            xmin = 0.375 
-            xmax = 0.465 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.465 
-            xmax = 0.615 
-            text = "vwa" 
-        intervals [6]:
-            xmin = 0.615 
-            xmax = 0.875 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.875 
-            xmax = 0.915 
-            text = "o" 
-        intervals [8]:
-            xmin = 0.915 
-            xmax = 1.115 
-            text = "tuR" 
-        intervals [9]:
-            xmin = 1.115 
-            xmax = 1.295 
-            text = "dEl" 
-        intervals [10]:
-            xmin = 1.295 
-            xmax = 1.4593 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.4593 
-        intervals: size = 8 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 0.375 
-            text = "lucie" 
-        intervals [3]:
-            xmin = 0.375 
-            xmax = 0.465 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.465 
-            xmax = 0.615 
-            text = "voit" 
-        intervals [5]:
-            xmin = 0.615 
-            xmax = 0.875 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.875 
-            xmax = 1.115 
-            text = "autour" 
-        intervals [7]:
-            xmin = 1.115 
-            xmax = 1.295 
-            text = "d'elle" 
-        intervals [8]:
-            xmin = 1.295 
-            xmax = 1.4593 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.4593 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 1.4593 
-            text = "lysi n@ vwa Rje~ n*otuR dEl" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.4593 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 1.4593 
-            text = "lucie ne voit rien autour d'elle" 
+0
+1.4593
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.4593
+10
+0
+0.105
+"_"
+0.105
+0.175
+"ly"
+0.175
+0.375
+"si"
+0.375
+0.465
+"n@"
+0.465
+0.615
+"vwa"
+0.615
+0.875
+"Rje~"
+0.875
+0.915
+"o"
+0.915
+1.115
+"tuR"
+1.115
+1.295
+"dEl"
+1.295
+1.4593
+"_"
+"IntervalTier"
+"words"
+0
+1.4593
+8
+0
+0.105
+"_"
+0.105
+0.375
+"lucie"
+0.375
+0.465
+"ne"
+0.465
+0.615
+"voit"
+0.615
+0.875
+"rien"
+0.875
+1.115
+"autour"
+1.115
+1.295
+"d'elle"
+1.295
+1.4593
+"_"
+"IntervalTier"
+"phono"
+0
+1.4593
+2
+0
+0.105
+"_"
+0.105
+1.4593
+"lysi n@ vwa Rje~ n*otuR dEl"
+"IntervalTier"
+"ortho"
+0
+1.4593
+2
+0
+0.105
+"_"
+0.105
+1.4593
+"lucie ne voit rien autour d'elle"

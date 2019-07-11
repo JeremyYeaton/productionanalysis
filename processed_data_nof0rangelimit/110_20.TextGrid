@@ -1,120 +1,93 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.44745 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.44745 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.085 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.085 
-            xmax = 0.255 
-            text = "maR" 
-        intervals [3]:
-            xmin = 0.255 
-            xmax = 0.375 
-            text = "la" 
-        intervals [4]:
-            xmin = 0.375 
-            xmax = 0.455 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.455 
-            xmax = 0.635 
-            text = "fE" 
-        intervals [6]:
-            xmin = 0.635 
-            xmax = 0.855 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.855 
-            xmax = 0.935 
-            text = "l@" 
-        intervals [8]:
-            xmin = 0.935 
-            xmax = 1.095 
-            text = "di" 
-        intervals [9]:
-            xmin = 1.095 
-            xmax = 1.365 
-            text = "ma~S" 
-        intervals [10]:
-            xmin = 1.365 
-            xmax = 1.44745 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.44745 
-        intervals: size = 8 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.085 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.085 
-            xmax = 0.375 
-            text = "marla" 
-        intervals [3]:
-            xmin = 0.375 
-            xmax = 0.455 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.455 
-            xmax = 0.635 
-            text = "fait" 
-        intervals [5]:
-            xmin = 0.635 
-            xmax = 0.855 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.855 
-            xmax = 0.935 
-            text = "le" 
-        intervals [7]:
-            xmin = 0.935 
-            xmax = 1.365 
-            text = "dimanche" 
-        intervals [8]:
-            xmin = 1.365 
-            xmax = 1.44745 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.44745 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.085 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.085 
-            xmax = 1.44745 
-            text = "maRla n@ fE Rje~ l@ dima~S" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.44745 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.085 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.085 
-            xmax = 1.44745 
-            text = "marla ne fait rien le dimanche" 
+0
+1.44745
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.44745
+10
+0
+0.085
+"_"
+0.085
+0.255
+"maR"
+0.255
+0.375
+"la"
+0.375
+0.455
+"n@"
+0.455
+0.635
+"fE"
+0.635
+0.855
+"Rje~"
+0.855
+0.935
+"l@"
+0.935
+1.095
+"di"
+1.095
+1.365
+"ma~S"
+1.365
+1.44745
+"_"
+"IntervalTier"
+"words"
+0
+1.44745
+8
+0
+0.085
+"_"
+0.085
+0.375
+"marla"
+0.375
+0.455
+"ne"
+0.455
+0.635
+"fait"
+0.635
+0.855
+"rien"
+0.855
+0.935
+"le"
+0.935
+1.365
+"dimanche"
+1.365
+1.44745
+"_"
+"IntervalTier"
+"phono"
+0
+1.44745
+2
+0
+0.085
+"_"
+0.085
+1.44745
+"maRla n@ fE Rje~ l@ dima~S"
+"IntervalTier"
+"ortho"
+0
+1.44745
+2
+0
+0.085
+"_"
+0.085
+1.44745
+"marla ne fait rien le dimanche"

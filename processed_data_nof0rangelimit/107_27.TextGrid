@@ -1,128 +1,99 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.58785 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.58785 
-        intervals: size = 11 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.011801304297036774 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.011801304297036774 
-            xmax = 0.11560389616913512 
-            text = "pER" 
-        intervals [3]:
-            xmin = 0.11560389616913512 
-            xmax = 0.335 
-            text = "sOn" 
-        intervals [4]:
-            xmin = 0.335 
-            xmax = 0.435 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.435 
-            xmax = 0.605 
-            text = "di" 
-        intervals [6]:
-            xmin = 0.605 
-            xmax = 0.795 
-            text = "mo" 
-        intervals [7]:
-            xmin = 0.795 
-            xmax = 0.965 
-            text = "pa~" 
-        intervals [8]:
-            xmin = 0.965 
-            xmax = 1.095 
-            text = "da~" 
-        intervals [9]:
-            xmin = 1.095 
-            xmax = 1.1649999999999998 
-            text = "y" 
-        intervals [10]:
-            xmin = 1.1649999999999998 
-            xmax = 1.545 
-            text = "n9R" 
-        intervals [11]:
-            xmin = 1.545 
-            xmax = 1.58785 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.58785 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.011801304297036774 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.011801304297036774 
-            xmax = 0.335 
-            text = "personne" 
-        intervals [3]:
-            xmin = 0.335 
-            xmax = 0.435 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.435 
-            xmax = 0.605 
-            text = "dit" 
-        intervals [5]:
-            xmin = 0.605 
-            xmax = 0.795 
-            text = "mot" 
-        intervals [6]:
-            xmin = 0.795 
-            xmax = 1.095 
-            text = "pendant" 
-        intervals [7]:
-            xmin = 1.095 
-            xmax = 1.1649999999999998 
-            text = "une" 
-        intervals [8]:
-            xmin = 1.1649999999999998 
-            xmax = 1.545 
-            text = "heure" 
-        intervals [9]:
-            xmin = 1.545 
-            xmax = 1.58785 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.58785 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.011801304297036774 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.011801304297036774 
-            xmax = 1.58785 
-            text = "pERsOn n@ di mo pa~da~ y n9R" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.58785 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.011801304297036774 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.011801304297036774 
-            xmax = 1.58785 
-            text = "personne ne dit mot pendant une heure" 
+0
+1.58785
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.58785
+11
+0
+0.011801304297036774
+"_"
+0.011801304297036774
+0.11560389616913512
+"pER"
+0.11560389616913512
+0.335
+"sOn"
+0.335
+0.435
+"n@"
+0.435
+0.605
+"di"
+0.605
+0.795
+"mo"
+0.795
+0.965
+"pa~"
+0.965
+1.095
+"da~"
+1.095
+1.1649999999999998
+"y"
+1.1649999999999998
+1.545
+"n9R"
+1.545
+1.58785
+"_"
+"IntervalTier"
+"words"
+0
+1.58785
+9
+0
+0.011801304297036774
+"_"
+0.011801304297036774
+0.335
+"personne"
+0.335
+0.435
+"ne"
+0.435
+0.605
+"dit"
+0.605
+0.795
+"mot"
+0.795
+1.095
+"pendant"
+1.095
+1.1649999999999998
+"une"
+1.1649999999999998
+1.545
+"heure"
+1.545
+1.58785
+"_"
+"IntervalTier"
+"phono"
+0
+1.58785
+2
+0
+0.011801304297036774
+"_"
+0.011801304297036774
+1.58785
+"pERsOn n@ di mo pa~da~ y n9R"
+"IntervalTier"
+"ortho"
+0
+1.58785
+2
+0
+0.011801304297036774
+"_"
+0.011801304297036774
+1.58785
+"personne ne dit mot pendant une heure"

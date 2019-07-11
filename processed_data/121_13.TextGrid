@@ -1,124 +1,96 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.78045 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.78045 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.022914729282843865 
-            text = "pER" 
-        intervals [2]:
-            xmin = 0.022914729282843865 
-            xmax = 0.1670870402507001 
-            text = "pER" 
-        intervals [3]:
-            xmin = 0.1670870402507001 
-            xmax = 0.365 
-            text = "sOn" 
-        intervals [4]:
-            xmin = 0.365 
-            xmax = 0.485 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.485 
-            xmax = 0.645 
-            text = "li" 
-        intervals [6]:
-            xmin = 0.645 
-            xmax = 0.935 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.935 
-            xmax = 1.1649999999999998 
-            text = "puR" 
-        intervals [8]:
-            xmin = 1.1649999999999998 
-            xmax = 1.255 
-            text = "l9R" 
-        intervals [9]:
-            xmin = 1.255 
-            xmax = 1.565 
-            text = "klas" 
-        intervals [10]:
-            xmin = 1.565 
-            xmax = 1.78045 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.78045 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.022914729282843865 
-            text = "personne" 
-        intervals [2]:
-            xmin = 0.022914729282843865 
-            xmax = 0.365 
-            text = "personne" 
-        intervals [3]:
-            xmin = 0.365 
-            xmax = 0.485 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.485 
-            xmax = 0.645 
-            text = "lit" 
-        intervals [5]:
-            xmin = 0.645 
-            xmax = 0.935 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.935 
-            xmax = 1.1649999999999998 
-            text = "pour" 
-        intervals [7]:
-            xmin = 1.1649999999999998 
-            xmax = 1.255 
-            text = "leurs" 
-        intervals [8]:
-            xmin = 1.255 
-            xmax = 1.565 
-            text = "classes" 
-        intervals [9]:
-            xmin = 1.565 
-            xmax = 1.78045 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.78045 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.022914729282843865 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.022914729282843865 
-            xmax = 1.78045 
-            text = "pERsOn n@ li Rje~ puR l9R klas" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.78045 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.022914729282843865 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.022914729282843865 
-            xmax = 1.78045 
-            text = "personne ne lit rien pour leurs classes" 
+0
+1.78045
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.78045
+10
+0
+0.022914729282843865
+"pER"
+0.022914729282843865
+0.1670870402507001
+"pER"
+0.1670870402507001
+0.365
+"sOn"
+0.365
+0.485
+"n@"
+0.485
+0.645
+"li"
+0.645
+0.935
+"Rje~"
+0.935
+1.1649999999999998
+"puR"
+1.1649999999999998
+1.255
+"l9R"
+1.255
+1.565
+"klas"
+1.565
+1.78045
+"_"
+"IntervalTier"
+"words"
+0
+1.78045
+9
+0
+0.022914729282843865
+"personne"
+0.022914729282843865
+0.365
+"personne"
+0.365
+0.485
+"ne"
+0.485
+0.645
+"lit"
+0.645
+0.935
+"rien"
+0.935
+1.1649999999999998
+"pour"
+1.1649999999999998
+1.255
+"leurs"
+1.255
+1.565
+"classes"
+1.565
+1.78045
+"_"
+"IntervalTier"
+"phono"
+0
+1.78045
+2
+0
+0.022914729282843865
+"_"
+0.022914729282843865
+1.78045
+"pERsOn n@ li Rje~ puR l9R klas"
+"IntervalTier"
+"ortho"
+0
+1.78045
+2
+0
+0.022914729282843865
+"_"
+0.022914729282843865
+1.78045
+"personne ne lit rien pour leurs classes"

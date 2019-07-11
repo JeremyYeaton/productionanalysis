@@ -1,124 +1,96 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.6818 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.6818 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.018778051244157764 
-            text = "pER" 
-        intervals [2]:
-            xmin = 0.018778051244157764 
-            xmax = 0.1291588534310799 
-            text = "pER" 
-        intervals [3]:
-            xmin = 0.1291588534310799 
-            xmax = 0.34500000000000003 
-            text = "sOn" 
-        intervals [4]:
-            xmin = 0.34500000000000003 
-            xmax = 0.435 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.435 
-            xmax = 0.5650000000000001 
-            text = "li" 
-        intervals [6]:
-            xmin = 0.5650000000000001 
-            xmax = 0.8150000000000001 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.8150000000000001 
-            xmax = 0.985 
-            text = "puR" 
-        intervals [8]:
-            xmin = 0.985 
-            xmax = 1.095 
-            text = "l9R" 
-        intervals [9]:
-            xmin = 1.095 
-            xmax = 1.505 
-            text = "klas" 
-        intervals [10]:
-            xmin = 1.505 
-            xmax = 1.6818 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.6818 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.018778051244157764 
-            text = "personne" 
-        intervals [2]:
-            xmin = 0.018778051244157764 
-            xmax = 0.34500000000000003 
-            text = "personne" 
-        intervals [3]:
-            xmin = 0.34500000000000003 
-            xmax = 0.435 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.435 
-            xmax = 0.5650000000000001 
-            text = "lit" 
-        intervals [5]:
-            xmin = 0.5650000000000001 
-            xmax = 0.8150000000000001 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.8150000000000001 
-            xmax = 0.985 
-            text = "pour" 
-        intervals [7]:
-            xmin = 0.985 
-            xmax = 1.095 
-            text = "leurs" 
-        intervals [8]:
-            xmin = 1.095 
-            xmax = 1.505 
-            text = "classes" 
-        intervals [9]:
-            xmin = 1.505 
-            xmax = 1.6818 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.6818 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.018778051244157764 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.018778051244157764 
-            xmax = 1.6818 
-            text = "pERsOn n@ li Rje~ puR l9R klas" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.6818 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.018778051244157764 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.018778051244157764 
-            xmax = 1.6818 
-            text = "personne ne lit rien pour leurs classes" 
+0
+1.6818
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.6818
+10
+0
+0.018778051244157764
+"pER"
+0.018778051244157764
+0.1291588534310799
+"pER"
+0.1291588534310799
+0.34500000000000003
+"sOn"
+0.34500000000000003
+0.435
+"n@"
+0.435
+0.5650000000000001
+"li"
+0.5650000000000001
+0.8150000000000001
+"Rje~"
+0.8150000000000001
+0.985
+"puR"
+0.985
+1.095
+"l9R"
+1.095
+1.505
+"klas"
+1.505
+1.6818
+"_"
+"IntervalTier"
+"words"
+0
+1.6818
+9
+0
+0.018778051244157764
+"personne"
+0.018778051244157764
+0.34500000000000003
+"personne"
+0.34500000000000003
+0.435
+"ne"
+0.435
+0.5650000000000001
+"lit"
+0.5650000000000001
+0.8150000000000001
+"rien"
+0.8150000000000001
+0.985
+"pour"
+0.985
+1.095
+"leurs"
+1.095
+1.505
+"classes"
+1.505
+1.6818
+"_"
+"IntervalTier"
+"phono"
+0
+1.6818
+2
+0
+0.018778051244157764
+"_"
+0.018778051244157764
+1.6818
+"pERsOn n@ li Rje~ puR l9R klas"
+"IntervalTier"
+"ortho"
+0
+1.6818
+2
+0
+0.018778051244157764
+"_"
+0.018778051244157764
+1.6818
+"personne ne lit rien pour leurs classes"

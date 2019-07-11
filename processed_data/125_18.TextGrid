@@ -1,116 +1,90 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.46705 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.46705 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.075 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.075 
-            xmax = 0.20500000000000002 
-            text = "Ra" 
-        intervals [3]:
-            xmin = 0.20500000000000002 
-            xmax = 0.34500000000000003 
-            text = "ul" 
-        intervals [4]:
-            xmin = 0.34500000000000003 
-            xmax = 0.435 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.435 
-            xmax = 0.5650000000000001 
-            text = "bwa" 
-        intervals [6]:
-            xmin = 0.5650000000000001 
-            xmax = 0.755 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.755 
-            xmax = 0.785 
-            text = "o" 
-        intervals [8]:
-            xmin = 0.785 
-            xmax = 0.955 
-            text = "ZuR" 
-        intervals [9]:
-            xmin = 0.955 
-            xmax = 1.125 
-            text = "dHi" 
-        intervals [10]:
-            xmin = 1.125 
-            xmax = 1.46705 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.46705 
-        intervals: size = 7 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.075 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.075 
-            xmax = 0.34500000000000003 
-            text = "raoul" 
-        intervals [3]:
-            xmin = 0.34500000000000003 
-            xmax = 0.435 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.435 
-            xmax = 0.5650000000000001 
-            text = "boit" 
-        intervals [5]:
-            xmin = 0.5650000000000001 
-            xmax = 0.755 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.755 
-            xmax = 1.125 
-            text = "aujourd'hui" 
-        intervals [7]:
-            xmin = 1.125 
-            xmax = 1.46705 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.46705 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.075 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.075 
-            xmax = 1.46705 
-            text = "Raul n@ bwa Rje~ n*oZuRdHi" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.46705 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.075 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.075 
-            xmax = 1.46705 
-            text = "raoul ne boit rien aujourd'hui" 
+0
+1.46705
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.46705
+10
+0
+0.075
+"_"
+0.075
+0.20500000000000002
+"Ra"
+0.20500000000000002
+0.34500000000000003
+"ul"
+0.34500000000000003
+0.435
+"n@"
+0.435
+0.5650000000000001
+"bwa"
+0.5650000000000001
+0.755
+"Rje~"
+0.755
+0.785
+"o"
+0.785
+0.955
+"ZuR"
+0.955
+1.125
+"dHi"
+1.125
+1.46705
+"_"
+"IntervalTier"
+"words"
+0
+1.46705
+7
+0
+0.075
+"_"
+0.075
+0.34500000000000003
+"raoul"
+0.34500000000000003
+0.435
+"ne"
+0.435
+0.5650000000000001
+"boit"
+0.5650000000000001
+0.755
+"rien"
+0.755
+1.125
+"aujourd'hui"
+1.125
+1.46705
+"_"
+"IntervalTier"
+"phono"
+0
+1.46705
+2
+0
+0.075
+"_"
+0.075
+1.46705
+"Raul n@ bwa Rje~ n*oZuRdHi"
+"IntervalTier"
+"ortho"
+0
+1.46705
+2
+0
+0.075
+"_"
+0.075
+1.46705
+"raoul ne boit rien aujourd'hui"

@@ -1,136 +1,105 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 2.10385 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 2.10385 
-        intervals: size = 12 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 0.135 
-            text = "a" 
-        intervals [3]:
-            xmin = 0.135 
-            xmax = 0.485 
-            text = "lin" 
-        intervals [4]:
-            xmin = 0.485 
-            xmax = 0.635 
-            text = "_" 
-        intervals [5]:
-            xmin = 0.635 
-            xmax = 0.785 
-            text = "n@" 
-        intervals [6]:
-            xmin = 0.785 
-            xmax = 0.985 
-            text = "di" 
-        intervals [7]:
-            xmin = 0.985 
-            xmax = 1.2349999999999999 
-            text = "Rje~" 
-        intervals [8]:
-            xmin = 1.2349999999999999 
-            xmax = 1.4649999999999999 
-            text = "pa~" 
-        intervals [9]:
-            xmin = 1.4649999999999999 
-            xmax = 1.575 
-            text = "da~" 
-        intervals [10]:
-            xmin = 1.575 
-            xmax = 1.6449999999999998 
-            text = "le" 
-        intervals [11]:
-            xmin = 1.6449999999999998 
-            xmax = 2.025 
-            text = "kuR" 
-        intervals [12]:
-            xmin = 2.025 
-            xmax = 2.10385 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 2.10385 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 0.485 
-            text = "aline" 
-        intervals [3]:
-            xmin = 0.485 
-            xmax = 0.635 
-            text = "_" 
-        intervals [4]:
-            xmin = 0.635 
-            xmax = 0.785 
-            text = "ne" 
-        intervals [5]:
-            xmin = 0.785 
-            xmax = 0.985 
-            text = "dit" 
-        intervals [6]:
-            xmin = 0.985 
-            xmax = 1.2349999999999999 
-            text = "rien" 
-        intervals [7]:
-            xmin = 1.2349999999999999 
-            xmax = 1.575 
-            text = "pendant" 
-        intervals [8]:
-            xmin = 1.575 
-            xmax = 1.6449999999999998 
-            text = "les" 
-        intervals [9]:
-            xmin = 1.6449999999999998 
-            xmax = 2.025 
-            text = "cours" 
-        intervals [10]:
-            xmin = 2.025 
-            xmax = 2.10385 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 2.10385 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 2.10385 
-            text = "alin n@ di Rje~ pa~da~ le kuR" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 2.10385 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 2.10385 
-            text = "aline ne dit rien pendant les cours" 
+0
+2.10385
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+2.10385
+12
+0
+0.105
+"_"
+0.105
+0.135
+"a"
+0.135
+0.485
+"lin"
+0.485
+0.635
+"_"
+0.635
+0.785
+"n@"
+0.785
+0.985
+"di"
+0.985
+1.2349999999999999
+"Rje~"
+1.2349999999999999
+1.4649999999999999
+"pa~"
+1.4649999999999999
+1.575
+"da~"
+1.575
+1.6449999999999998
+"le"
+1.6449999999999998
+2.025
+"kuR"
+2.025
+2.10385
+"_"
+"IntervalTier"
+"words"
+0
+2.10385
+10
+0
+0.105
+"_"
+0.105
+0.485
+"aline"
+0.485
+0.635
+"_"
+0.635
+0.785
+"ne"
+0.785
+0.985
+"dit"
+0.985
+1.2349999999999999
+"rien"
+1.2349999999999999
+1.575
+"pendant"
+1.575
+1.6449999999999998
+"les"
+1.6449999999999998
+2.025
+"cours"
+2.025
+2.10385
+"_"
+"IntervalTier"
+"phono"
+0
+2.10385
+2
+0
+0.105
+"_"
+0.105
+2.10385
+"alin n@ di Rje~ pa~da~ le kuR"
+"IntervalTier"
+"ortho"
+0
+2.10385
+2
+0
+0.105
+"_"
+0.105
+2.10385
+"aline ne dit rien pendant les cours"

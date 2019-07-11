@@ -1,128 +1,99 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 2.05515 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 2.05515 
-        intervals: size = 11 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.06379018581826652 
-            text = "pER" 
-        intervals [2]:
-            xmin = 0.06379018581826652 
-            xmax = 0.15522378871256454 
-            text = "pER" 
-        intervals [3]:
-            xmin = 0.15522378871256454 
-            xmax = 0.425 
-            text = "sOn" 
-        intervals [4]:
-            xmin = 0.425 
-            xmax = 0.505 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.505 
-            xmax = 0.665 
-            text = "mE" 
-        intervals [6]:
-            xmin = 0.665 
-            xmax = 0.925 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.925 
-            xmax = 1.065 
-            text = "da~" 
-        intervals [8]:
-            xmin = 1.065 
-            xmax = 1.2449999999999999 
-            text = "se" 
-        intervals [9]:
-            xmin = 1.2449999999999999 
-            xmax = 1.4149999999999998 
-            text = "pla" 
-        intervals [10]:
-            xmin = 1.4149999999999998 
-            xmax = 1.605 
-            text = "kaR" 
-        intervals [11]:
-            xmin = 1.605 
-            xmax = 2.05515 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 2.05515 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.06379018581826652 
-            text = "personne" 
-        intervals [2]:
-            xmin = 0.06379018581826652 
-            xmax = 0.425 
-            text = "personne" 
-        intervals [3]:
-            xmin = 0.425 
-            xmax = 0.505 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.505 
-            xmax = 0.665 
-            text = "met" 
-        intervals [5]:
-            xmin = 0.665 
-            xmax = 0.925 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.925 
-            xmax = 1.065 
-            text = "dans" 
-        intervals [7]:
-            xmin = 1.065 
-            xmax = 1.2449999999999999 
-            text = "ses" 
-        intervals [8]:
-            xmin = 1.2449999999999999 
-            xmax = 1.605 
-            text = "placards" 
-        intervals [9]:
-            xmin = 1.605 
-            xmax = 2.05515 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 2.05515 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.06379018581826652 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.06379018581826652 
-            xmax = 2.05515 
-            text = "pERsOn n@ mE Rje~ da~ se plakaR" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 2.05515 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.06379018581826652 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.06379018581826652 
-            xmax = 2.05515 
-            text = "personne ne met rien dans ses placards" 
+0
+2.05515
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+2.05515
+11
+0
+0.06379018581826652
+"pER"
+0.06379018581826652
+0.15522378871256454
+"pER"
+0.15522378871256454
+0.425
+"sOn"
+0.425
+0.505
+"n@"
+0.505
+0.665
+"mE"
+0.665
+0.925
+"Rje~"
+0.925
+1.065
+"da~"
+1.065
+1.2449999999999999
+"se"
+1.2449999999999999
+1.4149999999999998
+"pla"
+1.4149999999999998
+1.605
+"kaR"
+1.605
+2.05515
+"_"
+"IntervalTier"
+"words"
+0
+2.05515
+9
+0
+0.06379018581826652
+"personne"
+0.06379018581826652
+0.425
+"personne"
+0.425
+0.505
+"ne"
+0.505
+0.665
+"met"
+0.665
+0.925
+"rien"
+0.925
+1.065
+"dans"
+1.065
+1.2449999999999999
+"ses"
+1.2449999999999999
+1.605
+"placards"
+1.605
+2.05515
+"_"
+"IntervalTier"
+"phono"
+0
+2.05515
+2
+0
+0.06379018581826652
+"_"
+0.06379018581826652
+2.05515
+"pERsOn n@ mE Rje~ da~ se plakaR"
+"IntervalTier"
+"ortho"
+0
+2.05515
+2
+0
+0.06379018581826652
+"_"
+0.06379018581826652
+2.05515
+"personne ne met rien dans ses placards"

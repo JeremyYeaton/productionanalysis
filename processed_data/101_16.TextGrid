@@ -1,116 +1,90 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.4848 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.4848 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.13427924850637973 
-            text = "pER" 
-        intervals [2]:
-            xmin = 0.13427924850637973 
-            xmax = 0.25830803861329915 
-            text = "pER" 
-        intervals [3]:
-            xmin = 0.25830803861329915 
-            xmax = 0.505 
-            text = "sOn" 
-        intervals [4]:
-            xmin = 0.505 
-            xmax = 0.605 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.605 
-            xmax = 0.715 
-            text = "vwa" 
-        intervals [6]:
-            xmin = 0.715 
-            xmax = 0.925 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.925 
-            xmax = 1.035 
-            text = "dy" 
-        intervals [8]:
-            xmin = 1.035 
-            xmax = 1.2049999999999998 
-            text = "tu" 
-        intervals [9]:
-            xmin = 1.2049999999999998 
-            xmax = 1.4848 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.4848 
-        intervals: size = 8 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.13427924850637973 
-            text = "personne" 
-        intervals [2]:
-            xmin = 0.13427924850637973 
-            xmax = 0.505 
-            text = "personne" 
-        intervals [3]:
-            xmin = 0.505 
-            xmax = 0.605 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.605 
-            xmax = 0.715 
-            text = "voit" 
-        intervals [5]:
-            xmin = 0.715 
-            xmax = 0.925 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.925 
-            xmax = 1.035 
-            text = "du" 
-        intervals [7]:
-            xmin = 1.035 
-            xmax = 1.2049999999999998 
-            text = "tout" 
-        intervals [8]:
-            xmin = 1.2049999999999998 
-            xmax = 1.4848 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.4848 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.13427924850637973 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.13427924850637973 
-            xmax = 1.4848 
-            text = "pERsOn n@ vwa Rje~ dy tu" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.4848 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.13427924850637973 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.13427924850637973 
-            xmax = 1.4848 
-            text = "personne ne voit rien du tout" 
+0
+1.4848
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.4848
+9
+0
+0.13427924850637973
+"pER"
+0.13427924850637973
+0.25830803861329915
+"pER"
+0.25830803861329915
+0.505
+"sOn"
+0.505
+0.605
+"n@"
+0.605
+0.715
+"vwa"
+0.715
+0.925
+"Rje~"
+0.925
+1.035
+"dy"
+1.035
+1.2049999999999998
+"tu"
+1.2049999999999998
+1.4848
+"_"
+"IntervalTier"
+"words"
+0
+1.4848
+8
+0
+0.13427924850637973
+"personne"
+0.13427924850637973
+0.505
+"personne"
+0.505
+0.605
+"ne"
+0.605
+0.715
+"voit"
+0.715
+0.925
+"rien"
+0.925
+1.035
+"du"
+1.035
+1.2049999999999998
+"tout"
+1.2049999999999998
+1.4848
+"_"
+"IntervalTier"
+"phono"
+0
+1.4848
+2
+0
+0.13427924850637973
+"_"
+0.13427924850637973
+1.4848
+"pERsOn n@ vwa Rje~ dy tu"
+"IntervalTier"
+"ortho"
+0
+1.4848
+2
+0
+0.13427924850637973
+"_"
+0.13427924850637973
+1.4848
+"personne ne voit rien du tout"

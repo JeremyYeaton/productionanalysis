@@ -1,128 +1,99 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 2.33025 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 2.33025 
-        intervals: size = 11 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 0.375 
-            text = "ma" 
-        intervals [3]:
-            xmin = 0.375 
-            xmax = 0.555 
-            text = "Ri" 
-        intervals [4]:
-            xmin = 0.555 
-            xmax = 0.705 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.705 
-            xmax = 0.915 
-            text = "li" 
-        intervals [6]:
-            xmin = 0.915 
-            xmax = 1.265 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 1.265 
-            xmax = 1.345 
-            text = "l@" 
-        intervals [8]:
-            xmin = 1.345 
-            xmax = 1.4149999999999998 
-            text = "_" 
-        intervals [9]:
-            xmin = 1.4149999999999998 
-            xmax = 1.585 
-            text = "wi" 
-        intervals [10]:
-            xmin = 1.585 
-            xmax = 1.785 
-            text = "kEnd" 
-        intervals [11]:
-            xmin = 1.785 
-            xmax = 2.33025 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 2.33025 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 0.555 
-            text = "marie" 
-        intervals [3]:
-            xmin = 0.555 
-            xmax = 0.705 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.705 
-            xmax = 0.915 
-            text = "lit" 
-        intervals [5]:
-            xmin = 0.915 
-            xmax = 1.265 
-            text = "rien" 
-        intervals [6]:
-            xmin = 1.265 
-            xmax = 1.345 
-            text = "le" 
-        intervals [7]:
-            xmin = 1.345 
-            xmax = 1.4149999999999998 
-            text = "_" 
-        intervals [8]:
-            xmin = 1.4149999999999998 
-            xmax = 1.785 
-            text = "week-end" 
-        intervals [9]:
-            xmin = 1.785 
-            xmax = 2.33025 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 2.33025 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 2.33025 
-            text = "maRi n@ li Rje~ l@ wikEnd" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 2.33025 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.105 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.105 
-            xmax = 2.33025 
-            text = "marie ne lit rien le week-end" 
+0
+2.33025
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+2.33025
+11
+0
+0.105
+"_"
+0.105
+0.375
+"ma"
+0.375
+0.555
+"Ri"
+0.555
+0.705
+"n@"
+0.705
+0.915
+"li"
+0.915
+1.265
+"Rje~"
+1.265
+1.345
+"l@"
+1.345
+1.4149999999999998
+"_"
+1.4149999999999998
+1.585
+"wi"
+1.585
+1.785
+"kEnd"
+1.785
+2.33025
+"_"
+"IntervalTier"
+"words"
+0
+2.33025
+9
+0
+0.105
+"_"
+0.105
+0.555
+"marie"
+0.555
+0.705
+"ne"
+0.705
+0.915
+"lit"
+0.915
+1.265
+"rien"
+1.265
+1.345
+"le"
+1.345
+1.4149999999999998
+"_"
+1.4149999999999998
+1.785
+"week-end"
+1.785
+2.33025
+"_"
+"IntervalTier"
+"phono"
+0
+2.33025
+2
+0
+0.105
+"_"
+0.105
+2.33025
+"maRi n@ li Rje~ l@ wikEnd"
+"IntervalTier"
+"ortho"
+0
+2.33025
+2
+0
+0.105
+"_"
+0.105
+2.33025
+"marie ne lit rien le week-end"

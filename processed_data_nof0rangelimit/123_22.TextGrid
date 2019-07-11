@@ -1,128 +1,99 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.74735 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.74735 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 0.175 
-            text = "le" 
-        intervals [3]:
-            xmin = 0.175 
-            xmax = 0.405 
-            text = "Za~" 
-        intervals [4]:
-            xmin = 0.405 
-            xmax = 0.445 
-            text = "_" 
-        intervals [5]:
-            xmin = 0.445 
-            xmax = 0.605 
-            text = "n@" 
-        intervals [6]:
-            xmin = 0.605 
-            xmax = 0.915 
-            text = "ma~Z" 
-        intervals [7]:
-            xmin = 0.915 
-            xmax = 1.115 
-            text = "Rje~" 
-        intervals [8]:
-            xmin = 1.115 
-            xmax = 1.1949999999999998 
-            text = "l@" 
-        intervals [9]:
-            xmin = 1.1949999999999998 
-            xmax = 1.7049999999999998 
-            text = "swaR" 
-        intervals [10]:
-            xmin = 1.7049999999999998 
-            xmax = 1.74735 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.74735 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 0.175 
-            text = "les" 
-        intervals [3]:
-            xmin = 0.175 
-            xmax = 0.405 
-            text = "gens" 
-        intervals [4]:
-            xmin = 0.405 
-            xmax = 0.445 
-            text = "_" 
-        intervals [5]:
-            xmin = 0.445 
-            xmax = 0.605 
-            text = "ne" 
-        intervals [6]:
-            xmin = 0.605 
-            xmax = 0.915 
-            text = "mangent" 
-        intervals [7]:
-            xmin = 0.915 
-            xmax = 1.115 
-            text = "rien" 
-        intervals [8]:
-            xmin = 1.115 
-            xmax = 1.1949999999999998 
-            text = "le" 
-        intervals [9]:
-            xmin = 1.1949999999999998 
-            xmax = 1.7049999999999998 
-            text = "soir" 
-        intervals [10]:
-            xmin = 1.7049999999999998 
-            xmax = 1.74735 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.74735 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 1.74735 
-            text = "le Za~ n@ ma~Z Rje~ l@ swaR" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.74735 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 1.74735 
-            text = "les gens ne mangent rien le soir" 
+0
+1.74735
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.74735
+10
+0
+0.035
+"_"
+0.035
+0.175
+"le"
+0.175
+0.405
+"Za~"
+0.405
+0.445
+"_"
+0.445
+0.605
+"n@"
+0.605
+0.915
+"ma~Z"
+0.915
+1.115
+"Rje~"
+1.115
+1.1949999999999998
+"l@"
+1.1949999999999998
+1.7049999999999998
+"swaR"
+1.7049999999999998
+1.74735
+"_"
+"IntervalTier"
+"words"
+0
+1.74735
+10
+0
+0.035
+"_"
+0.035
+0.175
+"les"
+0.175
+0.405
+"gens"
+0.405
+0.445
+"_"
+0.445
+0.605
+"ne"
+0.605
+0.915
+"mangent"
+0.915
+1.115
+"rien"
+1.115
+1.1949999999999998
+"le"
+1.1949999999999998
+1.7049999999999998
+"soir"
+1.7049999999999998
+1.74735
+"_"
+"IntervalTier"
+"phono"
+0
+1.74735
+2
+0
+0.035
+"_"
+0.035
+1.74735
+"le Za~ n@ ma~Z Rje~ l@ swaR"
+"IntervalTier"
+"ortho"
+0
+1.74735
+2
+0
+0.035
+"_"
+0.035
+1.74735
+"les gens ne mangent rien le soir"

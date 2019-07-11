@@ -1,112 +1,87 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.2966 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.2966 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.013168439196037406 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.013168439196037406 
-            xmax = 0.135 
-            text = "pER" 
-        intervals [3]:
-            xmin = 0.135 
-            xmax = 0.375 
-            text = "sOn" 
-        intervals [4]:
-            xmin = 0.375 
-            xmax = 0.455 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.455 
-            xmax = 0.635 
-            text = "bwa" 
-        intervals [6]:
-            xmin = 0.635 
-            xmax = 0.855 
-            text = "do" 
-        intervals [7]:
-            xmin = 0.855 
-            xmax = 0.915 
-            text = "i" 
-        intervals [8]:
-            xmin = 0.915 
-            xmax = 1.1549999999999998 
-            text = "si" 
-        intervals [9]:
-            xmin = 1.1549999999999998 
-            xmax = 1.2966 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.2966 
-        intervals: size = 7 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.013168439196037406 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.013168439196037406 
-            xmax = 0.375 
-            text = "personne" 
-        intervals [3]:
-            xmin = 0.375 
-            xmax = 0.455 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.455 
-            xmax = 0.635 
-            text = "boit" 
-        intervals [5]:
-            xmin = 0.635 
-            xmax = 0.855 
-            text = "d'eau" 
-        intervals [6]:
-            xmin = 0.855 
-            xmax = 1.1549999999999998 
-            text = "ici" 
-        intervals [7]:
-            xmin = 1.1549999999999998 
-            xmax = 1.2966 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.2966 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.013168439196037406 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.013168439196037406 
-            xmax = 1.2966 
-            text = "pERsOn n@ bwa do isi" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.2966 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.013168439196037406 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.013168439196037406 
-            xmax = 1.2966 
-            text = "personne ne boit d'eau ici" 
+0
+1.2966
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.2966
+9
+0
+0.013168439196037406
+"_"
+0.013168439196037406
+0.135
+"pER"
+0.135
+0.375
+"sOn"
+0.375
+0.455
+"n@"
+0.455
+0.635
+"bwa"
+0.635
+0.855
+"do"
+0.855
+0.915
+"i"
+0.915
+1.1549999999999998
+"si"
+1.1549999999999998
+1.2966
+"_"
+"IntervalTier"
+"words"
+0
+1.2966
+7
+0
+0.013168439196037406
+"_"
+0.013168439196037406
+0.375
+"personne"
+0.375
+0.455
+"ne"
+0.455
+0.635
+"boit"
+0.635
+0.855
+"d'eau"
+0.855
+1.1549999999999998
+"ici"
+1.1549999999999998
+1.2966
+"_"
+"IntervalTier"
+"phono"
+0
+1.2966
+2
+0
+0.013168439196037406
+"_"
+0.013168439196037406
+1.2966
+"pERsOn n@ bwa do isi"
+"IntervalTier"
+"ortho"
+0
+1.2966
+2
+0
+0.013168439196037406
+"_"
+0.013168439196037406
+1.2966
+"personne ne boit d'eau ici"

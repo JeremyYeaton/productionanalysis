@@ -1,104 +1,81 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.49695 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.49695 
-        intervals: size = 8 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "pER" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 0.185 
-            text = "pER" 
-        intervals [3]:
-            xmin = 0.185 
-            xmax = 0.41500000000000004 
-            text = "sOn" 
-        intervals [4]:
-            xmin = 0.41500000000000004 
-            xmax = 0.615 
-            text = "nEm" 
-        intervals [5]:
-            xmin = 0.615 
-            xmax = 0.855 
-            text = "Rje~" 
-        intervals [6]:
-            xmin = 0.855 
-            xmax = 0.885 
-            text = "i" 
-        intervals [7]:
-            xmin = 0.885 
-            xmax = 1.1949999999999998 
-            text = "si" 
-        intervals [8]:
-            xmin = 1.1949999999999998 
-            xmax = 1.49695 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.49695 
-        intervals: size = 6 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "personne" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 0.41500000000000004 
-            text = "personne" 
-        intervals [3]:
-            xmin = 0.41500000000000004 
-            xmax = 0.615 
-            text = "n'aime" 
-        intervals [4]:
-            xmin = 0.615 
-            xmax = 0.855 
-            text = "rien" 
-        intervals [5]:
-            xmin = 0.855 
-            xmax = 1.1949999999999998 
-            text = "ici" 
-        intervals [6]:
-            xmin = 1.1949999999999998 
-            xmax = 1.49695 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.49695 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 1.49695 
-            text = "pERsOn nEm Rje~ n*isi" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.49695 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 1.49695 
-            text = "personne n'aime rien ici" 
+0
+1.49695
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.49695
+8
+0
+0.035
+"pER"
+0.035
+0.185
+"pER"
+0.185
+0.41500000000000004
+"sOn"
+0.41500000000000004
+0.615
+"nEm"
+0.615
+0.855
+"Rje~"
+0.855
+0.885
+"i"
+0.885
+1.1949999999999998
+"si"
+1.1949999999999998
+1.49695
+"_"
+"IntervalTier"
+"words"
+0
+1.49695
+6
+0
+0.035
+"personne"
+0.035
+0.41500000000000004
+"personne"
+0.41500000000000004
+0.615
+"n'aime"
+0.615
+0.855
+"rien"
+0.855
+1.1949999999999998
+"ici"
+1.1949999999999998
+1.49695
+"_"
+"IntervalTier"
+"phono"
+0
+1.49695
+2
+0
+0.035
+"_"
+0.035
+1.49695
+"pERsOn nEm Rje~ n*isi"
+"IntervalTier"
+"ortho"
+0
+1.49695
+2
+0
+0.035
+"_"
+0.035
+1.49695
+"personne n'aime rien ici"

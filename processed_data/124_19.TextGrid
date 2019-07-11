@@ -1,128 +1,99 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.6132 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.6132 
-        intervals: size = 11 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.075 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.075 
-            xmax = 0.105 
-            text = "a" 
-        intervals [3]:
-            xmin = 0.105 
-            xmax = 0.335 
-            text = "lin" 
-        intervals [4]:
-            xmin = 0.335 
-            xmax = 0.455 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.455 
-            xmax = 0.645 
-            text = "di" 
-        intervals [6]:
-            xmin = 0.645 
-            xmax = 0.835 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.835 
-            xmax = 0.975 
-            text = "pa~" 
-        intervals [8]:
-            xmin = 0.975 
-            xmax = 1.095 
-            text = "da~" 
-        intervals [9]:
-            xmin = 1.095 
-            xmax = 1.1849999999999998 
-            text = "le" 
-        intervals [10]:
-            xmin = 1.1849999999999998 
-            xmax = 1.585 
-            text = "kuR" 
-        intervals [11]:
-            xmin = 1.585 
-            xmax = 1.6132 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.6132 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.075 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.075 
-            xmax = 0.335 
-            text = "aline" 
-        intervals [3]:
-            xmin = 0.335 
-            xmax = 0.455 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.455 
-            xmax = 0.645 
-            text = "dit" 
-        intervals [5]:
-            xmin = 0.645 
-            xmax = 0.835 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.835 
-            xmax = 1.095 
-            text = "pendant" 
-        intervals [7]:
-            xmin = 1.095 
-            xmax = 1.1849999999999998 
-            text = "les" 
-        intervals [8]:
-            xmin = 1.1849999999999998 
-            xmax = 1.585 
-            text = "cours" 
-        intervals [9]:
-            xmin = 1.585 
-            xmax = 1.6132 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.6132 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.075 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.075 
-            xmax = 1.6132 
-            text = "alin n@ di Rje~ pa~da~ le kuR" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.6132 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.075 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.075 
-            xmax = 1.6132 
-            text = "aline ne dit rien pendant les cours" 
+0
+1.6132
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.6132
+11
+0
+0.075
+"_"
+0.075
+0.105
+"a"
+0.105
+0.335
+"lin"
+0.335
+0.455
+"n@"
+0.455
+0.645
+"di"
+0.645
+0.835
+"Rje~"
+0.835
+0.975
+"pa~"
+0.975
+1.095
+"da~"
+1.095
+1.1849999999999998
+"le"
+1.1849999999999998
+1.585
+"kuR"
+1.585
+1.6132
+"_"
+"IntervalTier"
+"words"
+0
+1.6132
+9
+0
+0.075
+"_"
+0.075
+0.335
+"aline"
+0.335
+0.455
+"ne"
+0.455
+0.645
+"dit"
+0.645
+0.835
+"rien"
+0.835
+1.095
+"pendant"
+1.095
+1.1849999999999998
+"les"
+1.1849999999999998
+1.585
+"cours"
+1.585
+1.6132
+"_"
+"IntervalTier"
+"phono"
+0
+1.6132
+2
+0
+0.075
+"_"
+0.075
+1.6132
+"alin n@ di Rje~ pa~da~ le kuR"
+"IntervalTier"
+"ortho"
+0
+1.6132
+2
+0
+0.075
+"_"
+0.075
+1.6132
+"aline ne dit rien pendant les cours"

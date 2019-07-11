@@ -1,120 +1,93 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.6146 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.6146 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 0.21500000000000002 
-            text = "maR" 
-        intervals [3]:
-            xmin = 0.21500000000000002 
-            xmax = 0.34500000000000003 
-            text = "la" 
-        intervals [4]:
-            xmin = 0.34500000000000003 
-            xmax = 0.47500000000000003 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.47500000000000003 
-            xmax = 0.655 
-            text = "fE" 
-        intervals [6]:
-            xmin = 0.655 
-            xmax = 0.9450000000000001 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.9450000000000001 
-            xmax = 1.035 
-            text = "l@" 
-        intervals [8]:
-            xmin = 1.035 
-            xmax = 1.2149999999999999 
-            text = "di" 
-        intervals [9]:
-            xmin = 1.2149999999999999 
-            xmax = 1.585 
-            text = "ma~S" 
-        intervals [10]:
-            xmin = 1.585 
-            xmax = 1.6146 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.6146 
-        intervals: size = 8 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 0.34500000000000003 
-            text = "marla" 
-        intervals [3]:
-            xmin = 0.34500000000000003 
-            xmax = 0.47500000000000003 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.47500000000000003 
-            xmax = 0.655 
-            text = "fait" 
-        intervals [5]:
-            xmin = 0.655 
-            xmax = 0.9450000000000001 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.9450000000000001 
-            xmax = 1.035 
-            text = "le" 
-        intervals [7]:
-            xmin = 1.035 
-            xmax = 1.585 
-            text = "dimanche" 
-        intervals [8]:
-            xmin = 1.585 
-            xmax = 1.6146 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.6146 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 1.6146 
-            text = "maRla n@ fE Rje~ l@ dima~S" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.6146 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.035 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.035 
-            xmax = 1.6146 
-            text = "marla ne fait rien le dimanche" 
+0
+1.6146
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.6146
+10
+0
+0.035
+"_"
+0.035
+0.21500000000000002
+"maR"
+0.21500000000000002
+0.34500000000000003
+"la"
+0.34500000000000003
+0.47500000000000003
+"n@"
+0.47500000000000003
+0.655
+"fE"
+0.655
+0.9450000000000001
+"Rje~"
+0.9450000000000001
+1.035
+"l@"
+1.035
+1.2149999999999999
+"di"
+1.2149999999999999
+1.585
+"ma~S"
+1.585
+1.6146
+"_"
+"IntervalTier"
+"words"
+0
+1.6146
+8
+0
+0.035
+"_"
+0.035
+0.34500000000000003
+"marla"
+0.34500000000000003
+0.47500000000000003
+"ne"
+0.47500000000000003
+0.655
+"fait"
+0.655
+0.9450000000000001
+"rien"
+0.9450000000000001
+1.035
+"le"
+1.035
+1.585
+"dimanche"
+1.585
+1.6146
+"_"
+"IntervalTier"
+"phono"
+0
+1.6146
+2
+0
+0.035
+"_"
+0.035
+1.6146
+"maRla n@ fE Rje~ l@ dima~S"
+"IntervalTier"
+"ortho"
+0
+1.6146
+2
+0
+0.035
+"_"
+0.035
+1.6146
+"marla ne fait rien le dimanche"

@@ -1,128 +1,99 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.73535 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.73535 
-        intervals: size = 11 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.055 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.055 
-            xmax = 0.105 
-            text = "a" 
-        intervals [3]:
-            xmin = 0.105 
-            xmax = 0.385 
-            text = "lin" 
-        intervals [4]:
-            xmin = 0.385 
-            xmax = 0.485 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.485 
-            xmax = 0.665 
-            text = "di" 
-        intervals [6]:
-            xmin = 0.665 
-            xmax = 0.925 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.925 
-            xmax = 1.075 
-            text = "pa~" 
-        intervals [8]:
-            xmin = 1.075 
-            xmax = 1.1849999999999998 
-            text = "da~" 
-        intervals [9]:
-            xmin = 1.1849999999999998 
-            xmax = 1.285 
-            text = "le" 
-        intervals [10]:
-            xmin = 1.285 
-            xmax = 1.615 
-            text = "kuR" 
-        intervals [11]:
-            xmin = 1.615 
-            xmax = 1.73535 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.73535 
-        intervals: size = 9 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.055 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.055 
-            xmax = 0.385 
-            text = "aline" 
-        intervals [3]:
-            xmin = 0.385 
-            xmax = 0.485 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.485 
-            xmax = 0.665 
-            text = "dit" 
-        intervals [5]:
-            xmin = 0.665 
-            xmax = 0.925 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.925 
-            xmax = 1.1849999999999998 
-            text = "pendant" 
-        intervals [7]:
-            xmin = 1.1849999999999998 
-            xmax = 1.285 
-            text = "les" 
-        intervals [8]:
-            xmin = 1.285 
-            xmax = 1.615 
-            text = "cours" 
-        intervals [9]:
-            xmin = 1.615 
-            xmax = 1.73535 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.73535 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.055 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.055 
-            xmax = 1.73535 
-            text = "alin n@ di Rje~ pa~da~ le kuR" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.73535 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.055 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.055 
-            xmax = 1.73535 
-            text = "aline ne dit rien pendant les cours" 
+0
+1.73535
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.73535
+11
+0
+0.055
+"_"
+0.055
+0.105
+"a"
+0.105
+0.385
+"lin"
+0.385
+0.485
+"n@"
+0.485
+0.665
+"di"
+0.665
+0.925
+"Rje~"
+0.925
+1.075
+"pa~"
+1.075
+1.1849999999999998
+"da~"
+1.1849999999999998
+1.285
+"le"
+1.285
+1.615
+"kuR"
+1.615
+1.73535
+"_"
+"IntervalTier"
+"words"
+0
+1.73535
+9
+0
+0.055
+"_"
+0.055
+0.385
+"aline"
+0.385
+0.485
+"ne"
+0.485
+0.665
+"dit"
+0.665
+0.925
+"rien"
+0.925
+1.1849999999999998
+"pendant"
+1.1849999999999998
+1.285
+"les"
+1.285
+1.615
+"cours"
+1.615
+1.73535
+"_"
+"IntervalTier"
+"phono"
+0
+1.73535
+2
+0
+0.055
+"_"
+0.055
+1.73535
+"alin n@ di Rje~ pa~da~ le kuR"
+"IntervalTier"
+"ortho"
+0
+1.73535
+2
+0
+0.055
+"_"
+0.055
+1.73535
+"aline ne dit rien pendant les cours"

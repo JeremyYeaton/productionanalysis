@@ -1,120 +1,93 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 1.61105 
-tiers? <exists> 
-size = 4 
-item []: 
-    item [1]:
-        class = "IntervalTier" 
-        name = "syll" 
-        xmin = 0 
-        xmax = 1.61105 
-        intervals: size = 10 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.055 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.055 
-            xmax = 0.14500000000000002 
-            text = "ma" 
-        intervals [3]:
-            xmin = 0.14500000000000002 
-            xmax = 0.315 
-            text = "Ri" 
-        intervals [4]:
-            xmin = 0.315 
-            xmax = 0.425 
-            text = "n@" 
-        intervals [5]:
-            xmin = 0.425 
-            xmax = 0.595 
-            text = "li" 
-        intervals [6]:
-            xmin = 0.595 
-            xmax = 0.875 
-            text = "Rje~" 
-        intervals [7]:
-            xmin = 0.875 
-            xmax = 0.965 
-            text = "l@" 
-        intervals [8]:
-            xmin = 0.965 
-            xmax = 1.085 
-            text = "wi" 
-        intervals [9]:
-            xmin = 1.085 
-            xmax = 1.315 
-            text = "kEnd" 
-        intervals [10]:
-            xmin = 1.315 
-            xmax = 1.61105 
-            text = "_" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "words" 
-        xmin = 0 
-        xmax = 1.61105 
-        intervals: size = 8 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.055 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.055 
-            xmax = 0.315 
-            text = "marie" 
-        intervals [3]:
-            xmin = 0.315 
-            xmax = 0.425 
-            text = "ne" 
-        intervals [4]:
-            xmin = 0.425 
-            xmax = 0.595 
-            text = "lit" 
-        intervals [5]:
-            xmin = 0.595 
-            xmax = 0.875 
-            text = "rien" 
-        intervals [6]:
-            xmin = 0.875 
-            xmax = 0.965 
-            text = "le" 
-        intervals [7]:
-            xmin = 0.965 
-            xmax = 1.315 
-            text = "week-end" 
-        intervals [8]:
-            xmin = 1.315 
-            xmax = 1.61105 
-            text = "_" 
-    item [3]:
-        class = "IntervalTier" 
-        name = "phono" 
-        xmin = 0 
-        xmax = 1.61105 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.055 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.055 
-            xmax = 1.61105 
-            text = "maRi n@ li Rje~ l@ wikEnd" 
-    item [4]:
-        class = "IntervalTier" 
-        name = "ortho" 
-        xmin = 0 
-        xmax = 1.61105 
-        intervals: size = 2 
-        intervals [1]:
-            xmin = 0 
-            xmax = 0.055 
-            text = "_" 
-        intervals [2]:
-            xmin = 0.055 
-            xmax = 1.61105 
-            text = "marie ne lit rien le week-end" 
+0
+1.61105
+<exists>
+4
+"IntervalTier"
+"syll"
+0
+1.61105
+10
+0
+0.055
+"_"
+0.055
+0.14500000000000002
+"ma"
+0.14500000000000002
+0.315
+"Ri"
+0.315
+0.425
+"n@"
+0.425
+0.595
+"li"
+0.595
+0.875
+"Rje~"
+0.875
+0.965
+"l@"
+0.965
+1.085
+"wi"
+1.085
+1.315
+"kEnd"
+1.315
+1.61105
+"_"
+"IntervalTier"
+"words"
+0
+1.61105
+8
+0
+0.055
+"_"
+0.055
+0.315
+"marie"
+0.315
+0.425
+"ne"
+0.425
+0.595
+"lit"
+0.595
+0.875
+"rien"
+0.875
+0.965
+"le"
+0.965
+1.315
+"week-end"
+1.315
+1.61105
+"_"
+"IntervalTier"
+"phono"
+0
+1.61105
+2
+0
+0.055
+"_"
+0.055
+1.61105
+"maRi n@ li Rje~ l@ wikEnd"
+"IntervalTier"
+"ortho"
+0
+1.61105
+2
+0
+0.055
+"_"
+0.055
+1.61105
+"marie ne lit rien le week-end"

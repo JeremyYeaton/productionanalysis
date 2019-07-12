@@ -45,15 +45,27 @@ rescMaster <- descr_data %>%
   rbind(terpo8[,2:18]) %>%
   rbind(terpo9[,2:18]) %>%
   rbind(terpo11[,2:18])
+
+annX = -1
   
 terpo.plot <- rescMaster %>%
   merge(grps,'subj') %>%
-  filter(grp == 1) %>%
+  filter(grp == 2) %>%
   # filter(series < 71) %>%
   # filter(series > 49) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  ggplot(.,aes(x = newSer, y = z, color = factor(condition))) +
-  geom_smooth()
+  ggplot(.,aes(x = newSer, y = z, color = condition)) +
+  geom_smooth() +
+  # geom_vline(xintercept=40) +
+  # geom_vline(xintercept=59)+
+  # annotate(geom="text", x=5, y=annX, label="per",color="black") +
+  # annotate(geom="text", x=15, y=annX, label="sonne",color="black") +
+  annotate(geom="text", x=9, y=annX, label="subject",color="black") +
+  annotate(geom="text", x=25, y=annX, label="ne",color="black") +
+  annotate(geom="text", x=35, y=annX, label="verb",color="black") +
+  annotate(geom="text", x=45, y=annX, label="object",color="black") +
+  annotate(geom="text", x=59, y=annX, label="prepositional phrase",color="black") +
+  labs(title="F0 over time by condition",x="Time",y="z-scored f0")
 terpo.plot
 
 
@@ -61,7 +73,7 @@ terpo.plot
 
 
 
-s# make up some data 
+# make up some data 
 foo <- data.frame(x= 1:115, y=jitter(sin(1:115/10), 1500)) 
 plot(foo) 
 

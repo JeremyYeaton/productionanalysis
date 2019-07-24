@@ -115,7 +115,6 @@ annY = -1
 
 ## PLOTTING ####
 allseg.plot <- descr_data %>%
-  merge(grps,'subj') %>%
   filter(grp == 2) %>%
   # filter(series < 71) %>%
   filter(series > 49) %>%
@@ -178,11 +177,13 @@ terpo2.plot %>%
 
 terpoCrit1.plot <- rescMaster %>%
   filter(grp == 1) %>%
-  filter((newSer > 45 & newSer <60)) %>%
+  # filter((newSer > 15 & newSer <40)) %>%
+  # filter((newSer > 45 & newSer <60)) %>%
   filter(condition == 'dn' | condition == 'nc') %>%
   ggplot(.,aes(x = newSer, y = z, color = condition)) +
-  geom_smooth(method = 'glm') +
+  # geom_smooth(method = 'glm') +
   geom_smooth() +
+  geom_vline(xintercept=47) +
   # scale_color_manual(values = conditions2) +
   annotate(geom="text", x=9, y=annY, label="subject",color="black") +
   annotate(geom="text", x=25, y=annY, label="ne",color="black") +
@@ -192,3 +193,36 @@ terpoCrit1.plot <- rescMaster %>%
   labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
 terpoCrit1.plot #%>%
   ggsave(plot=.,"figures/interpZscoreG1crit.jpeg",width=plot.w,height=plot.h,units="cm")
+  
+asdf <- rescMaster %>%
+  # filter(newSer %in% seq(0,69,by=5)) %>%
+  filter(newSer %in% c(0,14,41,48,59,69)) %>%
+  filter(grp == 1) %>%
+  filter(condition == 'dn' | condition == 'nc') %>%
+  group_by(condition,newSer) %>%
+  summarise(zpt = mean(z),
+            zsem = sd(z)/sqrt(length(z))) %>%
+  ggplot(.,aes(x = newSer, y = zpt)) +
+  geom_line(aes(color = condition),size = 1.5) +
+  # geom_smooth(aes(color = condition)) +
+  geom_pointrange(aes(ymin = zpt - zsem, ymax = zpt + zsem)) +
+  annotate(geom="text", x=9, y=annY, label="subject",color="black") +
+  annotate(geom="text", x=25, y=annY, label="ne",color="black") +
+  annotate(geom="text", x=35, y=annY, label="verb",color="black") +
+  annotate(geom="text", x=45, y=annY, label="object",color="black") +
+  annotate(geom="text", x=60, y=annY, label="PP",color="black") +
+  labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
+asdf
+
+meanbytime <- rescMaster %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  group_by(condition,newSer) %>%
+  summarise(zpt = mean(z),
+            zsem = sd(z)/sqrt(length(z))) %>%
+  ggplot(.,aes(x = newSer, y = zpt)) +
+  geom_line(aes(color = condition),size = 1.5) +
+  geom_vline(xintercept=14) +
+  geom_vline(xintercept=41) +
+  geom_vline(xintercept=48)
+meanbytime
+

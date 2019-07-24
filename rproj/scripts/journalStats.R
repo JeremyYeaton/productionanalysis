@@ -59,34 +59,151 @@ anova(ser_cond_slope.lmer,full.lm)
 series47.glm <-glm(data=over46, demeaned_f0~ series + condition + series*condition + subj)
 summary(series47.glm)
 
-## LINEAR MIXED EFFECTS MODELS ####
-baseline0.lmer <- lmer(demeaned_f0 ~ series * condition +(1|subj),
-                       data = over46)
+15:38
+38:47
+47:70
 
-baseline1.lmer <- lmer(demeaned_f0 ~ (1+condition|subj),
-                       data = over46)
+# ## LINEAR MIXED EFFECTS MODELS ####
+# baseline0.lmer <- lmer(demeaned_f0 ~ series * condition +(1|subj),
+#                        data = over46)
+# 
+# baseline1.lmer <- lmer(demeaned_f0 ~ (1+condition|subj),
+#                        data = over46)
+# 
+# baseline_cond.lmer <-lmer(demeaned_f0 ~ condition + (1+condition|subj),
+#                           data = over46)
+# anova(baseline_cond.lmer,baseline1.lmer)
+# 
+# baseline_ser.lmer <- lmer(demeaned_f0 ~ series + (1+condition|subj),
+#                           data = over46)
+# anova(baseline_ser.lmer,baseline1.lmer)
+# 
+# ser_cond.lmer <- lmer(demeaned_f0 ~ condition + series +(1+condition|subj),
+#                       data = over46)
+# anova(ser_cond.lmer,baseline_cond.lmer)
+# 
+# ser_cond_slope.lmer <- lmer(demeaned_f0 ~ series*condition + condition + series +  (1+condition|subj),
+#                             data = over46)
+# anova(ser_cond_slope.lmer,ser_cond.lmer)
+# summary(ser_cond_slope.lmer)
+# 
+# ser_cond_slope_sub.lmer <- lmer(demeaned_f0 ~ condition + series + series*condition + (1|subj) + (1+condition|subj),
+#                                 data = over46)
+# anova(ser_cond_slope_sub.lmer,ser_cond_slope.lmer)
 
-baseline_cond.lmer <-lmer(demeaned_f0 ~ condition + (1+condition|subj),
-                          data = over46)
-anova(baseline_cond.lmer,baseline1.lmer)
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+cond1 = 'nc'
+cond2 = 'dn'
+cond1.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 13 & newSer < 42) %>%
+  lmer(z ~ condition 
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
 
-baseline_ser.lmer <- lmer(demeaned_f0 ~ series + (1+condition|subj),
-                          data = over46)
-anova(baseline_ser.lmer,baseline1.lmer)
+cond2.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 40 & newSer < 49) %>%
+  lmer(z ~ condition 
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
 
-ser_cond.lmer <- lmer(demeaned_f0 ~ condition + series +(1+condition|subj),
-                      data = over46)
-anova(ser_cond.lmer,baseline_cond.lmer)
+cond3.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 47 & newSer < 60) %>%
+  lmer(z ~ condition 
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
 
-ser_cond_slope.lmer <- lmer(demeaned_f0 ~ series*condition + condition + series +  (1+condition|subj),
-                            data = over46)
-anova(ser_cond_slope.lmer,ser_cond.lmer)
-summary(ser_cond_slope.lmer)
+condTime1.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 13 & newSer < 42) %>%
+  lmer(z ~ condition 
+       + newSer
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
 
-ser_cond_slope_sub.lmer <- lmer(demeaned_f0 ~ condition + series + series*condition + (1|subj) + (1+condition|subj),
-                                data = over46)
-anova(ser_cond_slope_sub.lmer,ser_cond_slope.lmer)
+condTime2.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 40 & newSer < 49) %>%
+  lmer(z ~ condition 
+       + newSer
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
 
+condTime3.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 47 & newSer < 60) %>%
+  lmer(z ~ condition 
+       + newSer
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
+
+anova(cond1.lmer,condTime1.lmer)
+anova(cond2.lmer,condTime2.lmer)
+anova(cond3.lmer,condTime3.lmer)
+
+condTimeSlope1.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 13 & newSer < 42) %>%
+  lmer(z ~ (newSer * condition) 
+       + newSer 
+       + condition 
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
+
+condTimeSlope2.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 40 & newSer < 49) %>%
+  lmer(z ~ (newSer * condition) 
+       + newSer 
+       + condition 
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
+
+condTimeSlope3.lmer <- rescMaster %>%
+  filter(grp == 1) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == cond1 | condition == cond2) %>%
+  filter(newSer > 47 & newSer < 60) %>%
+  lmer(z ~ (newSer * condition) 
+       + newSer 
+       + condition 
+       + (1|trial) 
+       + (1|subj) 
+       ,data = .)
+
+anova(condTime1.lmer,condTimeSlope1.lmer)
+anova(condTime2.lmer,condTimeSlope2.lmer)
+anova(condTime3.lmer,condTimeSlope3.lmer)
+
+
+
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 test <- rescMaster %>%
   filter(grp == 1) %>%
   filter(condition == 'dn' | condition == 'negob') %>%
@@ -104,7 +221,7 @@ summary(test)
 
 test1 <- rescMaster %>%
   filter(grp == 1) %>%
-  filter(condition == 'dn' | condition == 'negob') %>%
+  filter(condition == 'nc' | condition == 'negob') %>%
   # filter(newSer > 10 & newSer < 40) %>%
   filter(newSer > 45 & newSer < 60) %>%
   # filter(newSer > 50) %>%

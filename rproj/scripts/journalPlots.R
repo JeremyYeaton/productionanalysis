@@ -154,24 +154,24 @@ terpo1.plot <- rescMaster %>%
   labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
 terpo1.plot %>%
   ggsave(plot=.,"figures/interpZscoreG1.jpeg",width=plot.w,height=plot.h,units="cm")
-  
+
 terpo2.plot <- rescMaster %>%
-    filter(grp == 2) %>%
-    # filter(series < 71) %>%
-    # filter(series > 49) %>%
-    # filter(condition == 'dn' | condition == 'nc') %>%
-    ggplot(.,aes(x = newSer, y = z, color = condition)) +
-    geom_smooth() +
-    # geom_vline(xintercept=40) +
-    # geom_vline(xintercept=59)+
-    # annotate(geom="text", x=5, y=annX, label="per",color="black") +
-    # annotate(geom="text", x=15, y=annX, label="sonne",color="black") +
-    annotate(geom="text", x=9, y=annY, label="subject",color="black") +
-    annotate(geom="text", x=25, y=annY, label="ne",color="black") +
-    annotate(geom="text", x=35, y=annY, label="verb",color="black") +
-    annotate(geom="text", x=45, y=annY, label="object",color="black") +
-    annotate(geom="text", x=60, y=annY, label="PP",color="black") +
-    labs(title="f0 -- Group 2",x="Time",y="z-scored f0")
+  filter(grp == 2) %>%
+  # filter(series < 71) %>%
+  # filter(series > 49) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  ggplot(.,aes(x = newSer, y = z, color = condition)) +
+  geom_smooth() +
+  # geom_vline(xintercept=40) +
+  # geom_vline(xintercept=59)+
+  # annotate(geom="text", x=5, y=annX, label="per",color="black") +
+  # annotate(geom="text", x=15, y=annX, label="sonne",color="black") +
+  annotate(geom="text", x=9, y=annY, label="subject",color="black") +
+  annotate(geom="text", x=25, y=annY, label="ne",color="black") +
+  annotate(geom="text", x=35, y=annY, label="verb",color="black") +
+  annotate(geom="text", x=45, y=annY, label="object",color="black") +
+  annotate(geom="text", x=60, y=annY, label="PP",color="black") +
+  labs(title="f0 -- Group 2",x="Time",y="z-scored f0")
 terpo2.plot %>%
   ggsave(plot=.,"figures/interpZscoreG2.jpeg",width=plot.w,height=plot.h,units="cm")
 
@@ -192,8 +192,8 @@ terpoCrit1.plot <- rescMaster %>%
   annotate(geom="text", x=60, y=annY, label="PP",color="black") +
   labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
 terpoCrit1.plot #%>%
-  ggsave(plot=.,"figures/interpZscoreG1crit.jpeg",width=plot.w,height=plot.h,units="cm")
-  
+ggsave(plot=.,"figures/interpZscoreG1crit.jpeg",width=plot.w,height=plot.h,units="cm")
+
 asdf <- rescMaster %>%
   # filter(newSer %in% seq(0,69,by=5)) %>%
   filter(newSer %in% c(0,14,41,48,59,69)) %>%
@@ -214,15 +214,24 @@ asdf <- rescMaster %>%
   labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
 asdf
 
-meanbytime <- rescMaster %>%
+meanbytime <- RM1 %>%
+# rescMaster %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
   group_by(condition,newSer) %>%
   summarise(zpt = mean(z),
             zsem = sd(z)/sqrt(length(z))) %>%
-  ggplot(.,aes(x = newSer, y = zpt)) +
+  ggplot(.,aes(x = newSer, y = zpt + .5)) +
   geom_line(aes(color = condition),size = 1.5) +
   geom_vline(xintercept=14) +
   geom_vline(xintercept=41) +
   geom_vline(xintercept=48)
 meanbytime
 
+#####
+library(DescTools)
+RM2 <- RM1 %>%
+  filter(grp == 1) %>%
+  filter(condition == 'negob') %>%
+  # filter(newSer > 40 & newSer < 61)
+  filter(newSer > 5 & newSer < 30)
+AUC(RM2$newSer,RM2$z + .5,method = 'spline')

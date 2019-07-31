@@ -50,7 +50,7 @@ annX = -1
   
 terpo.plot <- rescMaster %>%
   merge(grps,'subj') %>%
-  filter(grp == 2) %>%
+  # filter(grp == 1) %>%
   # filter(series < 71) %>%
   # filter(series > 49) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%

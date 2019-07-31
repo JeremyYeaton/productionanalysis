@@ -92,12 +92,19 @@ summary(series47.glm)
 # anova(ser_cond_slope_sub.lmer,ser_cond_slope.lmer)
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-cond1 = 'nc'
-cond2 = 'dn'
+RM1 <- rescMaster
+
+rescMaster <- rescMaster %>%
+  mutate(dummy = ifelse(condition == 'dn',1,0))
+
+
+# DN as 1 all else as 0 
+cond1 = 'negsub'
+cond2 = 'negob'
 cond1.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 13 & newSer < 42) %>%
   lmer(z ~ condition 
        + (1|trial) 
@@ -107,7 +114,7 @@ cond1.lmer <- rescMaster %>%
 cond2.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 40 & newSer < 49) %>%
   lmer(z ~ condition 
        + (1|trial) 
@@ -117,7 +124,7 @@ cond2.lmer <- rescMaster %>%
 cond3.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 47 & newSer < 60) %>%
   lmer(z ~ condition 
        + (1|trial) 
@@ -127,7 +134,7 @@ cond3.lmer <- rescMaster %>%
 condTime1.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 13 & newSer < 42) %>%
   lmer(z ~ condition 
        + newSer
@@ -138,7 +145,7 @@ condTime1.lmer <- rescMaster %>%
 condTime2.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 40 & newSer < 49) %>%
   lmer(z ~ condition 
        + newSer
@@ -149,7 +156,7 @@ condTime2.lmer <- rescMaster %>%
 condTime3.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 47 & newSer < 60) %>%
   lmer(z ~ condition 
        + newSer
@@ -164,7 +171,7 @@ anova(cond3.lmer,condTime3.lmer)
 condTimeSlope1.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 13 & newSer < 42) %>%
   lmer(z ~ (newSer * condition) 
        + newSer 
@@ -176,7 +183,7 @@ condTimeSlope1.lmer <- rescMaster %>%
 condTimeSlope2.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 40 & newSer < 49) %>%
   lmer(z ~ (newSer * condition) 
        + newSer 
@@ -188,7 +195,7 @@ condTimeSlope2.lmer <- rescMaster %>%
 condTimeSlope3.lmer <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(condition == 'dn' | condition == 'nc') %>%
-  filter(condition == cond1 | condition == cond2) %>%
+  # filter(condition == cond1 | condition == cond2) %>%
   filter(newSer > 47 & newSer < 60) %>%
   lmer(z ~ (newSer * condition) 
        + newSer 

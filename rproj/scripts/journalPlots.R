@@ -1,6 +1,7 @@
 library(dplyr)
 library(purrr)
 library(ggplot2)
+library(viridis)
 
 ## SET UP DATAFRAME ####
 # serAll<-read.table("data/serAll.csv",header=T,sep=",")
@@ -25,14 +26,19 @@ plot.h <- 10
 # levels <- c('dn','nc','negob','negsub')
 # 
 # Set colors
-dn_color <- '#F8766D'
-nc_color <- '#7CAE00'
-mismatch <- c('#F8766D','red1','green1','#7CAE00')
-mismatch2 <- c('red1','#F8766D','green1','#7CAE00')
-controls <- c('darkorange2','magenta4')
-conditions <- c('#F8766D','#7CAE00','#00BFC4','#C77CFF')
-conditions2 <- c(dn_color,nc_color)
-conditions3 <- c(nc_color,dn_color)
+allColors <- plasma(5)
+dn_color <- allColors[3]
+nc_color <- allColors[1]
+negOb_color <- allColors[4]
+negSub_color <- allColors[2]
+# dn_color <- '#F8766D'
+# nc_color <- '#7CAE00'
+# mismatch <- c('#F8766D','red1','green1','#7CAE00')
+# mismatch2 <- c('red1','#F8766D','green1','#7CAE00')
+# controls <- c('darkorange2','magenta4')
+# conditions <- c('#F8766D','#7CAE00','#00BFC4','#C77CFF')
+# conditions2 <- c(dn_color,nc_color)
+# conditions3 <- c(nc_color,dn_color)
 
 ## MASSAGE ####
 maxes <- maxMinAll %>%
@@ -110,6 +116,13 @@ rescMaster <- descr_data %>%
   rbind(terpo11[,2:23])
 rm(allPP,terpo,terpo8,terpo9,terpo11,reSeries)
 
+combControl.df <- rescMaster %>%
+  mutate(cond2 = condition)
+levels(combControl.df$cond2)[5] <- 'control'
+combControl.df$cond2[combControl.df$cond2 == 'negob' | combControl.df$cond2 == 'negsub'] <- 'control'
+
+
+
 annY = -1
 
 
@@ -135,23 +148,27 @@ countSylls.plot
 
 
 # PLOT NORMALIZED DATA
+ymini = -1.25
+ymaxi = 1.25
 terpo1.plot <- rescMaster %>%
   filter(grp == 1) %>%
   # filter(series < 71) %>%
   # filter(series > 49) %>%
-  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == 'dn' | condition == 'nc') %>%
   ggplot(.,aes(x = newSer, y = z, color = condition)) +
   geom_smooth() +
   # geom_vline(xintercept=40) +
   # geom_vline(xintercept=59)+
   # annotate(geom="text", x=5, y=annX, label="per",color="black") +
   # annotate(geom="text", x=15, y=annX, label="sonne",color="black") +
+  scale_color_manual(values = c(dn_color,nc_color,negOb_color,negSub_color)) +
   annotate(geom="text", x=9, y=annY, label="subject",color="black") +
   annotate(geom="text", x=25, y=annY, label="ne",color="black") +
   annotate(geom="text", x=35, y=annY, label="verb",color="black") +
   annotate(geom="text", x=45, y=annY, label="object",color="black") +
   annotate(geom="text", x=60, y=annY, label="PP",color="black") +
-  labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
+  labs(x="Time",y="z-scored f0") + # title="f0 -- Group 1",
+  coord_cartesian(ylim=c(ymini, ymaxi))
 terpo1.plot %>%
   ggsave(plot=.,"figures/interpZscoreG1.jpeg",width=plot.w,height=plot.h,units="cm")
 
@@ -159,42 +176,65 @@ terpo2.plot <- rescMaster %>%
   filter(grp == 2) %>%
   # filter(series < 71) %>%
   # filter(series > 49) %>%
-  # filter(condition == 'dn' | condition == 'nc') %>%
+  filter(condition == 'dn' | condition == 'nc') %>%
   ggplot(.,aes(x = newSer, y = z, color = condition)) +
   geom_smooth() +
   # geom_vline(xintercept=40) +
   # geom_vline(xintercept=59)+
   # annotate(geom="text", x=5, y=annX, label="per",color="black") +
   # annotate(geom="text", x=15, y=annX, label="sonne",color="black") +
+  scale_color_manual(values = c(dn_color,nc_color,negOb_color,negSub_color)) +
   annotate(geom="text", x=9, y=annY, label="subject",color="black") +
   annotate(geom="text", x=25, y=annY, label="ne",color="black") +
   annotate(geom="text", x=35, y=annY, label="verb",color="black") +
   annotate(geom="text", x=45, y=annY, label="object",color="black") +
   annotate(geom="text", x=60, y=annY, label="PP",color="black") +
-  labs(title="f0 -- Group 2",x="Time",y="z-scored f0")
+  labs(x="Time",y="z-scored f0") + #title="f0 -- Group 2",
+  coord_cartesian(ylim=c(ymini, ymaxi))
 terpo2.plot %>%
   ggsave(plot=.,"figures/interpZscoreG2.jpeg",width=plot.w,height=plot.h,units="cm")
 
-terpoCrit1.plot <- rescMaster %>%
+control.plot <- combControl.df %>%
   filter(grp == 1) %>%
-  # filter((newSer > 15 & newSer <40)) %>%
-  # filter((newSer > 45 & newSer <60)) %>%
-  filter(condition == 'dn' | condition == 'nc') %>%
-  ggplot(.,aes(x = newSer, y = z, color = condition)) +
-  # geom_smooth(method = 'glm') +
+  # filter(series < 71) %>%
+  # filter(series > 49) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  ggplot(.,aes(x = newSer, y = z, color = cond2)) +
   geom_smooth() +
-  geom_vline(xintercept=47) +
-  # scale_color_manual(values = conditions2) +
+  # geom_vline(xintercept=40) +
+  # geom_vline(xintercept=59)+
+  # annotate(geom="text", x=5, y=annX, label="per",color="black") +
+  # annotate(geom="text", x=15, y=annX, label="sonne",color="black") +
+  scale_color_manual(values = c(dn_color,nc_color,negOb_color)) +
   annotate(geom="text", x=9, y=annY, label="subject",color="black") +
   annotate(geom="text", x=25, y=annY, label="ne",color="black") +
   annotate(geom="text", x=35, y=annY, label="verb",color="black") +
   annotate(geom="text", x=45, y=annY, label="object",color="black") +
   annotate(geom="text", x=60, y=annY, label="PP",color="black") +
-  labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
-terpoCrit1.plot #%>%
-ggsave(plot=.,"figures/interpZscoreG1crit.jpeg",width=plot.w,height=plot.h,units="cm")
+  labs(title="f0 -- Group 1",x="Time",y="z-scored f0") +
+  coord_cartesian(ylim=c(ymini, ymaxi))
+control.plot
 
-asdf <- rescMaster %>%
+terpoCrit1.plot <- RM1 %>%
+  filter(grp == 1) %>%
+  # filter((newSer > 15 & newSer <40)) %>%
+  # filter((newSer > 45 & newSer <60)) %>%
+  # filter(condition == 'dn' | condition == 'nc') %>%
+  ggplot(.,aes(x = newSer, y = z, color = condition)) +
+  # geom_smooth(method = 'glm') +
+  geom_smooth() +
+  # geom_vline(xintercept=47) +
+  scale_color_manual(values = c(dn_color,nc_color,negOb_color,negSub_color)) +
+  annotate(geom="text", x=9, y=annY, label="subject",color="black") +
+  annotate(geom="text", x=25, y=annY, label="ne",color="black") +
+  annotate(geom="text", x=35, y=annY, label="verb",color="black") +
+  annotate(geom="text", x=45, y=annY, label="object",color="black") +
+  annotate(geom="text", x=60, y=annY, label="PP",color="black") +
+  labs(x="Time",y="z-scored f0") # title="f0 -- Group 1",
+terpoCrit1.plot %>%
+  ggsave(plot=.,"figures/interpZscoreG1crit.jpeg",width=plot.w,height=plot.h,units="cm")
+
+asdf <- RM1 %>%
   # filter(newSer %in% seq(0,69,by=5)) %>%
   filter(newSer %in% c(0,14,41,48,59,69)) %>%
   filter(grp == 1) %>%
@@ -205,6 +245,7 @@ asdf <- rescMaster %>%
   ggplot(.,aes(x = newSer, y = zpt)) +
   geom_line(aes(color = condition),size = 1.5) +
   # geom_smooth(aes(color = condition)) +
+  scale_color_manual(values = c(dn_color,nc_color)) +
   geom_pointrange(aes(ymin = zpt - zsem, ymax = zpt + zsem)) +
   annotate(geom="text", x=9, y=annY, label="subject",color="black") +
   annotate(geom="text", x=25, y=annY, label="ne",color="black") +
@@ -213,6 +254,52 @@ asdf <- rescMaster %>%
   annotate(geom="text", x=60, y=annY, label="PP",color="black") +
   labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
 asdf
+
+asdf.data1 <- RM1 %>%
+  filter(grp == 1) %>%
+  filter(condition == 'nc' | condition == 'dn') %>%
+  filter(newSer < 15)
+
+asdf.data2 <- RM1 %>%
+  filter(grp == 1) %>%
+  filter(condition == 'nc' | condition == 'dn') %>%
+  filter(newSer > 13 & newSer < 42)
+
+asdf.data3 <- RM1 %>%
+  filter(grp == 1) %>%
+  filter(condition == 'nc' | condition == 'dn') %>%
+  filter(newSer > 40 & newSer < 49)
+
+asdf.data4 <- RM1 %>%
+  filter(grp == 1) %>%
+  filter(condition == 'nc' | condition == 'dn') %>%
+  filter(newSer > 47 & newSer < 60)
+
+asdf.data5 <- RM1 %>%
+  filter(grp == 1) %>%
+  filter(condition == 'nc' | condition == 'dn') %>%
+  filter(newSer > 58 & newSer < 70)
+
+asdf1 <- ggplot() +
+  geom_smooth(data = asdf.data1,
+            aes(x = newSer, y = z, color = condition),size = 1.5, method = 'glm') +
+  geom_smooth(data = asdf.data2,
+              aes(x = newSer, y = z, color = condition),size = 1.5, method = 'glm') +
+  geom_smooth(data = asdf.data3,
+              aes(x = newSer, y = z, color = condition),size = 1.5, method = 'glm') +
+  geom_smooth(data = asdf.data4,
+              aes(x = newSer, y = z, color = condition),size = 1.5, method = 'glm') +
+  geom_smooth(data = asdf.data5,
+              aes(x = newSer, y = z, color = condition),size = 1.5, method = 'glm') +
+  # geom_smooth(aes(color = condition)) +
+  # geom_pointrange(aes(ymin = zpt - zsem, ymax = zpt + zsem)) +
+  annotate(geom="text", x=9, y=annY, label="subject",color="black") +
+  annotate(geom="text", x=25, y=annY, label="ne",color="black") +
+  annotate(geom="text", x=35, y=annY, label="verb",color="black") +
+  annotate(geom="text", x=45, y=annY, label="object",color="black") +
+  annotate(geom="text", x=60, y=annY, label="PP",color="black") +
+  labs(title="f0 -- Group 1",x="Time",y="z-scored f0")
+asdf1
 
 meanbytime <- RM1 %>%
 # rescMaster %>%

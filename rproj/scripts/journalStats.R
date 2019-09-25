@@ -3,6 +3,14 @@ library(ggplot2)
 library(lme4)
 
 ## DESCRIPTIVE ####
+behavior <- read.table('data/behavior.csv',sep = '\t',header = T)
+
+behavior %>%
+  group_by(condition) %>%
+  mutate(cond1 = condition) %>%
+  mutate(cond1 == )
+  summarise(mean(Check))
+
 n_by_condition <- rescMaster %>%
   group_by(condition) %>%
   summarize(n_distinct(obj_id))
